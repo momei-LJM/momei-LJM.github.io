@@ -25,6 +25,6 @@ h3{
   }
 }
 .a-box{
-  animation: ss linear  .5s ;
+  animation: ss linear  .5s;
 }
 </style>
