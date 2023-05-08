@@ -7,3 +7,4 @@ You can override styles here.
 
 <!-- todo: new docs -->
 More info see <https://valaxy.site/guide/extend>.
+ 
