@@ -8,23 +8,24 @@ on:
 jobs:
 # 任务id
   buildBlog:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-        os: [ubuntu-latest]
-      fail-fast: false
+    # strategy:
+    #   matrix:
+    #     node-version: [16.x]
+    #     os: [ubuntu-latest]
+    #   fail-fast: false
 # 步骤
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-          registry-url: https://registry.npmjs.org/
+        node-version: 16
+          # node-version: ${{ matrix.node-version }}
+          # registry-url: https://registry.npmjs.org/
 
       - name: 📦 Install Dependencies
         run: npm i
