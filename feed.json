@@ -1,0 +1,38 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "墨眉的小站",
+    "home_page_url": "https://valaxy.site/",
+    "feed_url": "https://valaxy.site/feed.json",
+    "description": "二次元进化中！！！.",
+    "icon": "https://valaxy.site/avatar.jpg",
+    "author": {
+        "name": "墨眉",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h3>test</h3>\n<p><a-box></a-box></p>\n<h3>title2</h3>\n",
+            "url": "https://valaxy.site/posts/test",
+            "title": "测试",
+            "date_modified": "2023-05-07T00:00:00.000Z",
+            "date_published": "2023-05-07T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h3>概述</h3>\n<p>阅读element notify组件（<s>摸鱼真爽</s>）。</p>\n<blockquote>\n<p>createVNode/render 相比于模板语法有更高的自由度，在需要js的完全编程能力时非常有用。</p>\n</blockquote>\n<h3>编程式触发创建</h3>\n<ol>\n<li>定义组件模板（component）</li>\n<li>定义props参数和触发事件</li>\n<li>缓存vnode，后续通过vnode缓存计算定位高度</li>\n</ol>\n",
+            "url": "https://valaxy.site/posts/createVNode_render创建notify组件",
+            "title": "createVNode/render创建notify组件",
+            "date_modified": "2023-03-21T00:00:00.000Z",
+            "date_published": "2023-03-21T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

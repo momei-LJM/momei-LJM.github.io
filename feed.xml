@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>墨眉的小站</title>
+        <link>https://valaxy.site/</link>
+        <description>二次元进化中！！！.</description>
+        <lastBuildDate>Tue, 09 May 2023 13:35:36 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>墨眉的小站</title>
+            <url>https://valaxy.site/avatar.jpg</url>
+            <link>https://valaxy.site/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2023 © 墨眉</copyright>
+        <atom:link href="https://valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[测试]]></title>
+            <link>https://valaxy.site/posts/test</link>
+            <guid>https://valaxy.site/posts/test</guid>
+            <pubDate>Sun, 07 May 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>test</h3>
+<p><a-box></a-box></p>
+<h3>title2</h3>
+]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
+        <item>
+            <title><![CDATA[createVNode/render创建notify组件]]></title>
+            <link>https://valaxy.site/posts/createVNode_render创建notify组件</link>
+            <guid>https://valaxy.site/posts/createVNode_render创建notify组件</guid>
+            <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>概述</h3>
+<p>阅读element notify组件（<s>摸鱼真爽</s>）。</p>
+<blockquote>
+<p>createVNode/render 相比于模板语法有更高的自由度，在需要js的完全编程能力时非常有用。</p>
+</blockquote>
+<h3>编程式触发创建</h3>
+<ol>
+<li>定义组件模板（component）</li>
+<li>定义props参数和触发事件</li>
+<li>缓存vnode，后续通过vnode缓存计算定位高度</li>
+</ol>
+]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
+    </channel>
+</rss>
