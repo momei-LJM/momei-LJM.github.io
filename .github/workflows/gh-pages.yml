@@ -6,7 +6,8 @@ on:
       - main
 
 jobs:
-  build:
+# 任务id
+  buildBlog:
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -14,12 +15,13 @@ jobs:
         node-version: [16.x]
         os: [ubuntu-latest]
       fail-fast: false
-
+# 步骤
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: https://registry.npmjs.org/
