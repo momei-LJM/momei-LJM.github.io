@@ -18,7 +18,7 @@ jobs:
     #     node-version: [16.x]
     #     os: [ubuntu-latest]
     #   fail-fast: false
-# 步骤
+
     steps:
         - uses: actions/checkout@v3
         - name: Setup node
