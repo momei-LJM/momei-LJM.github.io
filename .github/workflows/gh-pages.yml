@@ -9,7 +9,10 @@ jobs:
 # 任务id
   buildBlog:
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        node: [ 16, 18 ]
+    name: Node ${{ matrix.node }} sample
     # strategy:
     #   matrix:
     #     node-version: [16.x]
@@ -17,13 +20,11 @@ jobs:
     #   fail-fast: false
 # 步骤
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Use Node.js 
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
+        - uses: actions/checkout@v3
+        - name: Setup node
+          uses: actions/setup-node@v3
+          with:
+            node-version: ${{ matrix.node }}
           # node-version: ${{ matrix.node-version }}
           # registry-url: https://registry.npmjs.org/
 
