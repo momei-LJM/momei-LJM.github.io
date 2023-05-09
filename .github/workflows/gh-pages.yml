@@ -17,8 +17,7 @@ jobs:
 
       - name: Install and Build   # 安装依赖、打包，如果提前已打包好无需这一步
         run: |
-          npm install pnpm -g
-          pnpm i
+          npm install
           npm run build
 
       - name: Deploy   # 部署

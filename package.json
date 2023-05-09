@@ -1,6 +1,6 @@
 {
   "name": "valaxy-blog",
-  "version": "0.14.16",
+  "version": "0.14.28",
   "private": true,
   "scripts": {
     "build": "npm run build:ssg && npm run rss",
@@ -11,8 +11,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.14.21",
-    "valaxy-theme-yun": "0.14.21"
+    "valaxy": "0.14.28",
+    "valaxy-theme-yun": "0.14.28"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
