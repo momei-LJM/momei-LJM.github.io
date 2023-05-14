@@ -3,8 +3,8 @@
     <channel>
         <title>墨眉的小站</title>
         <link>https://valaxy.site/</link>
-        <description>二次元进化中！！！.</description>
-        <lastBuildDate>Tue, 09 May 2023 15:18:25 GMT</lastBuildDate>
+        <description>偶尔的学习记录~ </description>
+        <lastBuildDate>Sun, 14 May 2023 08:18:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,18 +15,23 @@
         <copyright>CC BY-NC-SA 4.0 2023 © 墨眉</copyright>
         <atom:link href="https://valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[测试]]></title>
-            <link>https://valaxy.site/posts/test</link>
-            <guid>https://valaxy.site/posts/test</guid>
-            <pubDate>Sun, 07 May 2023 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h3>test</h3>
-<p><a-box></a-box></p>
-<h3>title2</h3>
+            <title><![CDATA[钉钉官网动效简易实现]]></title>
+            <link>https://valaxy.site/posts/钉钉官网动效简易实现</link>
+            <guid>https://valaxy.site/posts/钉钉官网动效简易实现</guid>
+            <pubDate>Sun, 14 May 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>概述</h3>
+<blockquote>
+<p>渡一短视频--钉钉官网动效demo</p>
+</blockquote>
+<ol>
+<li>动画状态函数</li>
+<li>sticky布局</li>
+</ol>
 ]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
-            <title><![CDATA[createVNode/render创建notify组件]]></title>
+            <title><![CDATA[钉钉官网动效简易实现]]></title>
             <link>https://valaxy.site/posts/createVNode_render创建notify组件</link>
             <guid>https://valaxy.site/posts/createVNode_render创建notify组件</guid>
             <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
