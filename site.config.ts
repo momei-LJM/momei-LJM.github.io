@@ -13,7 +13,7 @@ export default defineSiteConfig({
       message: '内卷'
   }
   },
-  description: '二次元进化中！！！.',
+  description: '偶尔的学习记录~ ',
   social: [
     // {
     //   name: 'RSS',
