@@ -4,7 +4,7 @@
         <title>墨眉的小站</title>
         <link>https://valaxy.site/</link>
         <description>偶尔的学习记录~ </description>
-        <lastBuildDate>Mon, 15 May 2023 15:36:01 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 May 2023 06:20:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,37 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2023 © 墨眉</copyright>
         <atom:link href="https://valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[vue组件库搭建]]></title>
+            <link>https://valaxy.site/posts/vue组件库环境搭建</link>
+            <guid>https://valaxy.site/posts/vue组件库环境搭建</guid>
+            <pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>环境搭建</h3>
+<ol>
+<li>安装<code>pnpm</code> ，使用<code>pnpm</code>包管理器管理项目</li>
+<li>使用<code>vite</code>作为开发服务器和打包工具</li>
+<li>安装<code>sass</code>预处理器，安装<code>vue</code></li>
+</ol>
+<h3>monorepor搭建</h3>
+<blockquote>
+<p><a href="'https://juejin.cn/post/7036016254385127431'">Monorepo</a>（单体仓库）是指将多个相关项目或组件存储在一个单一的版本控制仓库中的开发模式。相对于将每个项目或组件拆分为独立的仓库，Monorepo 将它们集中在一个共享的代码库中，使得开发、版本控制和协作更加集中和方便。</p>
+</blockquote>
+<ol>
+<li>
+<p>新建一个<code>pacakages</code>文件夹，里面存放多个项目仓库</p>
+</li>
+<li>
+<p>新建一个<code>pnpm-work-space.yaml</code>文件,指定 <a href="https://pnpm.io/zh/workspaces">workspace</a>,<code>pnpm</code>如果安装本地包在工作空间中存在，那么会直接链接包。不存在声明范围内的包，<code>pnpm</code>会拒绝解析安装。</p>
+<p>packages下面的在<code>package.json</code>中指定<code>name</code>包名，通过<code>-w</code>安装，例如：<code>pnpm i @momei-ui/components -w</code></p>
+<pre><code class="language-yaml">packages:
+  - packages/*
+  - play
+</code></pre>
+</li>
+</ol>
+]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
         <item>
             <title><![CDATA[钉钉官网动效简易实现]]></title>
             <link>https://valaxy.site/posts/钉钉官网动效简易实现</link>

@@ -12,6 +12,18 @@
     "items": [
         {
             "id": "",
+            "content_html": "<h3>环境搭建</h3>\n<ol>\n<li>安装<code>pnpm</code> ，使用<code>pnpm</code>包管理器管理项目</li>\n<li>使用<code>vite</code>作为开发服务器和打包工具</li>\n<li>安装<code>sass</code>预处理器，安装<code>vue</code></li>\n</ol>\n<h3>monorepor搭建</h3>\n<blockquote>\n<p><a href=\"'https://juejin.cn/post/7036016254385127431'\">Monorepo</a>（单体仓库）是指将多个相关项目或组件存储在一个单一的版本控制仓库中的开发模式。相对于将每个项目或组件拆分为独立的仓库，Monorepo 将它们集中在一个共享的代码库中，使得开发、版本控制和协作更加集中和方便。</p>\n</blockquote>\n<ol>\n<li>\n<p>新建一个<code>pacakages</code>文件夹，里面存放多个项目仓库</p>\n</li>\n<li>\n<p>新建一个<code>pnpm-work-space.yaml</code>文件,指定 <a href=\"https://pnpm.io/zh/workspaces\">workspace</a>,<code>pnpm</code>如果安装本地包在工作空间中存在，那么会直接链接包。不存在声明范围内的包，<code>pnpm</code>会拒绝解析安装。</p>\n<p>packages下面的在<code>package.json</code>中指定<code>name</code>包名，通过<code>-w</code>安装，例如：<code>pnpm i @momei-ui/components -w</code></p>\n<pre><code class=\"language-yaml\">packages:\n  - packages/*\n  - play\n</code></pre>\n</li>\n</ol>\n",
+            "url": "https://valaxy.site/posts/vue组件库环境搭建",
+            "title": "vue组件库搭建",
+            "date_modified": "2023-05-21T00:00:00.000Z",
+            "date_published": "2023-05-21T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<h3>概述</h3>\n<blockquote>\n<p>渡一短视频--钉钉官网动效demo</p>\n</blockquote>\n<ol>\n<li>动画状态函数</li>\n<li>sticky布局</li>\n</ol>\n",
             "url": "https://valaxy.site/posts/钉钉官网动效简易实现",
             "title": "钉钉官网动效简易实现",
