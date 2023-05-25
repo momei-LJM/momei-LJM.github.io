@@ -47,7 +47,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     bg_image:{
       enable:true,
-      url:'/bgs/preview.jpg',
+      url:'/bgs/miku.png',
       opacity:.9
     }
   },
