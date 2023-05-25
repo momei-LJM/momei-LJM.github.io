@@ -1,0 +1,1 @@
+import{useAddonWaline as e}from"valaxy-addon-waline";import{d as t,m as s,o as a,c as l,k as i}from"./app-e366ca0e.js";const u=t({__name:"YunWaline",setup(p){const n=e();return(r,c)=>{const o=s("WalineClient");return a(),l(o,{w:"full",options:i(n).options},null,8,["options"])}}});export{u as default};
