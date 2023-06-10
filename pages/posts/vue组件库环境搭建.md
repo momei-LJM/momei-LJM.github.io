@@ -20,7 +20,7 @@ top: 1
 1. 安装 pnpm  ，使用 pnpm 包管理器管理项目
 2. 使用 vite 作为开发服务器和打包工具
 3. 安装 sass 预处理器，安装 vue 
-### monorepor
+### monorepo
 
 1. 新建一个 pacakages 文件夹，里面存放多个项目仓库
 
