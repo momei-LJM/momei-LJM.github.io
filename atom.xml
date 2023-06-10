@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://valaxy.site/</id>
     <title>墨眉的小站</title>
-    <updated>2023-06-09T15:09:31.457Z</updated>
+    <updated>2023-06-10T06:20:46.795Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -15,6 +15,31 @@
     <logo>https://valaxy.site/avatar.jpg</logo>
     <icon>https://valaxy.site/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2023 © 墨眉</rights>
+    <entry>
+        <title type="html"><![CDATA[Web Animations API 写一个动画指令]]></title>
+        <id>https://valaxy.site/posts/WebAnimationDirective</id>
+        <link href="https://valaxy.site/posts/WebAnimationDirective"/>
+        <updated>2023-06-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3><a href="'https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API'">Web Animations API</a></h3>
+<blockquote>
+<p>通过 Web 动画 API，我们可以将交互式动画从样式表移动到  JavaScript，将表现与行为分开。我们不再需要依赖 DOM 重的技术，如将 CSS 属性和范围类写入元素来控制播放方向。</p>
+</blockquote>
+<p><span class="text-red-600"> 和 Css 动画有什么区别？</span></p>
+<p>CSS 动画和 Web Animations API 都可以用于创建动画，但它们之间有一些区别。CSS 动画是通过 CSS 属性来控制的，而 Web Animations API 是通过 JavaScript 来控制的。此外，Web Animations API 还提供了更多的功能，例如更好的时间控制和更好的事件处理。</p>
+<p><span class="text-red-600" > 性能方面如何？</span></p>
+<p>Web Animations API 提供了更多的控制和更好的性能，因为它可以调用不同于浏览器主线程的其他线程去渲染该动画（这些线程包括合成线程、动画线程和渲染线程。合成线程负责将页面的各个部分组合成一张图像，动画线程负责计算动画的状态，而渲染线程负责将图像绘制到屏幕上）</p>
+<p>所以一些复杂的动画可选择 Web Animations API 。</p>
+<blockquote>
+<p>记录一篇掘金文章 <a href="'https://juejin.cn/post/7065093728737689614'">什么是Web Animations API？</a></p>
+</blockquote>
+]]></content>
+        <author>
+            <name>墨眉</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-06-10T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[vue-router history部署后刷新404]]></title>
         <id>https://valaxy.site/posts/路由history部署后刷新404</id>
@@ -52,7 +77,7 @@
 <li>使用 vite 作为开发服务器和打包工具</li>
 <li>安装 sass 预处理器，安装 vue</li>
 </ol>
-<h3>monorepor</h3>
+<h3>monorepo</h3>
 <ol>
 <li>
 <p>新建一个 pacakages 文件夹，里面存放多个项目仓库</p>

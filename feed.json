@@ -12,6 +12,18 @@
     "items": [
         {
             "id": "",
+            "content_html": "<h3><a href=\"'https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API'\">Web Animations API</a></h3>\n<blockquote>\n<p>通过 Web 动画 API，我们可以将交互式动画从样式表移动到  JavaScript，将表现与行为分开。我们不再需要依赖 DOM 重的技术，如将 CSS 属性和范围类写入元素来控制播放方向。</p>\n</blockquote>\n<p><span class=\"text-red-600\"> 和 Css 动画有什么区别？</span></p>\n<p>CSS 动画和 Web Animations API 都可以用于创建动画，但它们之间有一些区别。CSS 动画是通过 CSS 属性来控制的，而 Web Animations API 是通过 JavaScript 来控制的。此外，Web Animations API 还提供了更多的功能，例如更好的时间控制和更好的事件处理。</p>\n<p><span class=\"text-red-600\" > 性能方面如何？</span></p>\n<p>Web Animations API 提供了更多的控制和更好的性能，因为它可以调用不同于浏览器主线程的其他线程去渲染该动画（这些线程包括合成线程、动画线程和渲染线程。合成线程负责将页面的各个部分组合成一张图像，动画线程负责计算动画的状态，而渲染线程负责将图像绘制到屏幕上）</p>\n<p>所以一些复杂的动画可选择 Web Animations API 。</p>\n<blockquote>\n<p>记录一篇掘金文章 <a href=\"'https://juejin.cn/post/7065093728737689614'\">什么是Web Animations API？</a></p>\n</blockquote>\n",
+            "url": "https://valaxy.site/posts/WebAnimationDirective",
+            "title": "Web Animations API 写一个动画指令",
+            "date_modified": "2023-06-10T00:00:00.000Z",
+            "date_published": "2023-06-10T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<h3>hash模式</h3>\n<p><a href=\"'https://developer.mozilla.org/zh-CN/docs/Web/API/Location/hash'\">hash</a>模式是在域名和 path 之间使用<code>#</code>进行分隔，<code>#</code>及其后面的 url 片段标识符就是 hash 字符串。</p>\n<blockquote>\n<p>例如： 127.0.0.1/#/login  , hash  就是  #/login</p>\n</blockquote>\n<p>hash 的特点是页面刷新和改变 hash ，hash 不会被带入网络请求。</p>\n<blockquote>\n<p>例如：当我们分别请求  <a href=\"https://juejin.cn/\">https://juejin.cn/</a> 和 <a href=\"https://juejin.cn/#aaa\">https://juejin.cn/#aaa</a> ,会发现 network 中始终只有  <a href=\"https://juejin.cn/\">https://juejin.cn/</a> 的 网络请求。再次说明了 hash 不会影响网络请求结果。</p>\n</blockquote>\n<a-box>\n<img src=\"https://valaxy.site/contents/postAssets/rt.png\" />\n</a-box>\n<p>所以，实际上我们的路由每次刷新都是请求的相同的 url ，返回的始终是一个页面，由于是 SPA 的特性，实际上已经加载完所有需要的页面资源了，页面的切换不过是通过监听 hash 的改变，执行 js 脚本来更换视图模块。</p>\n",
             "url": "https://valaxy.site/posts/路由history部署后刷新404",
             "title": "vue-router history部署后刷新404",
@@ -24,7 +36,7 @@
         },
         {
             "id": "",
-            "content_html": "<h3>环境搭建</h3>\n<ol>\n<li>安装 pnpm  ，使用 pnpm 包管理器管理项目</li>\n<li>使用 vite 作为开发服务器和打包工具</li>\n<li>安装 sass 预处理器，安装 vue</li>\n</ol>\n<h3>monorepor</h3>\n<ol>\n<li>\n<p>新建一个 pacakages 文件夹，里面存放多个项目仓库</p>\n</li>\n<li>\n<p>新建一个 pnpm-work-space.yaml 文件,指定 <a href=\"https://pnpm.io/zh/workspaces\">workspace</a>, pnpm 如果安装本地包在工作空间中存在，那么会直接链接包。不存在声明范围内的包， pnpm 会拒绝解析安装。</p>\n<p>packages下面的在 package.json 中指定 name 包名，通过 -w 安装，例如： pnpm i @momei-ui/components -w</p>\n<pre><code class=\"language-yaml\">packages:\n  - packages/*\n  - play\n</code></pre>\n</li>\n</ol>\n",
+            "content_html": "<h3>环境搭建</h3>\n<ol>\n<li>安装 pnpm  ，使用 pnpm 包管理器管理项目</li>\n<li>使用 vite 作为开发服务器和打包工具</li>\n<li>安装 sass 预处理器，安装 vue</li>\n</ol>\n<h3>monorepo</h3>\n<ol>\n<li>\n<p>新建一个 pacakages 文件夹，里面存放多个项目仓库</p>\n</li>\n<li>\n<p>新建一个 pnpm-work-space.yaml 文件,指定 <a href=\"https://pnpm.io/zh/workspaces\">workspace</a>, pnpm 如果安装本地包在工作空间中存在，那么会直接链接包。不存在声明范围内的包， pnpm 会拒绝解析安装。</p>\n<p>packages下面的在 package.json 中指定 name 包名，通过 -w 安装，例如： pnpm i @momei-ui/components -w</p>\n<pre><code class=\"language-yaml\">packages:\n  - packages/*\n  - play\n</code></pre>\n</li>\n</ol>\n",
             "url": "https://valaxy.site/posts/vue组件库环境搭建",
             "title": "vue组件库搭建",
             "date_modified": "2023-05-21T00:00:00.000Z",
