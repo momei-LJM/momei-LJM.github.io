@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://valaxy.site/</id>
     <title>墨眉的小站</title>
-    <updated>2023-06-10T06:20:46.795Z</updated>
+    <updated>2023-06-11T02:46:21.670Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -20,7 +20,7 @@
         <id>https://valaxy.site/posts/WebAnimationDirective</id>
         <link href="https://valaxy.site/posts/WebAnimationDirective"/>
         <updated>2023-06-10T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3><a href="'https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API'">Web Animations API</a></h3>
+        <content type="html"><![CDATA[<h3><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API">Web Animations API</a></h3>
 <blockquote>
 <p>通过 Web 动画 API，我们可以将交互式动画从样式表移动到  JavaScript，将表现与行为分开。我们不再需要依赖 DOM 重的技术，如将 CSS 属性和范围类写入元素来控制播放方向。</p>
 </blockquote>
@@ -30,7 +30,7 @@
 <p>Web Animations API 提供了更多的控制和更好的性能，因为它可以调用不同于浏览器主线程的其他线程去渲染该动画（这些线程包括合成线程、动画线程和渲染线程。合成线程负责将页面的各个部分组合成一张图像，动画线程负责计算动画的状态，而渲染线程负责将图像绘制到屏幕上）</p>
 <p>所以一些复杂的动画可选择 Web Animations API 。</p>
 <blockquote>
-<p>记录一篇掘金文章 <a href="'https://juejin.cn/post/7065093728737689614'">什么是Web Animations API？</a></p>
+<p>记录一篇掘金文章 <a href="https://juejin.cn/post/7065093728737689614">什么是Web Animations API？</a></p>
 </blockquote>
 ]]></content>
         <author>
@@ -46,7 +46,7 @@
         <link href="https://valaxy.site/posts/路由history部署后刷新404"/>
         <updated>2023-06-09T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h3>hash模式</h3>
-<p><a href="'https://developer.mozilla.org/zh-CN/docs/Web/API/Location/hash'">hash</a>模式是在域名和 path 之间使用<code>#</code>进行分隔，<code>#</code>及其后面的 url 片段标识符就是 hash 字符串。</p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Location/hash">hash</a>模式是在域名和 path 之间使用<code>#</code>进行分隔，<code>#</code>及其后面的 url 片段标识符就是 hash 字符串。</p>
 <blockquote>
 <p>例如： 127.0.0.1/#/login  , hash  就是  #/login</p>
 </blockquote>
