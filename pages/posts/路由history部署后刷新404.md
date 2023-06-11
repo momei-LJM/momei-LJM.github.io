@@ -12,7 +12,7 @@ top: 1
 
 ### hash模式
 
-[hash]('https://developer.mozilla.org/zh-CN/docs/Web/API/Location/hash')模式是在域名和 path 之间使用```#```进行分隔，```#```及其后面的 url 片段标识符就是 hash 字符串。
+[hash](https://developer.mozilla.org/zh-CN/docs/Web/API/Location/hash)模式是在域名和 path 之间使用```#```进行分隔，```#```及其后面的 url 片段标识符就是 hash 字符串。
 
 > 例如： 127.0.0.1/#/login  , hash  就是  #/login  
 
