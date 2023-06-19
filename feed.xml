@@ -4,7 +4,7 @@
         <title>墨眉的小站</title>
         <link>https://valaxy.site/</link>
         <description>偶尔的学习记录~ </description>
-        <lastBuildDate>Sun, 11 Jun 2023 02:46:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jun 2023 14:30:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,36 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2023 © 墨眉</copyright>
         <atom:link href="https://valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[monorepo子进程打包packages]]></title>
+            <link>https://valaxy.site/posts/monorepo子进程打包packages</link>
+            <guid>https://valaxy.site/posts/monorepo子进程打包packages</guid>
+            <pubDate>Mon, 19 Jun 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>如何并发build多个package</h3>
+<p>通常情况下一个项目下有一个 rollup.config.js 文件来做打包配置。在多包情况下也可以在根目录下配置一个 rollup.config.js文件，</p>
+<p>在配置文件中动态的获取入口和输出目录。</p>
+<p><span class="text-red-600">如何动态获取？</span></p>
+<p>我们可以在构建的时候控制命令参数传给进程，使用 node 的进程 <code>process.env</code> 获取。</p>
+<h3>配置packages路径</h3>
+<pre><code class="language-js">import path from 'node:path'
+import { fileURLToPath } from 'url'
+
+
+export const projRoot = path.resolve(fileURLToPath(import.meta.url), '../','../')
+export const pkgRoot = path.resolve(projRoot, 'packages')
+
+export const directivesRoot = path.resolve(pkgRoot, 'directives')
+export const componentsRoot = path.resolve(pkgRoot, 'components')
+export const hooksRoot = path.resolve(pkgRoot, 'hooks')
+export const stylesRoot = path.resolve(pkgRoot, 'styles')
+export const utilsRoot = path.resolve(pkgRoot, 'utils')
+</code></pre>
+<blockquote>
+<p>由于是 esmodule ,是无法识别 __dirname 的，可以使用 fileURLToPath方法转换模块路径为相对路径</p>
+</blockquote>
+]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
         <item>
             <title><![CDATA[Web Animations API 写一个动画指令]]></title>
             <link>https://valaxy.site/posts/WebAnimationDirective</link>
