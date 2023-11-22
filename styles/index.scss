@@ -1,1 +1,18 @@
 // you can custom css here
+@media screen and (min-width: 1280px){
+
+.content {
+    max-width: calc(100vw - 2 * var(--va-sidebar-width) - 1rem - 8px);
+}}
+
+  @media screen and (max-width: 720px){
+    .mm-nav{
+      grid-column: 1;
+    }
+    .yun-main{
+      display: flex!important;
+    }
+    .site-nav{
+      display: none!important;
+    }
+  }
