@@ -1,1 +1,0 @@
-import{_ as o,o as s,b as _,r as c,j as t,k as a,e as n}from"./app-f1def078.js";const d={},r=e=>(t("data-v-36a9c760"),e=e(),a(),e),p={class:"a-box"},l=r(()=>n("h3",null,"hellow word",-1));function u(e,i){return s(),_("div",p,[c(e.$slots,"default",{},()=>[l],!0)])}const f=o(d,[["render",u],["__scopeId","data-v-36a9c760"]]);export{f as _};

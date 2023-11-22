@@ -3,10 +3,10 @@
     "title": "墨眉的小站",
     "home_page_url": "https://valaxy.site/",
     "feed_url": "https://valaxy.site/feed.json",
-    "description": "偶尔的学习记录~ ",
+    "description": "无",
     "icon": "https://valaxy.site/avatar.jpg",
     "author": {
-        "name": "墨眉",
+        "name": "Example Name",
         "url": "https://valaxy.site"
     },
     "items": [
@@ -18,7 +18,7 @@
             "date_modified": "2023-07-10T00:00:00.000Z",
             "date_published": "2023-07-10T00:00:00.000Z",
             "author": {
-                "name": "墨眉",
+                "name": "Example Name",
                 "url": "https://valaxy.site"
             }
         },
@@ -30,7 +30,7 @@
             "date_modified": "2023-06-19T00:00:00.000Z",
             "date_published": "2023-06-19T00:00:00.000Z",
             "author": {
-                "name": "墨眉",
+                "name": "Example Name",
                 "url": "https://valaxy.site"
             }
         },
@@ -42,7 +42,7 @@
             "date_modified": "2023-06-10T00:00:00.000Z",
             "date_published": "2023-06-10T00:00:00.000Z",
             "author": {
-                "name": "墨眉",
+                "name": "Example Name",
                 "url": "https://valaxy.site"
             }
         },
@@ -54,7 +54,7 @@
             "date_modified": "2023-06-09T00:00:00.000Z",
             "date_published": "2023-06-09T00:00:00.000Z",
             "author": {
-                "name": "墨眉",
+                "name": "Example Name",
                 "url": "https://valaxy.site"
             }
         },
@@ -66,7 +66,7 @@
             "date_modified": "2023-05-21T00:00:00.000Z",
             "date_published": "2023-05-21T00:00:00.000Z",
             "author": {
-                "name": "墨眉",
+                "name": "Example Name",
                 "url": "https://valaxy.site"
             }
         },
@@ -78,7 +78,7 @@
             "date_modified": "2023-05-14T00:00:00.000Z",
             "date_published": "2023-05-14T00:00:00.000Z",
             "author": {
-                "name": "墨眉",
+                "name": "Example Name",
                 "url": "https://valaxy.site"
             }
         },
@@ -90,7 +90,7 @@
             "date_modified": "2023-03-21T00:00:00.000Z",
             "date_published": "2023-03-21T00:00:00.000Z",
             "author": {
-                "name": "墨眉",
+                "name": "Example Name",
                 "url": "https://valaxy.site"
             }
         }
