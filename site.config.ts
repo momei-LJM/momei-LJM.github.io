@@ -3,8 +3,8 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: "https://valaxy.site/",
   lang: "zh-CN",
-  // title: '墨眉的小站',
-  title: 'test',
+  title: "墨眉的小站",
+  // title: 'test',
   subtitle: "",
   author: {
     name: "Example Name",
@@ -16,18 +16,18 @@ export default defineSiteConfig({
   },
   description: "无",
   social: [
-    // {
-    //   name: 'RSS',
-    //   link: '/atom.xml',
-    //   icon: 'i-ri-rss-line',
-    //   color: 'orange',
-    // },
-    // {
-    //   name: '哔哩哔哩',
-    //   link: 'https://space.bilibili.com/39247631?spm_id_from=333.1007.0.0',
-    //   icon: 'i-ri-bilibili-line',
-    //   color: '#FF8EB3',
-    // }
+    {
+      name: "GitHub",
+      link: "https://github.com/momei-LJM",
+      icon: "i-ri:github-fill",
+      color: "#1a1a1a",
+    },
+    {
+      name: "QQ",
+      link: "",
+      icon: "i-ri:qq-line",
+      color: "#359eff",
+    },
   ],
 
   search: {

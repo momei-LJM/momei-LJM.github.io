@@ -4,3 +4,32 @@
 //   --va-font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 //   --va-font-mono: Menlo, Monaco, Consolas, "Courier New", monospace;
 // }
+
+:root{
+// --va-c-bg-light:#1a222b;
+--va-body-bg-color:#e9f0f5;
+--btn-hover-bg-light:78,170,255
+}
+:root.dark{
+  --va-c-bg-light:#1a222b;
+  --va-body-bg-color:#1a222b
+  --btn-hover-bg-light:78,170,255
+}
+body{
+  background-color:var(--va-body-bg-color);
+}
+.yun-icon-btn{
+  font-weight: bold;
+  padding: 0px 16px;
+  width: fit-content;
+  height: 44px;
+  border-radius: 8px;
+  color: var(--va-c-text-light);
+  font-size: 16px;
+  &:hover{
+    color: var(--smc-c-primary-light);
+    transition: all .3s;
+    background-color:rgba(var(--btn-hover-bg-light),0.1);
+
+  }
+}
