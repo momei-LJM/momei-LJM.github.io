@@ -8,13 +8,13 @@ const router = useRouter()
 
 <template>
   <div class="sidebar-panel">
-    <div class="site-info" m="t-6">
-      <router-link class="site-author-avatar" to="/about">
+    <div class="site-info" >
+      <router-link class="site-author-avatar w-[100%]" to="/about">
         <img class="rounded-[16px]" :src="siteConfig.author.avatar" alt="avatar">
         <span class="site-author-status">{{ siteConfig.author.status.emoji }}</span>
       </router-link>
       <div class="site-author-name">
-        <router-link to="/about">
+        <router-link to="/about" >
           {{ siteConfig.author.name }}
         </router-link>
       </div>
@@ -30,7 +30,7 @@ const router = useRouter()
       </div>
     </div>
 
-    <YunSidebarNav />
+    <!-- <YunSidebarNav /> -->
     <hr m="t-4 b-2">
     <YunSocialLinks />
     <hr m="y-2">
@@ -38,7 +38,7 @@ const router = useRouter()
     <br>
   </div>
 
-  <YunConfig />
+  <!-- <YunConfig /> -->
 </template>
 
 <style lang="scss">

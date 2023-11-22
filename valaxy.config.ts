@@ -4,6 +4,7 @@ import type { UserThemeConfig } from 'valaxy-theme-yun'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
+  'i-ri-rss-line'
 ]
 
 /**
@@ -17,8 +18,8 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      // title: '墨眉の小站',
-      title: "TEST",
+      title: "MoMeiの小站",
+      // title: "TEST",
       cloud: {
         enable: true,
       },
@@ -50,8 +51,16 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       url: "/bgs/banner.jpg",
       opacity: 1,
+      dark: "/bgs/banner.jpg",
     },
   },
 
-  unocss: { safelist },
+  unocss: {
+    safelist,
+    theme: {
+      screens: {
+        tablet: "350px",
+      },
+    },
+  },
 });
