@@ -12,12 +12,13 @@ const safelist = [
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
-  theme: 'yun',
+  theme: "yun",
 
   themeConfig: {
     banner: {
       enable: true,
-      title: '墨眉の小站',
+      // title: '墨眉の小站',
+      title: "TEST",
       cloud: {
         enable: true,
       },
@@ -42,15 +43,15 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2023,
       beian: {
         enable: false,
-        icp: '苏ICP备17038157号',
+        icp: "苏ICP备17038157号",
       },
     },
-    bg_image:{
-      enable:true,
-      url:'/bgs/100.png',
-      opacity:1
-    }
+    bg_image: {
+      enable: true,
+      url: "/bgs/banner.jpg",
+      opacity: 1,
+    },
   },
 
   unocss: { safelist },
-})
+});
