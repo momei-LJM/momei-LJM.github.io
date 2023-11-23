@@ -6,17 +6,24 @@
 // }
 
 :root{
-// --va-c-bg-light:#1a222b;
+--va-c-bg-light:white;
 --va-body-bg-color:#e9f0f5;
---btn-hover-bg-light:78,170,255
+--btn-hover-bg-light:78,170,255;
+--mark-bg-color:transparent;
+--mark-bg-size--w:20px;
+--mark-bg-size--h:20px;
 }
 :root.dark{
   --va-c-bg-light:#1a222b;
-  --va-body-bg-color:#1a222b
-  --btn-hover-bg-light:78,170,255
+  --va-body-bg-color:#0a0e11;
+  --btn-hover-bg-light:78,170,255;
+  --mark-bg-color:var(--va-c-bg-light);
+  --mark-bg-size--w:100vw;
+  --mark-bg-size--h:100vw;
 }
 body{
-  background-color:var(--va-body-bg-color);
+  // background-color:var(--va-body-bg-color);
+  transition: all .3s;
 }
 .yun-icon-btn{
   font-weight: bold;

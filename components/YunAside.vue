@@ -19,7 +19,7 @@ const app = useAppStore()
   <ValaxyOverlay :show="app.isRightSidebarOpen" @click="app.toggleRightSidebar()" />
 
   <!--  -->
-  <aside class="va-card yun-aside" :class="app.isRightSidebarOpen && 'open'" m="l-4" text="center">
+  <aside class="va-card yun-aside" :class="app.isRightSidebarOpen && 'open'" m="l-4 t-4"  text="center">
     <div class="aside-container" flex="~ col" overflow="auto">
       <h2 v-if="frontmatter.toc !== false" m="t-6 b-2" font="serif black">
         {{ t('sidebar.toc') }}
@@ -40,7 +40,8 @@ const app = useAppStore()
 @use 'valaxy/client/styles/mixins/index.scss' as *;
 
 .yun-aside {
-  position: fixed;
+  // position: fixed;
+  position: sticky;
   right: 0;
   top: 0;
   bottom: 0;
@@ -49,11 +50,12 @@ const app = useAppStore()
   width: var(--va-sidebar-width, 300px);
 
   transform: translateX(100%);
-
   transition: box-shadow var(--va-transition-duration),
   background-color var(--va-transition-duration), opacity 0.25s,
   transform var(--va-transition-duration) cubic-bezier(0.19, 1, 0.22, 1);
-  background-color: transparent;
+  // background-color: transparent;
+  top: 0px;
+  height: 100vh;
 
   &.open {
     right: 0;
@@ -75,6 +77,12 @@ const app = useAppStore()
   }
 }
 
+@media screen and  (max-width:1280px){
+  .yun-aside{
+    display:none
+  }
+
+}
 .toc-btn {
   color: var(--va-c-primary);
   background-color: white;

@@ -13,18 +13,17 @@ const isPage = computed(() => route.path.startsWith('/page'))
 
 <template>
   <main class="yun-main " :class="(isHome && !app.isSidebarOpen) && 'pl-0'" flex="~ col" w="full">
- <YunNavBar/>
+    <YunNavBar/>
     <div class="aside ">
-
-    <ValaxySidebar>
-      <slot name="sidebar">
-        <YunSidebar />
-      </slot>
-    </ValaxySidebar>
+      <ValaxySidebar>
+        <slot name="sidebar">
+          <YunSidebar />
+        </slot>
+      </ValaxySidebar>
     </div>
 
- <div class="mm-content">
-     <template v-if="!isPage">
+  <div class="mm-content">
+    <template v-if="!isPage">
       <!-- <YunBanner v-if="themeConfig.banner.enable" /> -->
       <!-- <YunSay v-if="themeConfig.say.enable" w="full" /> -->
     </template>
@@ -39,7 +38,7 @@ const isPage = computed(() => route.path.startsWith('/page'))
     <slot>
       <router-view />
     </slot>
- </div>
+  </div>
 
     <YunFooter class="footer" />
   </main>

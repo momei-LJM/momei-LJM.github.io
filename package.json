@@ -11,8 +11,10 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "valaxy": "0.14.28",
-    "valaxy-theme-yun": "0.14.28"
+    "@vueuse/core": "^10.6.1",
+    "@vueuse/schema-org": "^2.2.0",
+    "valaxy": "^0.15.14",
+    "valaxy-theme-yun": "^0.15.14"
   },
   "devDependencies": {
     "typescript": "^4.8.4"
