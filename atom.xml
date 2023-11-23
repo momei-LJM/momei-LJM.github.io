@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://valaxy.site/</id>
     <title>墨眉的小站</title>
-    <updated>2023-11-22T14:42:43.324Z</updated>
+    <updated>2023-11-23T09:14:30.536Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>Example Name</name>
@@ -10,7 +10,7 @@
         <uri>https://valaxy.site</uri>
     </author>
     <link rel="alternate" href="https://valaxy.site/"/>
-    <link rel="self" href="https://valaxy.site/feed.atom"/>
+    <link rel="self" href="https://valaxy.site/atom.xml"/>
     <subtitle>无</subtitle>
     <logo>https://valaxy.site/avatar.jpg</logo>
     <icon>https://valaxy.site/favicon.svg</icon>
