@@ -36,6 +36,7 @@ const isHome = useLayout('home')
   transform: translateX(0)!important;
   position: sticky !important;
   top: 0;
+  min-width: 296px;
   box-shadow: none!important;
   &:hover{
     box-shadow: none!important;

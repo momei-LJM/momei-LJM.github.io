@@ -13,19 +13,22 @@ const router = useRouter()
         <img class="rounded-[16px]" :src="siteConfig.author.avatar" alt="avatar">
         <span class="site-author-status">{{ siteConfig.author.status.emoji }}</span>
       </router-link>
-      <div class="site-author-name">
+      <div class="site-author-name text-center">
         <router-link to="/about" >
           {{ siteConfig.author.name }}
         </router-link>
       </div>
+      <div class="text-center">
       <router-link v-if="router.hasRoute('about-site')" to="/about/site" class="site-name">
         {{ siteConfig.title }}
       </router-link>
       <span v-else class="site-name">{{ siteConfig.title }}</span>
+      </div>
+
       <h4 v-if="siteConfig.subtitle" class="site-subtitle block" text="xs">
         {{ siteConfig.subtitle }}
       </h4>
-      <div v-if="siteConfig.description" class="site-description my-1">
+      <div v-if="siteConfig.description" class="site-description my-1 text-center">
         {{ siteConfig.description }}
       </div>
     </div>
