@@ -47,7 +47,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     bg_image:{
       enable:true,
-      url:'/bgs/100.png',
+      url:'/bgs/banner.jpg',
       opacity:1
     }
   },
