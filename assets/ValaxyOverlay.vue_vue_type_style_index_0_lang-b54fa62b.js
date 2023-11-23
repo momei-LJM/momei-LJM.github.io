@@ -1,1 +1,0 @@
-import{d as o,o as e,c as t,w as s,b as n,h as _,a6 as r}from"./app-e9b7d701.js";const l={key:0,class:"va-overlay"},d=o({__name:"ValaxyOverlay",props:{show:{type:Boolean,default:!1}},setup(c){return(a,p)=>(e(),t(r,{name:"fade"},{default:s(()=>[a.show?(e(),n("div",l)):_("v-if",!0)]),_:1}))}});export{d as _};

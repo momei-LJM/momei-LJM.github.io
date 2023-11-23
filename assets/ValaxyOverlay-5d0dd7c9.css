@@ -1,1 +1,0 @@
-.va-overlay{background-color:#0000004d;position:fixed;top:0;right:0;bottom:0;left:0;z-index:calc(var(--va-z-overlay) - 1);transition:opacity .4s}.va-overlay.fade-enter-from,.va-overlay.fade-leave-to{opacity:0}@media screen and (max-width: 640px){.va-overlay{display:block}}
