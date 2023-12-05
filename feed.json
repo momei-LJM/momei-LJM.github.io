@@ -12,6 +12,18 @@
     "items": [
         {
             "id": "",
+            "content_html": "<a-box>\n<img src='/contents/电子签名/sign.png' />\n</a-box>\n<h3><a href=\"https://github.com/szimek/signature_pad\">signature_pad</a></h3>\n<pre><code class=\"language-typescript\">npm i signature_pad\n</code></pre>\n",
+            "url": "https://valaxy.site/posts/电子签名",
+            "title": "电子签名（signature_pad）",
+            "date_modified": "2023-12-05T00:00:00.000Z",
+            "date_published": "2023-12-05T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<h3>为什么使用 Js 实现瀑布流</h3>\n<blockquote>\n<p>瀑布流的本质：获取获取最小高度的列，向其中添加图片，使列之间保持一个尽可能接近的高度。</p>\n</blockquote>\n<h3>能否使用 Css 实现？flex ? grid ?</h3>\n<p>不能，css 并不能计算出列的最小高度，所以必须使用 js 实时计算。</p>\n<h3>Steps</h3>\n<ol>\n<li>在 window resize的时候计算列的数量</li>\n<li>缓存一个 &lt; 列 ，高度 &gt; 的对象，每次塞图片，更新对象的列高度</li>\n<li>从缓存 map 中找到最小高的列，向其中塞入图片</li>\n<li>在 窗口 resize 的时候， 对已有元素重排</li>\n<li>触底加载更多图片</li>\n</ol>\n",
             "url": "https://valaxy.site/posts/js实现瀑布流",
             "title": "js实现瀑布流",

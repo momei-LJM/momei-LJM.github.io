@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://valaxy.site/</id>
     <title>墨眉的小站</title>
-    <updated>2023-11-23T10:06:36.550Z</updated>
+    <updated>2023-12-05T02:15:22.466Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -15,6 +15,25 @@
     <logo>https://valaxy.site/avatar.jpg</logo>
     <icon>https://valaxy.site/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2023 © 墨眉</rights>
+    <entry>
+        <title type="html"><![CDATA[电子签名（signature_pad）]]></title>
+        <id>https://valaxy.site/posts/电子签名</id>
+        <link href="https://valaxy.site/posts/电子签名"/>
+        <updated>2023-12-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<a-box>
+<img src='/contents/电子签名/sign.png' />
+</a-box>
+<h3><a href="https://github.com/szimek/signature_pad">signature_pad</a></h3>
+<pre><code class="language-typescript">npm i signature_pad
+</code></pre>
+]]></content>
+        <author>
+            <name>墨眉</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-12-05T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[js实现瀑布流]]></title>
         <id>https://valaxy.site/posts/js实现瀑布流</id>
