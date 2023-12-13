@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        height: 100%;
+        color: white;
+      }
+      div {
+        box-sizing: border-box;
+      }
+      .block1 {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #ac59bd;
+        view-transition-name: bb;
+        display: flex;
+        padding: 10px;
+      }
+
+      .block2 {
+        padding: 10px;
+        width: 100%;
+        height: 280px;
+        border-radius: 10px;
+        background-color: rgb(79, 171, 247);
+        display: none;
+        view-transition-name: bb;
+      }
+
+      ::view-transition-old(bb),
+      ::view-transition-new(bb) {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block1">block1</div>
+    <div class="block2">block2</div>
+  </body>
+  <script>
+    const block1 = document.querySelector(".block1");
+    const block2 = document.querySelector(".block2");
+
+    let toggle = false;
+    addEventListener("click", (event) => {
+      const transition = document.startViewTransition(() => {
+        updateBlock();
+        toggle = !toggle;
+      });
+    });
+
+    const updateBlock = () => {
+      if (toggle) {
+        block2.style.display = "none";
+        block1.style.display = "block";
+      } else {
+        block2.style.display = "block";
+        block1.style.display = "none";
+      }
+    };
+  </script>
+</html>

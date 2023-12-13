@@ -1,19 +1,19 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
-  lang: 'zh-CN',
-  title: '墨眉的小站',
-  subtitle: '',
+  url: "https://momei-ljm.github.io/",
+  lang: "zh-CN",
+  title: "墨眉的小站",
+  subtitle: "",
   author: {
-    name: '墨眉',
-    avatar:'/avatar.jpg',
+    name: "墨眉",
+    avatar: "/avatar.jpg",
     status: {
-      emoji: '躺',
-      message: '内卷'
-  }
+      emoji: "JS",
+      message: "JSCoder",
+    },
   },
-  description: '偶尔的学习记录~ ',
+  description: "前端笔记簿（有时）",
   social: [
     // {
     //   name: 'RSS',
@@ -30,7 +30,8 @@ export default defineSiteConfig({
   ],
 
   search: {
-    enable: false,
+    enable: true,
+    type: "fuse",
   },
 
   // sponsor: {
@@ -57,4 +58,4 @@ export default defineSiteConfig({
   //     },
   //   ],
   // },
-})
+});
