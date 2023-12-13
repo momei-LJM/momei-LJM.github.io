@@ -2,22 +2,43 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>墨眉的小站</title>
-        <link>https://valaxy.site/</link>
-        <description>偶尔的学习记录~ </description>
-        <lastBuildDate>Tue, 05 Dec 2023 02:15:22 GMT</lastBuildDate>
+        <link>https://momei-ljm.github.io/</link>
+        <description>前端笔记簿（有时）</description>
+        <lastBuildDate>Wed, 13 Dec 2023 07:28:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title>墨眉的小站</title>
-            <url>https://valaxy.site/avatar.jpg</url>
-            <link>https://valaxy.site/</link>
+            <url>https://momei-ljm.github.io/avatar.jpg</url>
+            <link>https://momei-ljm.github.io/</link>
         </image>
         <copyright>CC BY-NC-SA 4.0 2023 © 墨眉</copyright>
-        <atom:link href="https://valaxy.site/feed.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://momei-ljm.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[View Transitions Api]]></title>
+            <link>https://momei-ljm.github.io/posts/ViewTransition</link>
+            <guid>https://momei-ljm.github.io/posts/ViewTransition</guid>
+            <pubDate>Wed, 13 Dec 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>概述</h3>
+<blockquote>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/View_Transitions_API">View Transitions Api</a><br>
+View Transitions API 提供了一种机制，可以在更新 DOM 内容的同时，轻松地创建不同 DOM 状态之间的动画过渡。同时还可以在单个步骤中更新 DOM 内容。<br>
+ps:不同dom之间的视图过渡</p>
+</blockquote>
+<h3>常见的过渡/动画创建方式</h3>
+<ol>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition">transition/keyframes</a> （ 补间动画，帧动画 ）</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/window/requestAnimationFrame">requestAnimationFrame</a> （ js 动画，每帧回调 ）</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API">Web Animation Api</a>（ 和css动画一样在合成层渲染，js更好的干预和控制 ）</li>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/View_Transitions_API">View Transitions Api</a> （ 两个视图或者dom之间的过渡 ）</li>
+</ol>
+]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
         <item>
             <title><![CDATA[电子签名（signature_pad）]]></title>
-            <link>https://valaxy.site/posts/电子签名</link>
-            <guid>https://valaxy.site/posts/电子签名</guid>
+            <link>https://momei-ljm.github.io/posts/电子签名</link>
+            <guid>https://momei-ljm.github.io/posts/电子签名</guid>
             <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<a-box>
 <img src='/contents/电子签名/sign.png' />
@@ -30,8 +51,8 @@
         </item>
         <item>
             <title><![CDATA[js实现瀑布流]]></title>
-            <link>https://valaxy.site/posts/js实现瀑布流</link>
-            <guid>https://valaxy.site/posts/js实现瀑布流</guid>
+            <link>https://momei-ljm.github.io/posts/js实现瀑布流</link>
+            <guid>https://momei-ljm.github.io/posts/js实现瀑布流</guid>
             <pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>为什么使用 Js 实现瀑布流</h3>
 <blockquote>
@@ -52,8 +73,8 @@
         </item>
         <item>
             <title><![CDATA[monorepo子进程打包packages]]></title>
-            <link>https://valaxy.site/posts/monorepo子进程打包packages</link>
-            <guid>https://valaxy.site/posts/monorepo子进程打包packages</guid>
+            <link>https://momei-ljm.github.io/posts/monorepo子进程打包packages</link>
+            <guid>https://momei-ljm.github.io/posts/monorepo子进程打包packages</guid>
             <pubDate>Mon, 19 Jun 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>如何并发build多个package</h3>
 <p>通常情况下一个项目下有一个 rollup.config.js 文件来做打包配置。在多包情况下也可以在根目录下配置一个 rollup.config.js文件，</p>
@@ -82,8 +103,8 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
         </item>
         <item>
             <title><![CDATA[Web Animations API 写一个动画指令]]></title>
-            <link>https://valaxy.site/posts/WebAnimationDirective</link>
-            <guid>https://valaxy.site/posts/WebAnimationDirective</guid>
+            <link>https://momei-ljm.github.io/posts/WebAnimationDirective</link>
+            <guid>https://momei-ljm.github.io/posts/WebAnimationDirective</guid>
             <pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API">Web Animations API</a></h3>
 <blockquote>
@@ -102,8 +123,8 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
         </item>
         <item>
             <title><![CDATA[vue-router history部署后刷新404]]></title>
-            <link>https://valaxy.site/posts/路由history部署后刷新404</link>
-            <guid>https://valaxy.site/posts/路由history部署后刷新404</guid>
+            <link>https://momei-ljm.github.io/posts/路由history部署后刷新404</link>
+            <guid>https://momei-ljm.github.io/posts/路由history部署后刷新404</guid>
             <pubDate>Fri, 09 Jun 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>hash模式</h3>
 <p><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Location/hash">hash</a>模式是在域名和 path 之间使用<code>#</code>进行分隔，<code>#</code>及其后面的 url 片段标识符就是 hash 字符串。</p>
@@ -115,7 +136,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
 <p>例如：当我们分别请求  <a href="https://juejin.cn/">https://juejin.cn/</a> 和 <a href="https://juejin.cn/#aaa">https://juejin.cn/#aaa</a> ,会发现 network 中始终只有  <a href="https://juejin.cn/">https://juejin.cn/</a> 的 网络请求。再次说明了 hash 不会影响网络请求结果。</p>
 </blockquote>
 <a-box>
-<img src="https://valaxy.site/contents/postAssets/rt.png" />
+<img src="https://momei-ljm.github.io/contents/postAssets/rt.png" />
 </a-box>
 <p>所以，实际上我们的路由每次刷新都是请求的相同的 url ，返回的始终是一个页面，由于是 SPA 的特性，实际上已经加载完所有需要的页面资源了，页面的切换不过是通过监听 hash 的改变，执行 js 脚本来更换视图模块。</p>
 ]]></content:encoded>
@@ -123,8 +144,8 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
         </item>
         <item>
             <title><![CDATA[vue组件库搭建]]></title>
-            <link>https://valaxy.site/posts/vue组件库环境搭建</link>
-            <guid>https://valaxy.site/posts/vue组件库环境搭建</guid>
+            <link>https://momei-ljm.github.io/posts/vue组件库环境搭建</link>
+            <guid>https://momei-ljm.github.io/posts/vue组件库环境搭建</guid>
             <pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>环境搭建</h3>
 <ol>
@@ -151,8 +172,8 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
         </item>
         <item>
             <title><![CDATA[钉钉官网动效简易实现]]></title>
-            <link>https://valaxy.site/posts/钉钉官网动效简易实现</link>
-            <guid>https://valaxy.site/posts/钉钉官网动效简易实现</guid>
+            <link>https://momei-ljm.github.io/posts/钉钉官网动效简易实现</link>
+            <guid>https://momei-ljm.github.io/posts/钉钉官网动效简易实现</guid>
             <pubDate>Sun, 14 May 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>概述</h3>
 <blockquote>
@@ -167,8 +188,8 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
         </item>
         <item>
             <title><![CDATA[createVNode/render创建notify组件]]></title>
-            <link>https://valaxy.site/posts/createVNode_render创建notify组件</link>
-            <guid>https://valaxy.site/posts/createVNode_render创建notify组件</guid>
+            <link>https://momei-ljm.github.io/posts/createVNode_render创建notify组件</link>
+            <guid>https://momei-ljm.github.io/posts/createVNode_render创建notify组件</guid>
             <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>概述</h3>
 <p>阅读element notify组件（<s>摸鱼真爽</s>）。</p>

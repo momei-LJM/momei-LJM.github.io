@@ -1,10 +1,10 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "墨眉的小站",
-    "home_page_url": "https://valaxy.site/",
-    "feed_url": "https://valaxy.site/feed.json",
-    "description": "偶尔的学习记录~ ",
-    "icon": "https://valaxy.site/avatar.jpg",
+    "home_page_url": "https://momei-ljm.github.io/",
+    "feed_url": "https://momei-ljm.github.io/feed.json",
+    "description": "前端笔记簿（有时）",
+    "icon": "https://momei-ljm.github.io/avatar.jpg",
     "author": {
         "name": "墨眉",
         "url": "https://valaxy.site"
@@ -12,8 +12,20 @@
     "items": [
         {
             "id": "",
+            "content_html": "<h3>概述</h3>\n<blockquote>\n<p><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/View_Transitions_API\">View Transitions Api</a><br>\nView Transitions API 提供了一种机制，可以在更新 DOM 内容的同时，轻松地创建不同 DOM 状态之间的动画过渡。同时还可以在单个步骤中更新 DOM 内容。<br>\nps:不同dom之间的视图过渡</p>\n</blockquote>\n<h3>常见的过渡/动画创建方式</h3>\n<ol>\n<li><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition\">transition/keyframes</a> （ 补间动画，帧动画 ）</li>\n<li><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/window/requestAnimationFrame\">requestAnimationFrame</a> （ js 动画，每帧回调 ）</li>\n<li><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API\">Web Animation Api</a>（ 和css动画一样在合成层渲染，js更好的干预和控制 ）</li>\n<li><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/View_Transitions_API\">View Transitions Api</a> （ 两个视图或者dom之间的过渡 ）</li>\n</ol>\n",
+            "url": "https://momei-ljm.github.io/posts/ViewTransition",
+            "title": "View Transitions Api",
+            "date_modified": "2023-12-13T00:00:00.000Z",
+            "date_published": "2023-12-13T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<a-box>\n<img src='/contents/电子签名/sign.png' />\n</a-box>\n<h3><a href=\"https://github.com/szimek/signature_pad\">signature_pad</a></h3>\n<pre><code class=\"language-typescript\">npm i signature_pad\n</code></pre>\n",
-            "url": "https://valaxy.site/posts/电子签名",
+            "url": "https://momei-ljm.github.io/posts/电子签名",
             "title": "电子签名（signature_pad）",
             "date_modified": "2023-12-05T00:00:00.000Z",
             "date_published": "2023-12-05T00:00:00.000Z",
@@ -25,7 +37,7 @@
         {
             "id": "",
             "content_html": "<h3>为什么使用 Js 实现瀑布流</h3>\n<blockquote>\n<p>瀑布流的本质：获取获取最小高度的列，向其中添加图片，使列之间保持一个尽可能接近的高度。</p>\n</blockquote>\n<h3>能否使用 Css 实现？flex ? grid ?</h3>\n<p>不能，css 并不能计算出列的最小高度，所以必须使用 js 实时计算。</p>\n<h3>Steps</h3>\n<ol>\n<li>在 window resize的时候计算列的数量</li>\n<li>缓存一个 &lt; 列 ，高度 &gt; 的对象，每次塞图片，更新对象的列高度</li>\n<li>从缓存 map 中找到最小高的列，向其中塞入图片</li>\n<li>在 窗口 resize 的时候， 对已有元素重排</li>\n<li>触底加载更多图片</li>\n</ol>\n",
-            "url": "https://valaxy.site/posts/js实现瀑布流",
+            "url": "https://momei-ljm.github.io/posts/js实现瀑布流",
             "title": "js实现瀑布流",
             "date_modified": "2023-07-10T00:00:00.000Z",
             "date_published": "2023-07-10T00:00:00.000Z",
@@ -37,7 +49,7 @@
         {
             "id": "",
             "content_html": "<h3>如何并发build多个package</h3>\n<p>通常情况下一个项目下有一个 rollup.config.js 文件来做打包配置。在多包情况下也可以在根目录下配置一个 rollup.config.js文件，</p>\n<p>在配置文件中动态的获取入口和输出目录。</p>\n<p><span class=\"text-red-600\">如何动态获取？</span></p>\n<p>我们可以在构建的时候控制命令参数传给进程，使用 node 的进程 <code>process.env</code> 获取。</p>\n<h3>配置packages路径</h3>\n<pre><code class=\"language-js\">import path from 'node:path'\nimport { fileURLToPath } from 'url'\n\n\nexport const projRoot = path.resolve(fileURLToPath(import.meta.url), '../','../')\nexport const pkgRoot = path.resolve(projRoot, 'packages')\n\nexport const directivesRoot = path.resolve(pkgRoot, 'directives')\nexport const componentsRoot = path.resolve(pkgRoot, 'components')\nexport const hooksRoot = path.resolve(pkgRoot, 'hooks')\nexport const stylesRoot = path.resolve(pkgRoot, 'styles')\nexport const utilsRoot = path.resolve(pkgRoot, 'utils')\n</code></pre>\n<blockquote>\n<p>由于是 esmodule ,是无法识别 __dirname 的，可以使用 fileURLToPath方法转换模块路径为相对路径</p>\n</blockquote>\n",
-            "url": "https://valaxy.site/posts/monorepo子进程打包packages",
+            "url": "https://momei-ljm.github.io/posts/monorepo子进程打包packages",
             "title": "monorepo子进程打包packages",
             "date_modified": "2023-06-19T00:00:00.000Z",
             "date_published": "2023-06-19T00:00:00.000Z",
@@ -49,7 +61,7 @@
         {
             "id": "",
             "content_html": "<h3><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API\">Web Animations API</a></h3>\n<blockquote>\n<p>通过 Web 动画 API，我们可以将交互式动画从样式表移动到  JavaScript，将表现与行为分开。我们不再需要依赖 DOM 重的技术，如将 CSS 属性和范围类写入元素来控制播放方向。</p>\n</blockquote>\n<p><span class=\"text-red-600\"> 和 Css 动画有什么区别？</span></p>\n<p>CSS 动画和 Web Animations API 都可以用于创建动画，但它们之间有一些区别。CSS 动画是通过 CSS 属性来控制的，而 Web Animations API 是通过 JavaScript 来控制的。此外，Web Animations API 还提供了更多的功能，例如更好的时间控制和更好的事件处理。</p>\n<p><span class=\"text-red-600\" > 性能方面如何？</span></p>\n<p>Web Animations API 提供了更多的控制和更好的性能，因为它可以调用不同于浏览器主线程的其他线程去渲染该动画（这些线程包括合成线程、动画线程和渲染线程。合成线程负责将页面的各个部分组合成一张图像，动画线程负责计算动画的状态，而渲染线程负责将图像绘制到屏幕上）</p>\n<p>所以一些复杂的动画可选择 Web Animations API 。</p>\n<blockquote>\n<p>记录一篇掘金文章 <a href=\"https://juejin.cn/post/7065093728737689614\">什么是Web Animations API？</a></p>\n</blockquote>\n",
-            "url": "https://valaxy.site/posts/WebAnimationDirective",
+            "url": "https://momei-ljm.github.io/posts/WebAnimationDirective",
             "title": "Web Animations API 写一个动画指令",
             "date_modified": "2023-06-10T00:00:00.000Z",
             "date_published": "2023-06-10T00:00:00.000Z",
@@ -60,8 +72,8 @@
         },
         {
             "id": "",
-            "content_html": "<h3>hash模式</h3>\n<p><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/Location/hash\">hash</a>模式是在域名和 path 之间使用<code>#</code>进行分隔，<code>#</code>及其后面的 url 片段标识符就是 hash 字符串。</p>\n<blockquote>\n<p>例如： 127.0.0.1/#/login  , hash  就是  #/login</p>\n</blockquote>\n<p>hash 的特点是页面刷新和改变 hash ，hash 不会被带入网络请求。</p>\n<blockquote>\n<p>例如：当我们分别请求  <a href=\"https://juejin.cn/\">https://juejin.cn/</a> 和 <a href=\"https://juejin.cn/#aaa\">https://juejin.cn/#aaa</a> ,会发现 network 中始终只有  <a href=\"https://juejin.cn/\">https://juejin.cn/</a> 的 网络请求。再次说明了 hash 不会影响网络请求结果。</p>\n</blockquote>\n<a-box>\n<img src=\"https://valaxy.site/contents/postAssets/rt.png\" />\n</a-box>\n<p>所以，实际上我们的路由每次刷新都是请求的相同的 url ，返回的始终是一个页面，由于是 SPA 的特性，实际上已经加载完所有需要的页面资源了，页面的切换不过是通过监听 hash 的改变，执行 js 脚本来更换视图模块。</p>\n",
-            "url": "https://valaxy.site/posts/路由history部署后刷新404",
+            "content_html": "<h3>hash模式</h3>\n<p><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/API/Location/hash\">hash</a>模式是在域名和 path 之间使用<code>#</code>进行分隔，<code>#</code>及其后面的 url 片段标识符就是 hash 字符串。</p>\n<blockquote>\n<p>例如： 127.0.0.1/#/login  , hash  就是  #/login</p>\n</blockquote>\n<p>hash 的特点是页面刷新和改变 hash ，hash 不会被带入网络请求。</p>\n<blockquote>\n<p>例如：当我们分别请求  <a href=\"https://juejin.cn/\">https://juejin.cn/</a> 和 <a href=\"https://juejin.cn/#aaa\">https://juejin.cn/#aaa</a> ,会发现 network 中始终只有  <a href=\"https://juejin.cn/\">https://juejin.cn/</a> 的 网络请求。再次说明了 hash 不会影响网络请求结果。</p>\n</blockquote>\n<a-box>\n<img src=\"https://momei-ljm.github.io/contents/postAssets/rt.png\" />\n</a-box>\n<p>所以，实际上我们的路由每次刷新都是请求的相同的 url ，返回的始终是一个页面，由于是 SPA 的特性，实际上已经加载完所有需要的页面资源了，页面的切换不过是通过监听 hash 的改变，执行 js 脚本来更换视图模块。</p>\n",
+            "url": "https://momei-ljm.github.io/posts/路由history部署后刷新404",
             "title": "vue-router history部署后刷新404",
             "date_modified": "2023-06-09T00:00:00.000Z",
             "date_published": "2023-06-09T00:00:00.000Z",
@@ -73,7 +85,7 @@
         {
             "id": "",
             "content_html": "<h3>环境搭建</h3>\n<ol>\n<li>安装 pnpm  ，使用 pnpm 包管理器管理项目</li>\n<li>使用 vite 作为开发服务器和打包工具</li>\n<li>安装 sass 预处理器，安装 vue</li>\n</ol>\n<h3>monorepo</h3>\n<ol>\n<li>\n<p>新建一个 pacakages 文件夹，里面存放多个项目仓库</p>\n</li>\n<li>\n<p>新建一个 pnpm-work-space.yaml 文件,指定 <a href=\"https://pnpm.io/zh/workspaces\">workspace</a>, pnpm 如果安装本地包在工作空间中存在，那么会直接链接包。不存在声明范围内的包， pnpm 会拒绝解析安装。</p>\n<p>packages下面的在 package.json 中指定 name 包名，通过 -w 安装，例如： pnpm i @momei-ui/components -w</p>\n<pre><code class=\"language-yaml\">packages:\n  - packages/*\n  - play\n</code></pre>\n</li>\n</ol>\n",
-            "url": "https://valaxy.site/posts/vue组件库环境搭建",
+            "url": "https://momei-ljm.github.io/posts/vue组件库环境搭建",
             "title": "vue组件库搭建",
             "date_modified": "2023-05-21T00:00:00.000Z",
             "date_published": "2023-05-21T00:00:00.000Z",
@@ -85,7 +97,7 @@
         {
             "id": "",
             "content_html": "<h3>概述</h3>\n<blockquote>\n<p>渡一短视频--钉钉官网动效demo</p>\n</blockquote>\n<ol>\n<li>动画状态函数</li>\n<li>sticky布局</li>\n</ol>\n",
-            "url": "https://valaxy.site/posts/钉钉官网动效简易实现",
+            "url": "https://momei-ljm.github.io/posts/钉钉官网动效简易实现",
             "title": "钉钉官网动效简易实现",
             "date_modified": "2023-05-14T00:00:00.000Z",
             "date_published": "2023-05-14T00:00:00.000Z",
@@ -97,7 +109,7 @@
         {
             "id": "",
             "content_html": "<h3>概述</h3>\n<p>阅读element notify组件（<s>摸鱼真爽</s>）。</p>\n<blockquote>\n<p>createVNode/render 相比于模板语法有更高的自由度，在需要js的完全编程能力时非常有用。</p>\n</blockquote>\n<h3>编程式触发创建</h3>\n<ol>\n<li>定义组件模板（component）</li>\n<li>定义props参数和触发事件</li>\n<li>缓存vnode，后续通过vnode缓存计算定位高度</li>\n</ol>\n",
-            "url": "https://valaxy.site/posts/createVNode_render创建notify组件",
+            "url": "https://momei-ljm.github.io/posts/createVNode_render创建notify组件",
             "title": "createVNode/render创建notify组件",
             "date_modified": "2023-03-21T00:00:00.000Z",
             "date_published": "2023-03-21T00:00:00.000Z",
