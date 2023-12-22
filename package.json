@@ -12,6 +12,7 @@
     "fuse": "valaxy fuse"
   },
   "dependencies": {
+    "js-sha256": "^0.10.1",
     "valaxy": "^0.15.14",
     "valaxy-theme-yun": "^0.15.14"
   },
