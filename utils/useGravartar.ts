@@ -9,5 +9,5 @@ export function getGravatarURL(email:string) {
   const hash = sha256(address);
 
   // Grab the actual image URL
-  return `https://www.gravatar.com/avatar/${hash}?s=200`;
+  return `https://www.gravatar.com/avatar/${hash}?s=400`;
 }
