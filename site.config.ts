@@ -18,7 +18,13 @@ export default defineSiteConfig({
   social: [
 
   ],
-
+  sponsor: {
+    enable: true,
+    description:'THANKS'
+  },
+  statistics: {
+    enable:true
+  },
   search: {
     enable: true,
     type: "fuse",
