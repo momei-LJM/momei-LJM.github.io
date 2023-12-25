@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://momei-ljm.github.io/</id>
     <title>墨眉的小站</title>
-    <updated>2023-12-25T10:31:23.739Z</updated>
+    <updated>2023-12-25T11:35:38.526Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -20,7 +20,11 @@
         <id>https://momei-ljm.github.io/posts/tinyMCE</id>
         <link href="https://momei-ljm.github.io/posts/tinyMCE"/>
         <updated>2023-12-25T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3>TinyMCE三种模式</h3>
+        <content type="html"><![CDATA[<a-box style="display:flex;width:100%">
+<img style="width:50%;objectFit:cover;" src='/contents/tinymce/light.png' />
+<img style="width:50%;objectFit:cover;" src='/contents/tinymce/dark.png' />
+</a-box>
+<h3>TinyMCE三种模式</h3>
 <ol>
 <li>经典模式：基于iframe的沙箱模式，总是显示操作栏且拥有大量的操作按钮；样式上并非所见即所得（iframe的原因），更适合展示性要求不高的场景，比如表单项。</li>
 <li>内联模式：基于普通块元素为容器（div），实现阅读视图和编辑视图的合并，所见及所得，不总是显示菜单栏；更适合展示性较强的场景，比如文章内容。</li>
