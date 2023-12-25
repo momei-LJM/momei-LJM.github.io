@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://momei-ljm.github.io/</id>
     <title>墨眉的小站</title>
-    <updated>2023-12-22T08:13:10.292Z</updated>
+    <updated>2023-12-25T10:08:09.642Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -15,6 +15,29 @@
     <logo>https://www.gravatar.com/avatar/823cd494951560d120660ec996457746ca6063ec57cd395944e4f386fdf8d3b6?s=400</logo>
     <icon>https://momei-ljm.github.io/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2023 © 墨眉</rights>
+    <entry>
+        <title type="html"><![CDATA[TinyMCE薄封装]]></title>
+        <id>https://momei-ljm.github.io/posts/tinyMCE</id>
+        <link href="https://momei-ljm.github.io/posts/tinyMCE"/>
+        <updated>2023-12-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>TinyMCE三种模式</h3>
+<ol>
+<li>经典模式：基于iframe的沙箱模式，总是显示操作栏且拥有大量的操作按钮；样式上并非所见即所得（iframe的原因），更适合展示性要求不高的场景，比如表单项。</li>
+<li>内联模式：基于普通块元素为容器（div），实现阅读视图和编辑视图的合并，所见及所得，不总是显示菜单栏；更适合展示性较强的场景，比如文章内容。</li>
+<li>无干扰模式，似乎只是比内联模式少了菜单栏，使用上下文菜单，操作更加的轻巧（maybe）。</li>
+</ol>
+<h3>install &amp; setup</h3>
+<blockquote>
+<p>npm i tinymce</p>
+</blockquote>
+]]></content>
+        <author>
+            <name>墨眉</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-12-25T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[View Transitions Api]]></title>
         <id>https://momei-ljm.github.io/posts/ViewTransition</id>
