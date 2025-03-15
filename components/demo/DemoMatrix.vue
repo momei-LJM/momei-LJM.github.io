@@ -36,14 +36,15 @@ const calcStyle = (item: any) => {
   return { transform: `translate3d(${x}px, ${0.34202 * y}px,${0.939693 * y}px)` }
 }
 
-const rafRef = ref<number | null>(null)
+const rafRef = ref<any>(null)
 
 const start = () => {
-  rafRef.value = window.requestAnimationFrame(update)
+  stop()
+  rafRef.value = setTimeout(update)
 }
 
 const stop = () => {
-  window.cancelAnimationFrame(rafRef.value!)
+  clearTimeout(rafRef.value!)
 }
 start()
 
