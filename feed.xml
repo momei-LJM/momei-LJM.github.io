@@ -4,7 +4,7 @@
         <title>墨眉的小站</title>
         <link>https://momei-ljm.github.io/</link>
         <description>前端笔记簿（有时）</description>
-        <lastBuildDate>Mon, 25 Dec 2023 11:35:38 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Mar 2025 15:08:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -12,8 +12,23 @@
             <url>https://www.gravatar.com/avatar/823cd494951560d120660ec996457746ca6063ec57cd395944e4f386fdf8d3b6?s=400</url>
             <link>https://momei-ljm.github.io/</link>
         </image>
-        <copyright>CC BY-NC-SA 4.0 2023 © 墨眉</copyright>
+        <copyright>CC BY-NC-SA 4.0 2025 © 墨眉</copyright>
         <atom:link href="https://momei-ljm.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[css 3d轨迹动画]]></title>
+            <link>https://momei-ljm.github.io/posts/轨迹动画</link>
+            <guid>https://momei-ljm.github.io/posts/轨迹动画</guid>
+            <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2><a href="https://drafts.csswg.org/css-transforms-2/#perspective">css 3d</a></h2>
+  <box-d/>
+<h2>api</h2>
+<h3><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform-style">transform-style</a></h3>
+<p>声明 3D 空间，一般作用在容器盒子上</p>
+<p><code>rotate[XYZ]</code>时，正值为顺时针，负值为逆时针；左手定则。</p>
+<p><img src="https://drafts.csswg.org/css-transforms-2/images/coordinates.svg" alt=""></p>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/轨迹动画" target="_blank">https://momei-ljm.github.io/posts/轨迹动画</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
         <item>
             <title><![CDATA[TinyMCE薄封装]]></title>
             <link>https://momei-ljm.github.io/posts/tinyMCE</link>
@@ -33,7 +48,7 @@
 <blockquote>
 <p>npm i tinymce</p>
 </blockquote>
-]]></content:encoded>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/tinyMCE" target="_blank">https://momei-ljm.github.io/posts/tinyMCE</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
@@ -54,7 +69,7 @@ ps:不同dom之间的视图过渡</p>
 <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API">Web Animation Api</a>（ 和css动画一样在合成层渲染，js更好的干预和控制 ）</li>
 <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/View_Transitions_API">View Transitions Api</a> （ 两个视图或者dom之间的过渡 ）</li>
 </ol>
-]]></content:encoded>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/ViewTransition" target="_blank">https://momei-ljm.github.io/posts/ViewTransition</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
@@ -68,7 +83,7 @@ ps:不同dom之间的视图过渡</p>
 <h3><a href="https://github.com/szimek/signature_pad">signature_pad</a></h3>
 <pre><code class="language-typescript">npm i signature_pad
 </code></pre>
-]]></content:encoded>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/电子签名" target="_blank">https://momei-ljm.github.io/posts/电子签名</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
@@ -90,7 +105,7 @@ ps:不同dom之间的视图过渡</p>
 <li>在 窗口 resize 的时候， 对已有元素重排</li>
 <li>触底加载更多图片</li>
 </ol>
-]]></content:encoded>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/js实现瀑布流" target="_blank">https://momei-ljm.github.io/posts/js实现瀑布流</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
@@ -120,7 +135,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
 <blockquote>
 <p>由于是 esmodule ,是无法识别 __dirname 的，可以使用 fileURLToPath方法转换模块路径为相对路径</p>
 </blockquote>
-]]></content:encoded>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/monorepo子进程打包packages" target="_blank">https://momei-ljm.github.io/posts/monorepo子进程打包packages</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
@@ -140,7 +155,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
 <blockquote>
 <p>记录一篇掘金文章 <a href="https://juejin.cn/post/7065093728737689614">什么是Web Animations API？</a></p>
 </blockquote>
-]]></content:encoded>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/WebAnimationDirective" target="_blank">https://momei-ljm.github.io/posts/WebAnimationDirective</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
@@ -161,7 +176,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
 <img src="https://momei-ljm.github.io/contents/postAssets/rt.png" />
 </a-box>
 <p>所以，实际上我们的路由每次刷新都是请求的相同的 url ，返回的始终是一个页面，由于是 SPA 的特性，实际上已经加载完所有需要的页面资源了，页面的切换不过是通过监听 hash 的改变，执行 js 脚本来更换视图模块。</p>
-]]></content:encoded>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/路由history部署后刷新404" target="_blank">https://momei-ljm.github.io/posts/路由history部署后刷新404</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
@@ -189,7 +204,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
 </code></pre>
 </li>
 </ol>
-]]></content:encoded>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/vue组件库环境搭建" target="_blank">https://momei-ljm.github.io/posts/vue组件库环境搭建</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
@@ -205,7 +220,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
 <li>动画状态函数</li>
 <li>sticky布局</li>
 </ol>
-]]></content:encoded>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/钉钉官网动效简易实现" target="_blank">https://momei-ljm.github.io/posts/钉钉官网动效简易实现</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
@@ -224,7 +239,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
 <li>定义props参数和触发事件</li>
 <li>缓存vnode，后续通过vnode缓存计算定位高度</li>
 </ol>
-]]></content:encoded>
+<br/><p>访问 <a href="https://momei-ljm.github.io/posts/createVNode_render创建notify组件" target="_blank">https://momei-ljm.github.io/posts/createVNode_render创建notify组件</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
     </channel>
