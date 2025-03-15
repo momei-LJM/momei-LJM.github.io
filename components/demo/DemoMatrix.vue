@@ -39,11 +39,11 @@ const calcStyle = (item: any) => {
 const rafRef = ref<number | null>(null)
 
 const start = () => {
-  rafRef.value = requestAnimationFrame(update)
+  rafRef.value = window.requestAnimationFrame(update)
 }
 
 const stop = () => {
-  cancelAnimationFrame(rafRef.value!)
+  window.cancelAnimationFrame(rafRef.value!)
 }
 start()
 
