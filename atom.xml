@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://momei-ljm.github.io/</id>
-    <title>墨眉的小站</title>
-    <updated>2025-03-15T15:50:04.009Z</updated>
+    <title>Momei的Blog</title>
+    <updated>2025-03-16T05:33:31.609Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -11,7 +11,7 @@
     </author>
     <link rel="alternate" href="https://momei-ljm.github.io/"/>
     <link rel="self" href="https://momei-ljm.github.io/atom.xml"/>
-    <subtitle>前端笔记簿（有时）</subtitle>
+    <subtitle>前端笔记簿</subtitle>
     <logo>https://www.gravatar.com/avatar/823cd494951560d120660ec996457746ca6063ec57cd395944e4f386fdf8d3b6?s=400</logo>
     <icon>https://momei-ljm.github.io/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2025 © 墨眉</rights>

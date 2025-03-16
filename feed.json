@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "墨眉的小站",
+    "title": "Momei的Blog",
     "home_page_url": "https://momei-ljm.github.io/",
     "feed_url": "https://momei-ljm.github.io/feed.json",
-    "description": "前端笔记簿（有时）",
+    "description": "前端笔记簿",
     "icon": "https://www.gravatar.com/avatar/823cd494951560d120660ec996457746ca6063ec57cd395944e4f386fdf8d3b6?s=400",
     "author": {
         "name": "墨眉",

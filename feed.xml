@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>墨眉的小站</title>
+        <title>Momei的Blog</title>
         <link>https://momei-ljm.github.io/</link>
-        <description>前端笔记簿（有时）</description>
-        <lastBuildDate>Sat, 15 Mar 2025 15:50:04 GMT</lastBuildDate>
+        <description>前端笔记簿</description>
+        <lastBuildDate>Sun, 16 Mar 2025 05:33:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
-            <title>墨眉的小站</title>
+            <title>Momei的Blog</title>
             <url>https://www.gravatar.com/avatar/823cd494951560d120660ec996457746ca6063ec57cd395944e4f386fdf8d3b6?s=400</url>
             <link>https://momei-ljm.github.io/</link>
         </image>
