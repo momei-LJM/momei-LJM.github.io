@@ -12,12 +12,12 @@ const safelist = [
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
-  theme: 'yun',
+  theme: "yun",
 
   themeConfig: {
     banner: {
       enable: true,
-      title: '墨眉の小站',
+      title: "墨眉の小站",
       cloud: {
         enable: true,
       },
@@ -42,15 +42,15 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2023,
       beian: {
         enable: false,
-        icp: '苏ICP备17038157号',
+        icp: "苏ICP备17038157号",
       },
     },
-    bg_image:{
-      enable:true,
-      url:'/bgs/banner.jpg',
-      opacity:1
-    }
+    bg_image: {
+      enable: true,
+      url: 'https://files.codelife.cc/wallhaven/full/2e/wallhaven-2emqgx.png?x-oss-process=image/resize,limit_0,m_fill,w_2560,h_1440/quality,Q_93/format,webp',
+      opacity: 1,
+    },
   },
 
   unocss: { safelist },
-})
+});
