@@ -11,10 +11,10 @@ const safelist = [
  */
 export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
-
   theme: "yun",
 
   themeConfig: {
+    type: "nimbo",
     banner: {
       enable: true,
       title: "墨眉の小站",
