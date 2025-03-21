@@ -1,6 +1,7 @@
 {
   "name": "valaxy-blog",
   "version": "0.14.28",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "npm run fuse && npm run build:ssg && npm run rss",
@@ -12,6 +13,7 @@
     "fuse": "valaxy fuse"
   },
   "dependencies": {
+    "@vueuse/core": "^13.0.0",
     "valaxy": "0.22.16",
     "valaxy-theme-yun": "0.22.16"
   },

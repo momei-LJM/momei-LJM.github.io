@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@vueuse/core':
+        specifier: ^13.0.0
+        version: 13.0.0(vue@3.5.13(typescript@5.8.2))
       valaxy:
         specifier: 0.22.16
         version: 0.22.16(@babel/parser@7.26.10)(@nuxt/kit@3.16.0)(@types/markdown-it@14.1.2)(@types/node@22.13.10)(@vue/compiler-dom@3.5.13)(axios@1.8.3)(eslint@9.22.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
