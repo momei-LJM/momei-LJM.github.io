@@ -1,0 +1,1 @@
+import{M as s,Q as t,P as n,V as r,U as a}from"./framework.z998Is_O.js";const _={},c={class:"a-box"};function l(o,e){return n(),t("div",c,[r(o.$slots,"default",{},()=>[e[0]||(e[0]=a("h3",null,"hellow word",-1))],!0)])}const p=s(_,[["render",l],["__scopeId","data-v-36a9c760"]]);export{p as _};
