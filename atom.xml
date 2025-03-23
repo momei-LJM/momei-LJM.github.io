@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.momei.me/</id>
     <title>Momei的Blog</title>
-    <updated>2025-03-21T12:58:29.302Z</updated>
+    <updated>2025-03-23T09:41:12.140Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -273,6 +273,29 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
             <uri>https://valaxy.site</uri>
         </author>
         <published>2023-05-14T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[pnpm&monorepo]]></title>
+        <id>https://www.momei.me/posts/pnpm</id>
+        <link href="https://www.momei.me/posts/pnpm"/>
+        <updated>2025-03-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>大纲</h3>
+<img style="width:150px" src="https://images.seeklogo.com/logo-png/43/1/pnpm-logo-png_seeklogo-430956.png">
+<ul>
+<li>pnpm 特点（幽灵依赖，磁盘复用，软硬链接）</li>
+<li>workspace</li>
+<li>changeset</li>
+<li>monorepo 打包</li>
+<li>catalog</li>
+<li>常用命令</li>
+</ul>
+<br/><p>访问 <a href="https://www.momei.me/posts/pnpm" target="_blank">https://www.momei.me/posts/pnpm</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>墨眉</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2023-03-23T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[createVNode/render创建notify组件]]></title>

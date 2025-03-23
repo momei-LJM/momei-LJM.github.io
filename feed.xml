@@ -4,7 +4,7 @@
         <title>Momei的Blog</title>
         <link>https://www.momei.me/</link>
         <description>前端笔记簿</description>
-        <lastBuildDate>Fri, 21 Mar 2025 12:58:29 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Mar 2025 09:41:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -221,6 +221,24 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
 <li>sticky布局</li>
 </ol>
 <br/><p>访问 <a href="https://www.momei.me/posts/钉钉官网动效简易实现" target="_blank">https://www.momei.me/posts/钉钉官网动效简易实现</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
+        <item>
+            <title><![CDATA[pnpm&monorepo]]></title>
+            <link>https://www.momei.me/posts/pnpm</link>
+            <guid>https://www.momei.me/posts/pnpm</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>大纲</h3>
+<img style="width:150px" src="https://images.seeklogo.com/logo-png/43/1/pnpm-logo-png_seeklogo-430956.png">
+<ul>
+<li>pnpm 特点（幽灵依赖，磁盘复用，软硬链接）</li>
+<li>workspace</li>
+<li>changeset</li>
+<li>monorepo 打包</li>
+<li>catalog</li>
+<li>常用命令</li>
+</ul>
+<br/><p>访问 <a href="https://www.momei.me/posts/pnpm" target="_blank">https://www.momei.me/posts/pnpm</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>

@@ -132,6 +132,18 @@
         },
         {
             "id": "",
+            "content_html": "<h3>大纲</h3>\n<img style=\"width:150px\" src=\"https://images.seeklogo.com/logo-png/43/1/pnpm-logo-png_seeklogo-430956.png\">\n<ul>\n<li>pnpm 特点（幽灵依赖，磁盘复用，软硬链接）</li>\n<li>workspace</li>\n<li>changeset</li>\n<li>monorepo 打包</li>\n<li>catalog</li>\n<li>常用命令</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/pnpm\" target=\"_blank\">https://www.momei.me/posts/pnpm</a> 阅读全文。</p>",
+            "url": "https://www.momei.me/posts/pnpm",
+            "title": "pnpm&monorepo",
+            "date_modified": "2025-03-23T00:00:00.000Z",
+            "date_published": "2023-03-23T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<h3>概述</h3>\n<p>阅读element notify组件（<s>摸鱼真爽</s>）。</p>\n<blockquote>\n<p>createVNode/render 相比于模板语法有更高的自由度，在需要js的完全编程能力时非常有用。</p>\n</blockquote>\n<h3>编程式触发创建</h3>\n<ol>\n<li>定义组件模板（component）</li>\n<li>定义props参数和触发事件</li>\n<li>缓存vnode，后续通过vnode缓存计算定位高度</li>\n</ol>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/createVNode_render创建notify组件\" target=\"_blank\">https://www.momei.me/posts/createVNode_render创建notify组件</a> 阅读全文。</p>",
             "url": "https://www.momei.me/posts/createVNode_render创建notify组件",
             "title": "createVNode/render创建notify组件",
