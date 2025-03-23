@@ -35,6 +35,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/createVNode_render创建notify组件': RouteRecordInfo<'/posts/createVNode_render创建notify组件', '/posts/createVNode_render创建notify组件', Record<never, never>, Record<never, never>>,
     '/posts/js实现瀑布流': RouteRecordInfo<'/posts/js实现瀑布流', '/posts/js实现瀑布流', Record<never, never>, Record<never, never>>,
     '/posts/monorepo子进程打包packages': RouteRecordInfo<'/posts/monorepo子进程打包packages', '/posts/monorepo子进程打包packages', Record<never, never>, Record<never, never>>,
+    '/posts/pnpm': RouteRecordInfo<'/posts/pnpm', '/posts/pnpm', Record<never, never>, Record<never, never>>,
     '/posts/tinyMCE': RouteRecordInfo<'/posts/tinyMCE', '/posts/tinyMCE', Record<never, never>, Record<never, never>>,
     '/posts/ViewTransition': RouteRecordInfo<'/posts/ViewTransition', '/posts/ViewTransition', Record<never, never>, Record<never, never>>,
     '/posts/vue组件库环境搭建': RouteRecordInfo<'/posts/vue组件库环境搭建', '/posts/vue组件库环境搭建', Record<never, never>, Record<never, never>>,
