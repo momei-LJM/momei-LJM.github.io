@@ -1,169 +1,167 @@
 <template>
-  <canvas ref="canvas" class="particle-canvas"></canvas>
+  <div ref="bgRef" class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
+import { useCssVar } from "@vueuse/core";
 import { useAppStore } from "valaxy";
-import { defineComponent, onMounted, onBeforeUnmount, ref, watch } from "vue";
-
-interface Particle {
-  x: number;
-  y: number;
-  char: string;
-  fontSize: number;
-  dx: number;
-  dy: number;
-}
-
-export default defineComponent({
-  name: "ParticleBackground",
-  setup() {
-
-    const appStore = useAppStore()
+import { ref, watch } from "vue";
 
 
-    const canvas = ref<HTMLCanvasElement | null>(null);
-    const particles = ref<Particle[]>([]);
-    const baseParticleCount = 100; // 基础粒子数量
-    const minParticleCount = 30; // 最小粒子数量（移动端）
-    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    const colors = {
-      light: "rgba(0, 108, 208, 0.7)", // Light 模式下的粒子颜色
-      dark: "rgba(255, 255, 255, 0.7)", // Dark 模式下的粒子颜色
-    };
-    let currentColor = colors.dark;
 
-    // 初始化画布大小
-    const resizeCanvas = () => {
-      if (!canvas.value) return;
-      const ctx = canvas.value.getContext("2d");
-      if (!ctx) return;
+const bgRef = ref()
+const appStore = useAppStore()
 
-      canvas.value.width = window.innerWidth;
-      canvas.value.height = window.innerHeight;
+const color2 = useCssVar('--bg-color', bgRef)
+const color3 = useCssVar('--bg-color2', bgRef)
 
-      // 根据视口大小调整粒子数量
-      adjustParticleCount();
-    };
-
-    // 根据视口大小调整粒子数量
-    const adjustParticleCount = () => {
-      if (!canvas.value) return;
-
-      const width = canvas.value.width;
-      const height = canvas.value.height;
-
-      // 根据视口面积动态计算粒子数量
-      const area = width * height;
-      const targetCount = Math.max(
-        minParticleCount,
-        Math.floor((area / (1920 * 1080)) * baseParticleCount)
-      );
-
-      // 调整粒子数组
-      if (particles.value.length > targetCount) {
-        particles.value = particles.value.slice(0, targetCount);
-      } else {
-        while (particles.value.length < targetCount) {
-          particles.value.push(createParticle(canvas.value));
-        }
-      }
-    };
-
-    // 创建单个粒子
-    const createParticle = (canvas: HTMLCanvasElement): Particle => {
-      return {
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        char: getRandomCharacter(),
-        fontSize: Math.random() * 20 + 10, // 字体大小
-        dx: Math.random() - 0.5,
-        dy: Math.random() - 0.5,
-      };
-    };
-
-    // 初始化粒子
-    const initParticles = () => {
-      if (!canvas.value) return;
-      particles.value = [];
-      adjustParticleCount();
-    };
-
-    // 获取随机字符
-    const getRandomCharacter = (): string => {
-      const index = Math.floor(Math.random() * characters.length);
-      return characters[index];
-    };
-
-    // 更新颜色模式
-    const updateColorScheme = () => {
-      currentColor = appStore.isDark ? colors.dark : colors.light;
-    };
-
-    watch(() => appStore.isDark, () => {
-      updateColorScheme()
-    })
-
-    // 绘制粒子
-    const drawParticles = () => {
-      if (!canvas.value) return;
-      const ctx = canvas.value.getContext("2d");
-      if (!ctx) return;
-
-      const animate = () => {
-        ctx.clearRect(0, 0, canvas.value!.width, canvas.value!.height);
-
-        particles.value.forEach((particle) => {
-          ctx.beginPath();
-          ctx.font = `${particle.fontSize}px Arial`; // 设置字体大小和样式
-          ctx.fillStyle = currentColor; // 动态设置粒子颜色
-          ctx.fillText(particle.char, particle.x, particle.y); // 绘制字符
-          ctx.closePath();
-
-          particle.x += particle.dx;
-          particle.y += particle.dy;
-
-          // 反弹逻辑
-          if (particle.x < 0 || particle.x > canvas.value!.width) particle.dx *= -1;
-          if (particle.y < 0 || particle.y > canvas.value!.height) particle.dy *= -1;
-        });
-
-        requestAnimationFrame(animate);
-      };
-
-      animate();
-    };
-
-    // 生命周期钩子
-    onMounted(() => {
-      resizeCanvas();
-      initParticles();
-      updateColorScheme();
-      // 监听窗口大小变化
-      window.addEventListener("resize", resizeCanvas);
-
-      // 开始绘制粒子
-      drawParticles();
-    });
-
-    onBeforeUnmount(() => {
-      window.removeEventListener("resize", resizeCanvas);
-    });
-
-    return {
-      canvas,
-    };
-  },
-});
+watch(() => appStore.isDark, (n) => {
+  color2.value = n ? '#1a1a1d' : 'rgba(31.8, 147.7480519481, 255,0.1)'
+  color3.value = n ? 'white' : 'rgba(31.8, 147.7480519481, 255,0.2)'
+}, {
+  immediate: true
+})
 </script>
 
 <style>
-.particle-canvas {
+.area {
+  background: var(--bg-color);
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
+
+
+}
+
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: var(--bg-color2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+
 }
 </style>
