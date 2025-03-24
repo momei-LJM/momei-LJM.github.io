@@ -20,8 +20,6 @@ import { useCssVar } from "@vueuse/core";
 import { useAppStore } from "valaxy";
 import { ref, watch } from "vue";
 
-
-
 const bgRef = ref()
 const appStore = useAppStore()
 
@@ -39,7 +37,6 @@ watch(() => appStore.isDark, (n) => {
 <style>
 .area {
   background: var(--bg-color);
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
   position: fixed;
   top: 0;
   left: 0;
@@ -154,7 +151,7 @@ watch(() => appStore.isDark, (n) => {
   0% {
     transform: translateY(0) rotate(0deg);
     opacity: 1;
-    border-radius: 0;
+    border-radius: 0%;
   }
 
   100% {

@@ -16,7 +16,14 @@ export default defineSiteConfig({
     },
   },
   description: "前端笔记簿",
-  social: [],
+  social: [
+    {
+      name: "GitHub",
+      link: "https://github.com/momei-LJM",
+      icon: "i-ri-github-fill",
+      color: "#181717",
+    },
+  ],
   sponsor: {
     enable: true,
     description: "THANKS",

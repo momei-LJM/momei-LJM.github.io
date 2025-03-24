@@ -1,7 +1,7 @@
 ---
 title: pnpm&monorepo
 date: 2025-3-23
-updated: 2023-3-23
+updated: 2025-3-23
 categories: 前端小记
 excerpt_type: html
 tags:
