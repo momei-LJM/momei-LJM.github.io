@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.momei.me/</id>
     <title>Momei的Blog</title>
-    <updated>2025-03-24T14:45:06.156Z</updated>
+    <updated>2025-05-29T07:51:18.235Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -15,6 +15,23 @@
     <logo>https://q1.qlogo.cn/g?b=qq&amp;nk=2262754355&amp;s=140</logo>
     <icon>https://www.momei.me/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2025 © 墨眉</rights>
+    <entry>
+        <title type="html"><![CDATA[微前端原理解析]]></title>
+        <id>https://www.momei.me/posts/微前端原理</id>
+        <link href="https://www.momei.me/posts/微前端原理"/>
+        <updated>2025-05-29T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>概念</h3>
+<img style="width:180px" src="https://www.momei.me/contents/micoapp.png" alt="微前端" />
+<p>微前端是一种架构风格，它将一个大型的前端应用拆分成多个独立的微应用，这些微应用可以独立开发、部署和维护。微前端的目标是将一个复杂的前端应用拆分成多个小的、可独立开发和部署的应用，从而提高开发效率和应用的可维护性。</p>
+<p>在实际场景中，我们常常需要再当前主应用，嵌入某个子应用，就不必自己开发，子应用可能有别的业务部门开发，技术栈亦不一致。</p>
+<br/><p>访问 <a href="https://www.momei.me/posts/微前端原理" target="_blank">https://www.momei.me/posts/微前端原理</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>墨眉</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-29T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[pnpm&monorepo]]></title>
         <id>https://www.momei.me/posts/pnpm</id>
