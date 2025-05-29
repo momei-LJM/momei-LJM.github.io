@@ -14,7 +14,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   addons: [
     addonComponents(),
     addonBangumi({
-      api: "https://yi_xiao_jiu-bangumi.web.val.run",
+      api: "https://bangumi.momei.me/api/vercel",
       bilibiliUid: "39247631",
       bgmEnabled: false,
     }),
@@ -30,18 +30,31 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     pages: [
-      // {
-      //   name: '我的小伙伴们',
-      //   url: '/links/',
-      //   icon: 'i-ri-genderless-line',
-      //   color: 'dodgerblue',
-      // },
-      // {
-      //   name: '喜欢的女孩子',
-      //   url: '/girls/',
-      //   icon: 'i-ri-women-line',
-      //   color: 'hotpink',
-      // },
+      {
+        name: '归档',
+        url: '/archives/',
+        icon: 'i-ri-archive-line',
+        color:'#FF3CAC'
+      },
+      {
+        name: '分类',
+        url: '/categories/',
+        icon: 'i-ri-folder-2-line',
+        color:"#fda085"
+      },
+      {
+        name: '标签',
+        url: '/tags/',
+        icon: 'i-ri-price-tag-3-line',
+        color: '#4facfe',
+      },
+      {
+        name: '追番列表',
+        url: '/bangumi/',
+        icon: 'i-ri-bilibili-line',
+        color: '#fb7299',
+      },
+
     ],
 
     footer: {
