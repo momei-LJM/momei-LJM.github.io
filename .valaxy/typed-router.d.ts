@@ -33,6 +33,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/轨迹动画': RouteRecordInfo<'/posts/轨迹动画', '/posts/轨迹动画', Record<never, never>, Record<never, never>>,
     '/posts/路由history部署后刷新404': RouteRecordInfo<'/posts/路由history部署后刷新404', '/posts/路由history部署后刷新404', Record<never, never>, Record<never, never>>,
     '/posts/微前端原理': RouteRecordInfo<'/posts/微前端原理', '/posts/微前端原理', Record<never, never>, Record<never, never>>,
+    '/posts/bilibili': RouteRecordInfo<'/posts/bilibili', '/posts/bilibili', Record<never, never>, Record<never, never>>,
     '/posts/createVNode_render创建notify组件': RouteRecordInfo<'/posts/createVNode_render创建notify组件', '/posts/createVNode_render创建notify组件', Record<never, never>, Record<never, never>>,
     '/posts/js实现瀑布流': RouteRecordInfo<'/posts/js实现瀑布流', '/posts/js实现瀑布流', Record<never, never>, Record<never, never>>,
     '/posts/monorepo子进程打包packages': RouteRecordInfo<'/posts/monorepo子进程打包packages', '/posts/monorepo子进程打包packages', Record<never, never>, Record<never, never>>,

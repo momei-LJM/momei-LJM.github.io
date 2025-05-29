@@ -14,6 +14,12 @@ importers:
       valaxy:
         specifier: 0.22.16
         version: 0.22.16(@babel/parser@7.26.10)(@nuxt/kit@3.16.0)(@types/markdown-it@14.1.2)(@types/node@22.13.10)(@vue/compiler-dom@3.5.13)(axios@1.8.3)(eslint@9.22.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
+      valaxy-addon-bangumi:
+        specifier: ^0.2.2
+        version: 0.2.2(valaxy@0.22.16(@babel/parser@7.26.10)(@nuxt/kit@3.16.0)(@types/markdown-it@14.1.2)(@types/node@22.13.10)(@vue/compiler-dom@3.5.13)(axios@1.8.3)(eslint@9.22.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0))
+      valaxy-addon-components:
+        specifier: ^0.1.0
+        version: 0.1.0
       valaxy-theme-yun:
         specifier: 0.22.16
         version: 0.22.16(vue@3.5.13(typescript@5.8.2))
@@ -1324,6 +1330,9 @@ packages:
   beasties@0.2.0:
     resolution: {integrity: sha512-Ljqskqx/tbZagIglYoJIMzH5zgssyp+in9+9sAyh15N22AornBeIDnb8EZ6Rk+6ShfMxd92uO3gfpT0NtZbpow==}
     engines: {node: '>=14.0.0'}
+
+  bilibili-bangumi-component@0.3.1:
+    resolution: {integrity: sha512-RrXCmOKvKeVDXk+VR4oBLvbe20N6Hzjk2dp6SXNle4mlo8ywvERj1pvCQBT7svEkLW9wRw0wNUssuA1PBDdHdA==}
 
   binary-extensions@2.3.0:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
@@ -3326,6 +3335,14 @@ packages:
     resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
     hasBin: true
 
+  valaxy-addon-bangumi@0.2.2:
+    resolution: {integrity: sha512-gya2PFf1ysdJw5irHnsS185Mi3+boPYgw+a2bnqgAVEbwMEKmNCOiAkH0C30IYweUdHe/Q6QrFd9PPYEC1dcEg==}
+    peerDependencies:
+      valaxy: latest
+
+  valaxy-addon-components@0.1.0:
+    resolution: {integrity: sha512-7uCJgUgc2JHISmz/UDQlhBqGSNW4QKmkiRlcwj5WhjhScC/KktK8JtADeKh6FCaAJHbjShovHB/9UPVtnTwORg==}
+
   valaxy-theme-yun@0.22.16:
     resolution: {integrity: sha512-KnkEEmcXY5T4C0yIgoxM4mNG02OmQ+8avcP3MDW1o5bmIj2BOKT4YoojmSTU2WIeLdjk8PmORy9FmJajYHPpdg==}
 
@@ -4984,7 +5001,7 @@ snapshots:
       '@vueuse/shared': 13.0.0(vue@3.5.13(typescript@5.8.2))
       vue: 3.5.13(typescript@5.8.2)
 
-  '@vueuse/integrations@12.0.0-beta.1(axios@1.8.3(debug@4.4.0))(fuse.js@7.1.0)(nprogress@0.2.0)(qrcode@1.5.4)(typescript@5.8.2)':
+  '@vueuse/integrations@12.0.0-beta.1(axios@1.8.3)(fuse.js@7.1.0)(nprogress@0.2.0)(qrcode@1.5.4)(typescript@5.8.2)':
     dependencies:
       '@vueuse/core': 12.0.0-beta.1(typescript@5.8.2)
       '@vueuse/shared': 12.0.0-beta.1(typescript@5.8.2)
@@ -5106,6 +5123,8 @@ snapshots:
       picocolors: 1.1.1
       postcss: 8.5.3
       postcss-media-query-parser: 0.2.3
+
+  bilibili-bangumi-component@0.3.1: {}
 
   binary-extensions@2.3.0: {}
 
@@ -7308,6 +7327,13 @@ snapshots:
 
   uuid@11.1.0: {}
 
+  valaxy-addon-bangumi@0.2.2(valaxy@0.22.16(@babel/parser@7.26.10)(@nuxt/kit@3.16.0)(@types/markdown-it@14.1.2)(@types/node@22.13.10)(@vue/compiler-dom@3.5.13)(axios@1.8.3)(eslint@9.22.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)):
+    dependencies:
+      bilibili-bangumi-component: 0.3.1
+      valaxy: 0.22.16(@babel/parser@7.26.10)(@nuxt/kit@3.16.0)(@types/markdown-it@14.1.2)(@types/node@22.13.10)(@vue/compiler-dom@3.5.13)(axios@1.8.3)(eslint@9.22.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.36.0)(terser@5.39.0)(typescript@5.8.2)(yaml@2.7.0)
+
+  valaxy-addon-components@0.1.0: {}
+
   valaxy-theme-yun@0.22.16(vue@3.5.13(typescript@5.8.2)):
     dependencies:
       '@ctrl/tinycolor': 4.1.0
@@ -7339,7 +7365,7 @@ snapshots:
       '@vitejs/plugin-vue': 5.2.3(vite@6.2.2(@types/node@22.13.10)(jiti@2.4.2)(sass@1.86.0)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
       '@vue/devtools-api': 7.7.2
       '@vueuse/core': 12.0.0-beta.1(typescript@5.8.2)
-      '@vueuse/integrations': 12.0.0-beta.1(axios@1.8.3(debug@4.4.0))(fuse.js@7.1.0)(nprogress@0.2.0)(qrcode@1.5.4)(typescript@5.8.2)
+      '@vueuse/integrations': 12.0.0-beta.1(axios@1.8.3)(fuse.js@7.1.0)(nprogress@0.2.0)(qrcode@1.5.4)(typescript@5.8.2)
       beasties: 0.2.0
       birpc: 2.2.0
       consola: 3.4.2
