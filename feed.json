@@ -12,6 +12,18 @@
     "items": [
         {
             "id": "",
+            "content_html": "<h3>一些脚手架基础配置</h3>\n<img style=\"border-radius:10px;width:50%;\" src=\"https://www.momei.me/contents/personal_config.png\">\n<ul>\n<li>vscode settings</li>\n<li>eslint -v9</li>\n<li>eslint -nuxt -v9</li>\n<li>commitlint</li>\n<li>husky</li>\n<li>lint-staged</li>\n<li>自定义eslint 规则</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/personal-conig\" target=\"_blank\">https://www.momei.me/posts/personal-conig</a> 阅读全文。</p>",
+            "url": "https://www.momei.me/posts/personal-conig",
+            "title": "工程基础配置",
+            "date_modified": "2025-06-29T00:00:00.000Z",
+            "date_published": "2025-06-29T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<h3>概念</h3>\n<img style=\"width:180px\" src=\"https://www.momei.me/contents/micoapp.png\" alt=\"微前端\" />\n<p>微前端是一种架构风格，它将一个大型的前端应用拆分成多个独立的微应用，这些微应用可以独立开发、部署和维护。微前端的目标是将一个复杂的前端应用拆分成多个小的、可独立开发和部署的应用，从而提高开发效率和应用的可维护性。</p>\n<p>在实际场景中，我们常常需要再当前主应用，嵌入某个子应用，就不必自己开发，子应用可能有别的业务部门开发，技术栈亦不一致。</p>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/微前端原理\" target=\"_blank\">https://www.momei.me/posts/微前端原理</a> 阅读全文。</p>",
             "url": "https://www.momei.me/posts/微前端原理",
             "title": "微前端原理解析",
