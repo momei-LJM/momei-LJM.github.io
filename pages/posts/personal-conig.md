@@ -110,6 +110,8 @@ export default antfu(
       'ts/no-use-before-define': 'off',
       'ts/no-this-alias': 'off', // components : 组件复用，会有选项式api用法 - 允许this
       'eslint-comments/no-unlimited-disable': 'off',
+      'import/no-unused-modules': 'error',
+      'unused-imports/no-unused-imports': 'error',
     },
     formatters: {
       css: true,//css使用prettier 格式化
