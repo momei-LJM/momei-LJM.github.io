@@ -72,4 +72,9 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
 
   unocss: { safelist },
+  siteConfig: {
+    encrypt: {
+      enable: true
+    }
+  }
 });

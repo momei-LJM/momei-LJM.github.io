@@ -36,4 +36,7 @@ export default defineSiteConfig({
     enable: true,
     type: "fuse",
   },
+  encrypt: {
+    enable:true
+  }
 });
