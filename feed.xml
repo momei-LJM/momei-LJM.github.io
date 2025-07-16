@@ -4,7 +4,7 @@
         <title>Momei的Blog</title>
         <link>https://www.momei.me/</link>
         <description>前端笔记簿</description>
-        <lastBuildDate>Sat, 05 Jul 2025 02:16:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Jul 2025 09:01:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,25 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2025 © 墨眉</copyright>
         <atom:link href="https://www.momei.me/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[工程基础配置]]></title>
+            <link>https://www.momei.me/posts/personal-config</link>
+            <guid>https://www.momei.me/posts/personal-config</guid>
+            <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>一些脚手架基础配置</h3>
+<img style="border-radius:10px;width:50%;" src="https://www.momei.me/contents/personal_config.png">
+<ul>
+<li>vscode settings</li>
+<li>eslint -v9</li>
+<li>eslint -nuxt -v9</li>
+<li>commitlint</li>
+<li>husky</li>
+<li>lint-staged</li>
+<li>自定义eslint 规则</li>
+</ul>
+<br/><p>访问 <a href="https://www.momei.me/posts/personal-config" target="_blank">https://www.momei.me/posts/personal-config</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
         <item>
             <title><![CDATA[工程基础配置]]></title>
             <link>https://www.momei.me/posts/personal-conig</link>

@@ -12,6 +12,18 @@
     "items": [
         {
             "id": "",
+            "content_html": "<h3>一些脚手架基础配置</h3>\n<img style=\"border-radius:10px;width:50%;\" src=\"https://www.momei.me/contents/personal_config.png\">\n<ul>\n<li>vscode settings</li>\n<li>eslint -v9</li>\n<li>eslint -nuxt -v9</li>\n<li>commitlint</li>\n<li>husky</li>\n<li>lint-staged</li>\n<li>自定义eslint 规则</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/personal-config\" target=\"_blank\">https://www.momei.me/posts/personal-config</a> 阅读全文。</p>",
+            "url": "https://www.momei.me/posts/personal-config",
+            "title": "工程基础配置",
+            "date_modified": "2025-06-29T00:00:00.000Z",
+            "date_published": "2025-06-29T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
             "content_html": "<h3>一些脚手架基础配置</h3>\n<img style=\"border-radius:10px;width:50%;\" src=\"https://www.momei.me/contents/personal_config.png\">\n<ul>\n<li>vscode settings</li>\n<li>eslint -v9</li>\n<li>eslint -nuxt -v9</li>\n<li>commitlint</li>\n<li>husky</li>\n<li>lint-staged</li>\n<li>自定义eslint 规则</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/personal-conig\" target=\"_blank\">https://www.momei.me/posts/personal-conig</a> 阅读全文。</p>",
             "url": "https://www.momei.me/posts/personal-conig",
             "title": "工程基础配置",
