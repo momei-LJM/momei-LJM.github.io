@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.momei.me/</id>
     <title>Momei的Blog</title>
-    <updated>2025-07-16T09:01:29.016Z</updated>
+    <updated>2025-07-16T12:26:33.930Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -32,30 +32,6 @@
 <li>自定义eslint 规则</li>
 </ul>
 <br/><p>访问 <a href="https://www.momei.me/posts/personal-config" target="_blank">https://www.momei.me/posts/personal-config</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>墨眉</name>
-            <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-06-29T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[工程基础配置]]></title>
-        <id>https://www.momei.me/posts/personal-conig</id>
-        <link href="https://www.momei.me/posts/personal-conig"/>
-        <updated>2025-06-29T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h3>一些脚手架基础配置</h3>
-<img style="border-radius:10px;width:50%;" src="https://www.momei.me/contents/personal_config.png">
-<ul>
-<li>vscode settings</li>
-<li>eslint -v9</li>
-<li>eslint -nuxt -v9</li>
-<li>commitlint</li>
-<li>husky</li>
-<li>lint-staged</li>
-<li>自定义eslint 规则</li>
-</ul>
-<br/><p>访问 <a href="https://www.momei.me/posts/personal-conig" target="_blank">https://www.momei.me/posts/personal-conig</a> 阅读全文。</p>]]></content>
         <author>
             <name>墨眉</name>
             <email>i@valaxy.site</email>

@@ -4,7 +4,7 @@
         <title>Momei的Blog</title>
         <link>https://www.momei.me/</link>
         <description>前端笔记簿</description>
-        <lastBuildDate>Wed, 16 Jul 2025 09:01:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Jul 2025 12:26:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -17,7 +17,7 @@
         <item>
             <title><![CDATA[工程基础配置]]></title>
             <link>https://www.momei.me/posts/personal-config</link>
-            <guid>https://www.momei.me/posts/personal-config</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/personal-config</guid>
             <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>一些脚手架基础配置</h3>
 <img style="border-radius:10px;width:50%;" src="https://www.momei.me/contents/personal_config.png">
@@ -34,28 +34,9 @@
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>
-            <title><![CDATA[工程基础配置]]></title>
-            <link>https://www.momei.me/posts/personal-conig</link>
-            <guid>https://www.momei.me/posts/personal-conig</guid>
-            <pubDate>Sun, 29 Jun 2025 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h3>一些脚手架基础配置</h3>
-<img style="border-radius:10px;width:50%;" src="https://www.momei.me/contents/personal_config.png">
-<ul>
-<li>vscode settings</li>
-<li>eslint -v9</li>
-<li>eslint -nuxt -v9</li>
-<li>commitlint</li>
-<li>husky</li>
-<li>lint-staged</li>
-<li>自定义eslint 规则</li>
-</ul>
-<br/><p>访问 <a href="https://www.momei.me/posts/personal-conig" target="_blank">https://www.momei.me/posts/personal-conig</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (墨眉)</author>
-        </item>
-        <item>
             <title><![CDATA[微前端原理解析]]></title>
             <link>https://www.momei.me/posts/微前端原理</link>
-            <guid>https://www.momei.me/posts/微前端原理</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/微前端原理</guid>
             <pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>概念</h3>
 <img style="width:180px" src="https://www.momei.me/contents/micoapp.png" alt="微前端" />
@@ -67,7 +48,7 @@
         <item>
             <title><![CDATA[pnpm&monorepo]]></title>
             <link>https://www.momei.me/posts/pnpm</link>
-            <guid>https://www.momei.me/posts/pnpm</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/pnpm</guid>
             <pubDate>Sun, 23 Mar 2025 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>大纲</h3>
 <img style="width:150px" src="https://images.seeklogo.com/logo-png/43/1/pnpm-logo-png_seeklogo-430956.png">
@@ -85,7 +66,7 @@
         <item>
             <title><![CDATA[css 3d轨迹动画]]></title>
             <link>https://www.momei.me/posts/轨迹动画</link>
-            <guid>https://www.momei.me/posts/轨迹动画</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/轨迹动画</guid>
             <pubDate>Thu, 16 May 2024 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h2><a href="https://drafts.csswg.org/css-transforms-2/#perspective">css 3d</a></h2>
   <box-d/>
@@ -100,7 +81,7 @@
         <item>
             <title><![CDATA[TinyMCE薄封装]]></title>
             <link>https://www.momei.me/posts/tinyMCE</link>
-            <guid>https://www.momei.me/posts/tinyMCE</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/tinyMCE</guid>
             <pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<a-box style="display:flex;width:100%">
 <img style="width:50%;objectFit:cover;" src='/contents/tinymce/light.png' />
@@ -122,7 +103,7 @@
         <item>
             <title><![CDATA[View Transitions Api]]></title>
             <link>https://www.momei.me/posts/ViewTransition</link>
-            <guid>https://www.momei.me/posts/ViewTransition</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/ViewTransition</guid>
             <pubDate>Wed, 13 Dec 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>概述</h3>
 <blockquote>
@@ -143,7 +124,7 @@ ps:不同dom之间的视图过渡</p>
         <item>
             <title><![CDATA[电子签名（signature_pad）]]></title>
             <link>https://www.momei.me/posts/电子签名</link>
-            <guid>https://www.momei.me/posts/电子签名</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/电子签名</guid>
             <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<a-box>
 <img src='/contents/电子签名/sign.png' />
@@ -157,7 +138,7 @@ ps:不同dom之间的视图过渡</p>
         <item>
             <title><![CDATA[js实现瀑布流]]></title>
             <link>https://www.momei.me/posts/js实现瀑布流</link>
-            <guid>https://www.momei.me/posts/js实现瀑布流</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/js实现瀑布流</guid>
             <pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>为什么使用 Js 实现瀑布流</h3>
 <blockquote>
@@ -179,7 +160,7 @@ ps:不同dom之间的视图过渡</p>
         <item>
             <title><![CDATA[monorepo子进程打包packages]]></title>
             <link>https://www.momei.me/posts/monorepo子进程打包packages</link>
-            <guid>https://www.momei.me/posts/monorepo子进程打包packages</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/monorepo子进程打包packages</guid>
             <pubDate>Mon, 19 Jun 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>如何并发build多个package</h3>
 <p>通常情况下一个项目下有一个 rollup.config.js 文件来做打包配置。在多包情况下也可以在根目录下配置一个 rollup.config.js文件，</p>
@@ -209,7 +190,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
         <item>
             <title><![CDATA[Web Animations API 写一个动画指令]]></title>
             <link>https://www.momei.me/posts/WebAnimationDirective</link>
-            <guid>https://www.momei.me/posts/WebAnimationDirective</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/WebAnimationDirective</guid>
             <pubDate>Sat, 10 Jun 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API">Web Animations API</a></h3>
 <blockquote>
@@ -229,7 +210,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
         <item>
             <title><![CDATA[vue-router history部署后刷新404]]></title>
             <link>https://www.momei.me/posts/路由history部署后刷新404</link>
-            <guid>https://www.momei.me/posts/路由history部署后刷新404</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/路由history部署后刷新404</guid>
             <pubDate>Fri, 09 Jun 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>hash模式</h3>
 <p><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Location/hash">hash</a>模式是在域名和 path 之间使用<code>#</code>进行分隔，<code>#</code>及其后面的 url 片段标识符就是 hash 字符串。</p>
@@ -250,7 +231,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
         <item>
             <title><![CDATA[vue组件库搭建]]></title>
             <link>https://www.momei.me/posts/vue组件库环境搭建</link>
-            <guid>https://www.momei.me/posts/vue组件库环境搭建</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/vue组件库环境搭建</guid>
             <pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>环境搭建</h3>
 <ol>
@@ -278,7 +259,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
         <item>
             <title><![CDATA[钉钉官网动效简易实现]]></title>
             <link>https://www.momei.me/posts/钉钉官网动效简易实现</link>
-            <guid>https://www.momei.me/posts/钉钉官网动效简易实现</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/钉钉官网动效简易实现</guid>
             <pubDate>Sun, 14 May 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>概述</h3>
 <blockquote>
@@ -294,7 +275,7 @@ export const utilsRoot = path.resolve(pkgRoot, 'utils')
         <item>
             <title><![CDATA[createVNode/render创建notify组件]]></title>
             <link>https://www.momei.me/posts/createVNode_render创建notify组件</link>
-            <guid>https://www.momei.me/posts/createVNode_render创建notify组件</guid>
+            <guid isPermaLink="false">https://www.momei.me/posts/createVNode_render创建notify组件</guid>
             <pubDate>Tue, 21 Mar 2023 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<h3>概述</h3>
 <p>阅读element notify组件（<s>摸鱼真爽</s>）。</p>
