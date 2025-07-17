@@ -14,10 +14,10 @@
   },
   "dependencies": {
     "@vueuse/core": "^13.5.0",
-    "valaxy": "0.25.5",
+    "valaxy": "0.25.7",
     "valaxy-addon-bangumi": "^0.2.2",
     "valaxy-addon-components": "^0.1.0",
-    "valaxy-theme-yun": "0.25.5"
+    "valaxy-theme-yun": "0.25.7"
   },
   "devDependencies": {
     "typescript": "^5.8.2"
