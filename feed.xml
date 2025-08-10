@@ -4,7 +4,7 @@
         <title>Momei的Blog</title>
         <link>https://www.momei.me/</link>
         <description>前端笔记簿</description>
-        <lastBuildDate>Thu, 17 Jul 2025 05:35:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 Aug 2025 10:12:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,16 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2025 © 墨眉</copyright>
         <atom:link href="https://www.momei.me/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[unplugin-vue-components 源码解析]]></title>
+            <link>https://www.momei.me/posts/auto-vue-components</link>
+            <guid isPermaLink="false">https://www.momei.me/posts/auto-vue-components</guid>
+            <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>我们经常会使用 <code>unplugin-vue-components</code> 这个插件来自动引入组件，提升开发效率。</p>
+<p>好奇它是如何实现的呢？因此来拆解一下源码（以 <code>vite</code> 为例）～</p>
+<br/><p>访问 <a href="https://www.momei.me/posts/auto-vue-components" target="_blank">https://www.momei.me/posts/auto-vue-components</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
         <item>
             <title><![CDATA[工程基础配置]]></title>
             <link>https://www.momei.me/posts/personal-config</link>

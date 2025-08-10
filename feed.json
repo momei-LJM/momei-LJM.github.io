@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://www.momei.me/posts/auto-vue-components",
+            "content_html": "<p>我们经常会使用 <code>unplugin-vue-components</code> 这个插件来自动引入组件，提升开发效率。</p>\n<p>好奇它是如何实现的呢？因此来拆解一下源码（以 <code>vite</code> 为例）～</p>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/auto-vue-components\" target=\"_blank\">https://www.momei.me/posts/auto-vue-components</a> 阅读全文。</p>",
+            "url": "https://www.momei.me/posts/auto-vue-components",
+            "title": "unplugin-vue-components 源码解析",
+            "date_modified": "2025-08-10T00:00:00.000Z",
+            "date_published": "2025-08-10T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://www.momei.me/posts/personal-config",
             "content_html": "<h3>一些脚手架基础配置</h3>\n<img style=\"border-radius:10px;width:50%;\" src=\"https://www.momei.me/contents/personal_config.png\">\n<ul>\n<li>vscode settings</li>\n<li>eslint -v9</li>\n<li>eslint -nuxt -v9</li>\n<li>commitlint</li>\n<li>husky</li>\n<li>lint-staged</li>\n<li>自定义eslint 规则</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/personal-config\" target=\"_blank\">https://www.momei.me/posts/personal-config</a> 阅读全文。</p>",
             "url": "https://www.momei.me/posts/personal-config",
