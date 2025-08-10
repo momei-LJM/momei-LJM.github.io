@@ -29,6 +29,7 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
+    '/posts/auto-vue-components': RouteRecordInfo<'/posts/auto-vue-components', '/posts/auto-vue-components', Record<never, never>, Record<never, never>>,
     '/posts/createVNode_render创建notify组件': RouteRecordInfo<'/posts/createVNode_render创建notify组件', '/posts/createVNode_render创建notify组件', Record<never, never>, Record<never, never>>,
     '/posts/js实现瀑布流': RouteRecordInfo<'/posts/js实现瀑布流', '/posts/js实现瀑布流', Record<never, never>, Record<never, never>>,
     '/posts/monorepo子进程打包packages': RouteRecordInfo<'/posts/monorepo子进程打包packages', '/posts/monorepo子进程打包packages', Record<never, never>, Record<never, never>>,
