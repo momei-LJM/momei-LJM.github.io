@@ -8,11 +8,11 @@ tags:
 top: 1
 ---
 
-<div class="hero-section" style="text-align: center; margin: 2rem 0;">
-  <img style="width: 480px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" src="/contents/unvue.png" alt="unplugin-vue-components 源码解析" />
+<div class="text-center my-8">
+  <img class="w-120 rd-3 shadow-lg" src="/contents/unvue.png" alt="unplugin-vue-components 源码解析" />
   
-  <div style="margin-top: 1.5rem; padding: 1rem; background: linear-gradient(135deg, rgba(79, 124, 255, 0.1), rgba(255, 105, 180, 0.1)); border-radius: 8px; border-left: 4px solid #4f7cff;">
-    <p style="margin: 0; font-size: 1.1em; color: var(--va-c-text-light);">
+  <div class="mt-6 p-4 rd-2 border-l-4 border-blue-500 bg-gradient-to-br from-blue-500/10 to-pink-500/10">
+    <p class="m-0 text-1.1em text-[var(--va-c-text-light)]">
       🎯 <strong>探索 Vue 组件自动导入的奥秘</strong><br>
       深入 <code>unplugin-vue-components</code> 源码，揭开自动导入的实现原理
     </p>
@@ -29,9 +29,11 @@ top: 1
 
 ## 🏗️ 插件执行逻辑
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1px; border-radius: 8px; margin: 1rem 0;">
-  <div style="background: var(--va-c-bg); padding: 1.5rem; border-radius: 7px;">
-    <h3 style="margin-top: 0; color: #667eea;">💡 核心思路</h3>
+ <img class=" rd-3 shadow-lg" src="/contents/flow-unvue.png" alt="unplugin-vue-components 源码解析" />
+
+<div class="p-px rd-2 my-4 bg-gradient-to-br from-blue-400 to-purple-500">
+  <div class="bg-[var(--va-c-bg)] p-6 rd-2">
+    <h3 class="mt-0 text-blue-400">💡 核心思路</h3>
     <p>插件通过 <strong>文件扫描</strong> → <strong>组件注册</strong> → <strong>模板解析</strong> → <strong>自动导入</strong> 四个步骤实现组件的自动引入</p>
   </div>
 </div>
@@ -122,9 +124,9 @@ var unplugin_default = createUnplugin((options = {}) => {
 });
 ```
 
-<div style="background: rgba(79, 124, 255, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #4f7cff; margin: 1rem 0;">
-  <h4 style="margin-top: 0; color: #4f7cff;">🔍 执行流程概览</h4>
-  <ol style="margin-bottom: 0;">
+<div class="bg-blue-500/10 p-4 rd-2 border-l-4 border-blue-500 my-4">
+  <h4 class="mt-0 text-blue-500">🔍 执行流程概览</h4>
+  <ol class="mb-0">
     <li><strong>开发服务器配置解析</strong>（<code>configResolved</code>）</li>
     <li><strong>Glob 扫描</strong> - <code>ctx.searchGlob()</code> 发现所有组件</li>
     <li><strong>类型声明</strong> - 如果开启 <code>dts</code> 选项，生成类型声明文件</li>
@@ -134,8 +136,8 @@ var unplugin_default = createUnplugin((options = {}) => {
 
 ## 🔍 Step 1: `ctx.searchGlob()` - 组件发现与注册
 
-<div style="background: rgba(255, 193, 7, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #ffc107; margin: 1rem 0;">
-  <p style="margin: 0;"><strong>🎯 核心目标：</strong>扫描项目中的所有组件文件，建立组件名与文件路径的映射关系</p>
+<div class="bg-yellow-500/10 p-4 rd-2 border-l-4 border-yellow-500 my-4">
+  <p class="m-0"><strong>🎯 核心目标：</strong>扫描项目中的所有组件文件，建立组件名与文件路径的映射关系</p>
 </div>
 
 ```ts
@@ -203,16 +205,16 @@ function updateComponentNameMap() {
 }
 ```
 
-<div style="background: rgba(40, 167, 69, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #28a745; margin: 1rem 0;">
-  <h4 style="margin-top: 0; color: #28a745;">✨ 处理结果</h4>
-  <p style="margin-bottom: 0;">经过这一步，插件已经建立了完整的 <strong>组件名 → 文件路径</strong> 的映射表，为后续的自动导入奠定基础。</p>
+<div class="bg-green-500/10 p-4 rd-2 border-l-4 border-green-500 my-4">
+  <h4 class="mt-0 text-green-500">✨ 处理结果</h4>
+  <p class="mb-0">经过这一步，插件已经建立了完整的 <strong>组件名 → 文件路径</strong> 的映射表，为后续的自动导入奠定基础。</p>
 </div>
 ```
 
 ## 📝 Step 2: `ctx.generateDeclaration()` - 类型声明生成
 
-<div style="background: rgba(220, 53, 69, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #dc3545; margin: 1rem 0;">
-  <p style="margin: 0;"><strong>🎯 核心目标：</strong>为自动导入的组件生成 TypeScript 类型声明文件（.d.ts），提供完整的类型支持</p>
+<div class="bg-red-500/10 p-4 rd-2 border-l-4 border-red-500 my-4">
+  <p class="m-0"><strong>🎯 核心目标：</strong>为自动导入的组件生成 TypeScript 类型声明文件（.d.ts），提供完整的类型支持</p>
 </div>
 
 ```ts
@@ -246,8 +248,8 @@ export async function writeDeclaration(
 }
 ```
 
-<div style="background: rgba(23, 162, 184, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #17a2b8; margin: 1rem 0;">
-  <h4 style="margin-top: 0; color: #17a2b8;">💡 生成示例</h4>
+<div class="bg-cyan-500/10 p-4 rd-2 border-l-4 border-cyan-500 my-4">
+  <h4 class="mt-0 text-cyan-500">💡 生成示例</h4>
   <p>假设有组件 <code>MyButton.vue</code>，会生成类似这样的类型声明：</p>
   <pre><code>declare module '@vue/runtime-core' {
   export interface GlobalComponents {
@@ -259,8 +261,8 @@ export async function writeDeclaration(
 
 ## 👀 Step 3: 文件监听 - 动态更新组件缓存
 
-<div style="background: rgba(111, 66, 193, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #6f42c1; margin: 1rem 0;">
-  <p style="margin: 0;"><strong>🎯 核心目标：</strong>监听组件文件的增删操作，实时更新组件缓存和类型声明文件</p>
+<div class="bg-purple-500/10 p-4 rd-2 border-l-4 border-purple-500 my-4">
+  <p class="m-0"><strong>🎯 核心目标：</strong>监听组件文件的增删操作，实时更新组件缓存和类型声明文件</p>
 </div>
 
 在开发服务器启动阶段，插件会建立文件监听机制，确保组件的变化能够及时响应。
@@ -292,17 +294,17 @@ function setupWatcher(watcher: fs.FSWatcher) {
 }
 ```
 
-<div style="background: rgba(40, 167, 69, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #28a745; margin: 1rem 0;">
-  <h4 style="margin-top: 0; color: #28a745;">🚀 实时响应</h4>
-  <p style="margin-bottom: 0;">通过文件监听，开发者在添加或删除组件时，无需重启服务器即可享受自动导入功能，大大提升开发体验。</p>
+<div class="bg-green-500/10 p-4 rd-2 border-l-4 border-green-500 my-4">
+  <h4 class="mt-0 text-green-500">🚀 实时响应</h4>
+  <p class="mb-0">通过文件监听，开发者在添加或删除组件时，无需重启服务器即可享受自动导入功能，大大提升开发体验。</p>
 </div>
 
 到这里，**组件扫描**、**类型声明生成**、**文件监听** 三大核心机制就完成了！接下来是最关键的部分 —— 模板解析与自动导入。
 
 ## ⚡ Step 4: Transform - 模板解析与组件识别
 
-<div style="background: rgba(255, 87, 34, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #ff5722; margin: 1rem 0;">
-  <p style="margin: 0;"><strong>🎯 核心目标：</strong>解析 Vue SFC 模板，识别使用的组件，并为其生成对应的 import 语句</p>
+<div class="bg-orange-500/10 p-4 rd-2 border-l-4 border-orange-500 my-4">
+  <p class="m-0"><strong>🎯 核心目标：</strong>解析 Vue SFC 模板，识别使用的组件，并为其生成对应的 import 语句</p>
 </div>
 
 这一步是整个自动导入机制的**核心环节**，让我们深入了解其实现原理：
@@ -371,15 +373,15 @@ function resolveVue3(
 }
 ```
 
-<div style="background: rgba(23, 162, 184, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #17a2b8; margin: 1rem 0;">
-  <h4 style="margin-top: 0; color: #17a2b8;">🧩 解析原理</h4>
+<div class="bg-cyan-500/10 p-4 rd-2 border-l-4 border-cyan-500 my-4">
+  <h4 class="mt-0 text-cyan-500">🧩 解析原理</h4>
   <p>Vue 编译器会将模板中的组件转换为 <code>_resolveComponent</code> 调用，插件通过正则表达式捕获这些调用，提取出组件名进行后续处理。</p>
 </div>
 
 ## 🎯 Step 5: 自动导入的核心实现
 
-<div style="background: rgba(220, 53, 69, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #dc3545; margin: 1rem 0;">
-  <p style="margin: 0;"><strong>🎯 核心目标：</strong>基于识别的组件，生成对应的 import 语句，实现真正的自动导入</p>
+<div class="bg-red-500/10 p-4 rd-2 border-l-4 border-red-500 my-4">
+  <p class="m-0"><strong>🎯 核心目标：</strong>基于识别的组件，生成对应的 import 语句，实现真正的自动导入</p>
 </div>
 
 这是整个流程的**最后一环**，也是最精彩的部分：
@@ -453,8 +455,8 @@ function stringifyComponentImport(
 }
 ```
 
-<div style="background: rgba(40, 167, 69, 0.1); padding: 1rem; border-radius: 8px; border-left: 4px solid #28a745; margin: 1rem 0;">
-  <h4 style="margin-top: 0; color: #28a745;">🎉 转换结果</h4>
+<div class="bg-green-500/10 p-4 rd-2 border-l-4 border-green-500 my-4">
+  <h4 class="mt-0 text-green-500">🎉 转换结果</h4>
   <p><strong>转换前：</strong></p>
   <pre><code>const _component_MyButton = _resolveComponent("MyButton");</code></pre>
   <p><strong>转换后：</strong></p>
@@ -466,78 +468,12 @@ const _component_MyButton = __unplugin_components_0;</code></pre>
 
 ## 🎯 总结
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1px; border-radius: 12px; margin: 2rem 0;">
-  <div style="background: var(--va-c-bg); padding: 2rem; border-radius: 11px;">
-    <h3 style="margin-top: 0; color: #667eea; text-align: center;">🚀 完整的自动导入流程</h3>
-    
-    <div style="display: grid; gap: 1rem; margin-top: 1.5rem;">
-      <div style="display: flex; align-items: center; padding: 1rem; background: rgba(79, 124, 255, 0.1); border-radius: 8px; border-left: 4px solid #4f7cff;">
-        <span style="font-size: 1.5em; margin-right: 1rem;">🔍</span>
-        <div>
-          <strong>组件发现</strong><br>
-          <small>Glob 扫描 → 建立组件名与路径映射</small>
-        </div>
-      </div>
-      
-      <div style="display: flex; align-items: center; padding: 1rem; background: rgba(40, 167, 69, 0.1); border-radius: 8px; border-left: 4px solid #28a745;">
-        <span style="font-size: 1.5em; margin-right: 1rem;">📝</span>
-        <div>
-          <strong>类型生成</strong><br>
-          <small>自动生成 TypeScript 声明文件</small>
-        </div>
-      </div>
-      
-      <div style="display: flex; align-items: center; padding: 1rem; background: rgba(255, 193, 7, 0.1); border-radius: 8px; border-left: 4px solid #ffc107;">
-        <span style="font-size: 1.5em; margin-right: 1rem;">👀</span>
-        <div>
-          <strong>文件监听</strong><br>
-          <small>实时响应组件文件的增删变化</small>
-        </div>
-      </div>
-      
-      <div style="display: flex; align-items: center; padding: 1rem; background: rgba(220, 53, 69, 0.1); border-radius: 8px; border-left: 4px solid #dc3545;">
-        <span style="font-size: 1.5em; margin-right: 1rem;">⚡</span>
-        <div>
-          <strong>模板解析</strong><br>
-          <small>识别 SFC 中使用的组件</small>
-        </div>
-      </div>
-      
-      <div style="display: flex; align-items: center; padding: 1rem; background: rgba(111, 66, 193, 0.1); border-radius: 8px; border-left: 4px solid #6f42c1;">
-        <span style="font-size: 1.5em; margin-right: 1rem;">✨</span>
-        <div>
-          <strong>自动导入</strong><br>
-          <small>生成 import 语句，完成魔法转换</small>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+自动导入的完整流程包括：
 
-通过深入分析 `unplugin-vue-components` 的源码，我们揭开了组件自动导入的神秘面纱。这个看似简单的功能，背后蕴含着精妙的设计：
+- 🔍 组件发现：Glob 扫描，建立组件名与路径映射
+- 📝 类型生成：自动生成 TypeScript 声明文件
+- 👀 文件监听：实时响应组件文件的增删变化
+- ⚡ 模板解析：识别 SFC 中使用的组件
+- ✨ 自动导入：生成 import 语句，完成魔法转换
 
-### ✨ 核心亮点
 
-- **🎯 智能识别**：通过正则匹配 Vue 编译后的 `_resolveComponent` 调用
-- **📦 高效缓存**：维护组件名与路径的映射关系，避免重复扫描
-- **🔄 实时更新**：文件监听机制确保开发体验的流畅性
-- **🛠️ 可扩展性**：支持自定义解析器，适配各种组件库的特殊需求
-- **💪 类型安全**：自动生成 TypeScript 声明，保持完整的类型支持
-
-### 🚀 技术价值
-
-这种实现方式不仅**极大提升了开发效率**，更重要的是展现了现代前端工具链的设计思路：
-- **编译时优化**：在构建阶段完成繁重工作
-- **开发时便利**：运行时享受简洁的开发体验
-- **生态友好**：通过插件机制适配不同场景
-
-相信通过这次源码之旅，你对 Vue 生态中的"魔法"有了更深的理解！✨
-
----
-
-<div style="text-align: center; margin-top: 2rem; padding: 1rem; background: rgba(79, 124, 255, 0.05); border-radius: 8px;">
-  <p style="margin: 0; color: var(--va-c-text-light);">
-    📚 <strong>想了解更多前端技术？</strong><br>
-    欢迎关注我的博客，一起探索前端世界的无限可能！
-  </p>
-</div>
