@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.momei.me/</id>
     <title>Momei的Blog</title>
-    <updated>2025-08-10T12:54:12.636Z</updated>
+    <updated>2025-08-10T13:46:25.392Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -20,10 +20,10 @@
         <id>https://www.momei.me/posts/auto-vue-components</id>
         <link href="https://www.momei.me/posts/auto-vue-components"/>
         <updated>2025-08-10T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<div class="hero-section" style="text-align: center; margin: 2rem 0;">
-  <img style="width: 480px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12);" src="https://www.momei.me/contents/unvue.png" alt="unplugin-vue-components 源码解析" />
-  <div style="margin-top: 1.5rem; padding: 1rem; background: linear-gradient(135deg, rgba(79, 124, 255, 0.1), rgba(255, 105, 180, 0.1)); border-radius: 8px; border-left: 4px solid #4f7cff;">
-    <p style="margin: 0; font-size: 1.1em; color: var(--va-c-text-light);">
+        <content type="html"><![CDATA[<div class="text-center my-8">
+  <img class="w-120 rd-3 shadow-lg" src="https://www.momei.me/contents/unvue.png" alt="unplugin-vue-components 源码解析" />
+  <div class="mt-6 p-4 rd-2 border-l-4 border-blue-500 bg-gradient-to-br from-blue-500/10 to-pink-500/10">
+    <p class="m-0 text-1.1em text-[var(--va-c-text-light)]">
       🎯 <strong>探索 Vue 组件自动导入的奥秘</strong><br>
       深入 <code>unplugin-vue-components</code> 源码，揭开自动导入的实现原理
     </p>
