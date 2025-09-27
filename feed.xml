@@ -4,7 +4,7 @@
         <title>Momei的Blog</title>
         <link>https://www.momei.me/</link>
         <description>前端笔记簿</description>
-        <lastBuildDate>Sun, 10 Aug 2025 13:46:25 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Sep 2025 07:34:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,12 +15,30 @@
         <copyright>CC BY-NC-SA 4.0 2025 © 墨眉</copyright>
         <atom:link href="https://www.momei.me/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[项目升级的一些踩坑总结]]></title>
+            <link>https://www.momei.me/posts/reactor-summary</link>
+            <guid isPermaLink="false">https://www.momei.me/posts/reactor-summary</guid>
+            <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>基于前不久的项目框架升级和重构，记录一些踩坑和问题；</p>
+<blockquote>
+<p>💡 <strong>一句话摘要：</strong> 这次升级围绕发布速度、依赖治理、格式化规范化等关键节点展开，从提速到风险控制，都踩过坑也找到了解法。</p>
+</blockquote>
+<h3>🧱 背景</h3>
+<ul>
+<li>🚦 项目发布流程缓慢且不稳定，对实际的测试发布效率影响较大</li>
+<li>📝 格式化没有强制执行，在 codeReview 中会出现大量格式化 diff，review 困难</li>
+<li>🧟 有大量的幽灵依赖，导致项目体积变大且不易排查问题</li>
+<li>🧗 升级困难，开发无法享受新技术带来的便利</li>
+</ul>
+<br/><p>访问 <a href="https://www.momei.me/posts/reactor-summary" target="_blank">https://www.momei.me/posts/reactor-summary</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
+        <item>
             <title><![CDATA[unplugin-vue-components 源码解析]]></title>
             <link>https://www.momei.me/posts/auto-vue-components</link>
             <guid isPermaLink="false">https://www.momei.me/posts/auto-vue-components</guid>
             <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<div class="text-center my-8">
-  <img class="w-120 rd-3 shadow-lg" src="https://www.momei.me/contents/unvue.png" alt="unplugin-vue-components 源码解析" />
   <div class="mt-6 p-4 rd-2 border-l-4 border-blue-500 bg-gradient-to-br from-blue-500/10 to-pink-500/10">
     <p class="m-0 text-1.1em text-[var(--va-c-text-light)]">
       🎯 <strong>探索 Vue 组件自动导入的奥秘</strong><br>

@@ -11,8 +11,20 @@
     },
     "items": [
         {
+            "id": "https://www.momei.me/posts/reactor-summary",
+            "content_html": "<p>基于前不久的项目框架升级和重构，记录一些踩坑和问题；</p>\n<blockquote>\n<p>💡 <strong>一句话摘要：</strong> 这次升级围绕发布速度、依赖治理、格式化规范化等关键节点展开，从提速到风险控制，都踩过坑也找到了解法。</p>\n</blockquote>\n<h3>🧱 背景</h3>\n<ul>\n<li>🚦 项目发布流程缓慢且不稳定，对实际的测试发布效率影响较大</li>\n<li>📝 格式化没有强制执行，在 codeReview 中会出现大量格式化 diff，review 困难</li>\n<li>🧟 有大量的幽灵依赖，导致项目体积变大且不易排查问题</li>\n<li>🧗 升级困难，开发无法享受新技术带来的便利</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/reactor-summary\" target=\"_blank\">https://www.momei.me/posts/reactor-summary</a> 阅读全文。</p>",
+            "url": "https://www.momei.me/posts/reactor-summary",
+            "title": "项目升级的一些踩坑总结",
+            "date_modified": "2025-09-27T00:00:00.000Z",
+            "date_published": "2025-09-27T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://www.momei.me/posts/auto-vue-components",
-            "content_html": "<div class=\"text-center my-8\">\n  <img class=\"w-120 rd-3 shadow-lg\" src=\"https://www.momei.me/contents/unvue.png\" alt=\"unplugin-vue-components 源码解析\" />\n  <div class=\"mt-6 p-4 rd-2 border-l-4 border-blue-500 bg-gradient-to-br from-blue-500/10 to-pink-500/10\">\n    <p class=\"m-0 text-1.1em text-[var(--va-c-text-light)]\">\n      🎯 <strong>探索 Vue 组件自动导入的奥秘</strong><br>\n      深入 <code>unplugin-vue-components</code> 源码，揭开自动导入的实现原理\n    </p>\n  </div>\n</div>\n<p>在 Vue 项目开发中，我们经常会使用 <code>unplugin-vue-components</code> 这个插件来自动引入组件，告别繁琐的手动 import 操作。</p>\n<p><strong>🤔 但你是否好奇过它是如何实现的？</strong></p>\n<p>让我们一起拆解一下源码（以 <code>Vite</code> 为例），看看这个&quot;魔法&quot;背后的技术原理～</p>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/auto-vue-components\" target=\"_blank\">https://www.momei.me/posts/auto-vue-components</a> 阅读全文。</p>",
+            "content_html": "<div class=\"text-center my-8\">\n  <div class=\"mt-6 p-4 rd-2 border-l-4 border-blue-500 bg-gradient-to-br from-blue-500/10 to-pink-500/10\">\n    <p class=\"m-0 text-1.1em text-[var(--va-c-text-light)]\">\n      🎯 <strong>探索 Vue 组件自动导入的奥秘</strong><br>\n      深入 <code>unplugin-vue-components</code> 源码，揭开自动导入的实现原理\n    </p>\n  </div>\n</div>\n<p>在 Vue 项目开发中，我们经常会使用 <code>unplugin-vue-components</code> 这个插件来自动引入组件，告别繁琐的手动 import 操作。</p>\n<p><strong>🤔 但你是否好奇过它是如何实现的？</strong></p>\n<p>让我们一起拆解一下源码（以 <code>Vite</code> 为例），看看这个&quot;魔法&quot;背后的技术原理～</p>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/auto-vue-components\" target=\"_blank\">https://www.momei.me/posts/auto-vue-components</a> 阅读全文。</p>",
             "url": "https://www.momei.me/posts/auto-vue-components",
             "title": "unplugin-vue-components 源码解析",
             "date_modified": "2025-08-10T00:00:00.000Z",
