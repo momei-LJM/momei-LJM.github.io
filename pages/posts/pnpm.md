@@ -11,7 +11,6 @@ top: 1
 
 ### 大纲
 
-<img style="width:150px" src="https://images.seeklogo.com/logo-png/43/1/pnpm-logo-png_seeklogo-430956.png">
 
 - pnpm 特点（幽灵依赖，磁盘复用，软硬链接）
 - workspace

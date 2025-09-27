@@ -10,7 +10,6 @@ top: 1
 ---
 
 ### 一些脚手架基础配置
-<img style="border-radius:10px;width:50%;" src="/contents/personal_config.png">
 
 - vscode settings
 - eslint -v9
