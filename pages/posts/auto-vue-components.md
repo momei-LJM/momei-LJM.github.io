@@ -9,7 +9,6 @@ top: 1
 ---
 
 <div class="text-center my-8">
-  <img class="w-120 rd-3 shadow-lg" src="/contents/unvue.png" alt="unplugin-vue-components 源码解析" />
   
   <div class="mt-6 p-4 rd-2 border-l-4 border-blue-500 bg-gradient-to-br from-blue-500/10 to-pink-500/10">
     <p class="m-0 text-1.1em text-[var(--va-c-text-light)]">
