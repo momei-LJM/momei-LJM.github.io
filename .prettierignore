@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Log files
+*.log
+logs/
+
+# Cache directories
+.cache/
+.vite/
+.nuxt/
+.next/
+
+# Generated files
+types/
+coverage/
+*.tsbuildinfo
+
+# Config files that should not be formatted
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Public assets
+public/
