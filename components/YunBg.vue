@@ -1,5 +1,5 @@
 <template>
-  <div ref="bgRef" class="area">
+  <div ref="bgRef" class="area" :class="{'marsk': !appStore.isDark}">
     <ul class="circles">
       <li></li>
       <li></li>
@@ -35,7 +35,7 @@ watch(() => appStore.isDark, (n) => {
 </script>
 
 <style>
-.area {
+/* .area {
   background: var(--bg-color);
   position: fixed;
   top: 0;
@@ -160,5 +160,20 @@ watch(() => appStore.isDark, (n) => {
     border-radius: 50%;
   }
 
+} */
+
+.marsk:before{
+    content: "";
+    pointer-events: none;
+    z-index: 0;
+    background-image: radial-gradient(circle, #40b1ea 1px, #0000 1px);
+    background-size: 30px 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-mask: linear-gradient(90deg, #0000 0%, #000 35% 55%, #0000 100%), linear-gradient(#0000 0%, #000 35% 55%, #0000 100%);
+    mask: linear-gradient(90deg, #0000 0%, #000 35% 55%, #0000 100%), linear-gradient(#0000 0%, #000 35% 55%, #0000 100%);
 }
 </style>
