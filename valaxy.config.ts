@@ -2,6 +2,8 @@ import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { addonComponents } from "valaxy-addon-components";
 import { addonBangumi } from "valaxy-addon-bangumi";
+import { VitePWA } from 'vite-plugin-pwa'
+
 // add icons what you will need
 const safelist = ["i-ri-home-line", "i-ri-github-fill"];
 
@@ -19,6 +21,8 @@ export default defineValaxyConfig<UserThemeConfig>({
       bgmEnabled: false,
     }),
   ],
+  vite: {   plugins: [VitePWA()],
+  },
   themeConfig: {
     type: "nimbo",
     banner: {
