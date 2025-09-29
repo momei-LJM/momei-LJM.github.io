@@ -48,4 +48,144 @@ declare module 'vue-router/auto-routes' {
     '/posts/钉钉官网动效简易实现': RouteRecordInfo<'/posts/钉钉官网动效简易实现', '/posts/钉钉官网动效简易实现', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
+
+  /**
+   * Route file to route info map by unplugin-vue-router.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * Each key is a file path relative to the project root with 2 properties:
+   * - routes: union of route names of the possible routes when in this page (passed to useRoute<...>())
+   * - views: names of nested views (can be passed to <RouterView name="...">)
+   *
+   * @internal
+   */
+  export interface _RouteFileInfoMap {
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.6_vue@3.5.22_typescript@5.8.2_/node_modules/valaxy-theme-yun/pages/index.vue': {
+      routes: '/'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy@0.26.6_@babel+parser@7.28.4_@nuxt+kit@3.16.0_@types+markdown-it@14.1.2_@types+no_ee6db421f42914d7d593a79cd731bde7/node_modules/valaxy/client/pages/[...path].vue': {
+      routes: '/[...path]'
+      views: never
+    }
+    'pages/404.md': {
+      routes: '/404'
+      views: never
+    }
+    'pages/about/index.md': {
+      routes: '/about/'
+      views: never
+    }
+    'pages/about/site.md': {
+      routes: '/about/site'
+      views: never
+    }
+    'pages/archives/index.md': {
+      routes: '/archives/'
+      views: never
+    }
+    'pages/bangumi/index.md': {
+      routes: '/bangumi/'
+      views: never
+    }
+    'pages/categories/index.md': {
+      routes: '/categories/'
+      views: never
+    }
+    'pages/links/index.md': {
+      routes: '/links/'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.6_vue@3.5.22_typescript@5.8.2_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+      routes: '/page/[page]'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.6_vue@3.5.22_typescript@5.8.2_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+      routes: '/posts/'
+      views: never
+    }
+    'pages/posts/auto-vue-components.md': {
+      routes: '/posts/auto-vue-components'
+      views: never
+    }
+    'pages/posts/createVNode_render创建notify组件.md': {
+      routes: '/posts/createVNode_render创建notify组件'
+      views: never
+    }
+    'pages/posts/js实现瀑布流.md': {
+      routes: '/posts/js实现瀑布流'
+      views: never
+    }
+    'pages/posts/monorepo子进程打包packages.md': {
+      routes: '/posts/monorepo子进程打包packages'
+      views: never
+    }
+    'pages/posts/personal-config.md': {
+      routes: '/posts/personal-config'
+      views: never
+    }
+    'pages/posts/pnpm.md': {
+      routes: '/posts/pnpm'
+      views: never
+    }
+    'pages/posts/reactor-summary.md': {
+      routes: '/posts/reactor-summary'
+      views: never
+    }
+    'pages/posts/shadowdom-chrome-extention.md': {
+      routes: '/posts/shadowdom-chrome-extention'
+      views: never
+    }
+    'pages/posts/tinyMCE.md': {
+      routes: '/posts/tinyMCE'
+      views: never
+    }
+    'pages/posts/ViewTransition.md': {
+      routes: '/posts/ViewTransition'
+      views: never
+    }
+    'pages/posts/vue组件库环境搭建.md': {
+      routes: '/posts/vue组件库环境搭建'
+      views: never
+    }
+    'pages/posts/WebAnimationDirective.md': {
+      routes: '/posts/WebAnimationDirective'
+      views: never
+    }
+    'pages/posts/微前端原理.md': {
+      routes: '/posts/微前端原理'
+      views: never
+    }
+    'pages/posts/电子签名.md': {
+      routes: '/posts/电子签名'
+      views: never
+    }
+    'pages/posts/路由history部署后刷新404.md': {
+      routes: '/posts/路由history部署后刷新404'
+      views: never
+    }
+    'pages/posts/轨迹动画.md': {
+      routes: '/posts/轨迹动画'
+      views: never
+    }
+    'pages/posts/钉钉官网动效简易实现.md': {
+      routes: '/posts/钉钉官网动效简易实现'
+      views: never
+    }
+    'pages/tags/index.md': {
+      routes: '/tags/'
+      views: never
+    }
+  }
+
+  /**
+   * Get a union of possible route names in a certain route component file.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * @internal
+   */
+  export type _RouteNamesForFilePath<FilePath extends string> =
+    _RouteFileInfoMap extends Record<FilePath, infer Info>
+      ? Info['routes']
+      : keyof RouteNamedMap
 }

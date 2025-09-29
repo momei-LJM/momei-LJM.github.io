@@ -17,10 +17,10 @@
   },
   "dependencies": {
     "@vueuse/core": "^13.5.0",
-    "valaxy": "0.25.7",
+    "valaxy": "0.26.6",
     "valaxy-addon-bangumi": "^0.2.2",
     "valaxy-addon-components": "^0.1.0",
-    "valaxy-theme-yun": "0.25.7"
+    "valaxy-theme-yun": "0.26.6"
   },
   "devDependencies": {
     "husky": "^9.1.7",

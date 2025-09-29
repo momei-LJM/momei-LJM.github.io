@@ -152,6 +152,44 @@ async function reloadStyles() {
 }
 ```
 
+> 其实在这里我是希望可以通过自定义的 `hmr` 消息去通知前端更新样式的，但是始终无效，研究了一下，发现是 `crxjs` 插件会过滤掉自定义的 `hmr` 消息，所以只能走通用的 `hmr` 生命周期。
+
+翻阅了一下源码，大概如下：
+
+```TypeScript [packages/vite-plugin/src/node/fileWriter-hmr.ts]
+//过滤掉了自定义的hmr消息
+const isCustomPayload = (p: HMRPayload): p is CustomPayload => {
+  return p.type === 'custom'
+}
+export const hmrPayload$ = new Subject<HMRPayload>()
+export const crxHMRPayload$: Observable<CrxHMRPayload> = hmrPayload$.pipe(
+  filter((p) => !isCustomPayload(p)),// 过滤掉自定义的消息
+  buffer(allFilesReady$),
+  mergeMap(...)
+  ...
+```
+
+在客户端也会被再次过滤：
+
+```TypeScript [packages/vite-plugin/src/client/es/hmr-client-worker.ts]
+//这里其实自能拿到crxjs自己的自定义消息；
+function isCrxHmrPayload(x: HMRPayload): x is CrxHMRPayload {
+  return x.type === 'custom' && x.event.startsWith('crx:')
+}
+
+function handleSocketMessage(payload: HMRPayload) {
+  if (isCrxHmrPayload(payload)) {
+    handleCrxHmrPayload(payload)
+  } else if (payload.type === 'connected') {
+    console.log(`[vite] connected.`)
+    // proxy(nginx, docker) hmr ws maybe caused timeout,
+    // so send ping package let ws keep alive.
+    const interval = setInterval(() => socket.send('ping'), __HMR_TIMEOUT__)
+    socket.addEventListener('close', () => clearInterval(interval))
+  }
+}
+```
+
 ### 思考
 
 `Shadow DOM` 不兼容 `tailwind V4` 这个问题，实际上是 `Houdini API` 目前并不完善的一个体现，那在微前端等场景下，`Shadow DOM` 作为隔离样式的手段（wujie），应该也会遇到类似的问题，。
