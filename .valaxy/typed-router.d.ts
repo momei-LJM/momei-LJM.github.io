@@ -36,6 +36,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/personal-config': RouteRecordInfo<'/posts/personal-config', '/posts/personal-config', Record<never, never>, Record<never, never>>,
     '/posts/pnpm': RouteRecordInfo<'/posts/pnpm', '/posts/pnpm', Record<never, never>, Record<never, never>>,
     '/posts/reactor-summary': RouteRecordInfo<'/posts/reactor-summary', '/posts/reactor-summary', Record<never, never>, Record<never, never>>,
+    '/posts/shadowdom-chrome-extention': RouteRecordInfo<'/posts/shadowdom-chrome-extention', '/posts/shadowdom-chrome-extention', Record<never, never>, Record<never, never>>,
     '/posts/tinyMCE': RouteRecordInfo<'/posts/tinyMCE', '/posts/tinyMCE', Record<never, never>, Record<never, never>>,
     '/posts/ViewTransition': RouteRecordInfo<'/posts/ViewTransition', '/posts/ViewTransition', Record<never, never>, Record<never, never>>,
     '/posts/vue组件库环境搭建': RouteRecordInfo<'/posts/vue组件库环境搭建', '/posts/vue组件库环境搭建', Record<never, never>, Record<never, never>>,
