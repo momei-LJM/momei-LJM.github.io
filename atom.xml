@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.momei.me/</id>
     <title>Momei的Blog</title>
-    <updated>2025-09-28T08:24:34.511Z</updated>
+    <updated>2025-09-29T01:50:35.962Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -15,6 +15,28 @@
     <logo>https://q1.qlogo.cn/g?b=qq&amp;nk=2262754355&amp;s=140</logo>
     <icon>https://www.momei.me/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2025 © 墨眉</rights>
+    <entry>
+        <title type="html"><![CDATA[Shadow DOM & Tailwind 在 Chrome 扩展中的应用]]></title>
+        <id>https://www.momei.me/posts/shadowdom-chrome-extention</id>
+        <link href="https://www.momei.me/posts/shadowdom-chrome-extention"/>
+        <updated>2025-09-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>之前在开发一款 <code>Chrome</code> 扩展插件，目标是在 <code>content-script</code> 方式下开发。</p>
+<p>既然是直接在DOM页面插入组件，优先考虑样式不会影响页面，所以考虑 使用 <code>Shadow DOM</code> 来隔离样式。</p>
+<p>在此场景下开发时，遇到了一些问题和思考，记录如下：</p>
+<ol>
+<li><code>tailwind V4</code> 在 <code>Shadow DOM</code> 下的兼容性问题</li>
+<li>vite 下 <code>hmr</code> 的问题</li>
+<li>思考</li>
+</ol>
+<h3>Tailwind V4</h3>
+<br/><p>访问 <a href="https://www.momei.me/posts/shadowdom-chrome-extention" target="_blank">https://www.momei.me/posts/shadowdom-chrome-extention</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>墨眉</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-09-28T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[项目升级的一些踩坑总结]]></title>
         <id>https://www.momei.me/posts/reactor-summary</id>

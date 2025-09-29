@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://www.momei.me/posts/shadowdom-chrome-extention",
+            "content_html": "<p>之前在开发一款 <code>Chrome</code> 扩展插件，目标是在 <code>content-script</code> 方式下开发。</p>\n<p>既然是直接在DOM页面插入组件，优先考虑样式不会影响页面，所以考虑 使用 <code>Shadow DOM</code> 来隔离样式。</p>\n<p>在此场景下开发时，遇到了一些问题和思考，记录如下：</p>\n<ol>\n<li><code>tailwind V4</code> 在 <code>Shadow DOM</code> 下的兼容性问题</li>\n<li>vite 下 <code>hmr</code> 的问题</li>\n<li>思考</li>\n</ol>\n<h3>Tailwind V4</h3>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/shadowdom-chrome-extention\" target=\"_blank\">https://www.momei.me/posts/shadowdom-chrome-extention</a> 阅读全文。</p>",
+            "url": "https://www.momei.me/posts/shadowdom-chrome-extention",
+            "title": "Shadow DOM & Tailwind 在 Chrome 扩展中的应用",
+            "date_modified": "2025-09-28T00:00:00.000Z",
+            "date_published": "2025-09-28T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://www.momei.me/posts/reactor-summary",
             "content_html": "<p>基于前不久的项目框架升级和重构，记录一些踩坑和问题；</p>\n<blockquote>\n<p>💡 <strong>一句话摘要：</strong> 这次升级围绕发布速度、依赖治理、格式化规范化等关键节点展开，从提速到风险控制，都踩过坑也找到了解法。</p>\n</blockquote>\n<h3>🧱 背景</h3>\n<ul>\n<li>🚦 项目发布流程缓慢且不稳定，对实际的测试发布效率影响较大</li>\n<li>📝 格式化没有强制执行，在 codeReview 中会出现大量格式化 diff，review 困难</li>\n<li>🧟 有大量的幽灵依赖，导致项目体积变大且不易排查问题</li>\n<li>🧗 升级困难，开发无法享受新技术带来的便利</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/reactor-summary\" target=\"_blank\">https://www.momei.me/posts/reactor-summary</a> 阅读全文。</p>",
             "url": "https://www.momei.me/posts/reactor-summary",
