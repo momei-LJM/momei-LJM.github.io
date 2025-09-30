@@ -1,42 +1,43 @@
 import { defineSiteConfig } from 'valaxy'
-import { getGravatarURL } from './utils/useGravartar';
-const EMAIL = "2262754355@qq.com"
-const QQ_AVATAR = "https://q1.qlogo.cn/g?b=qq&nk=2262754355&s=140"
+import { getGravatarURL } from './utils/useGravartar'
+const EMAIL = '2262754355@qq.com'
+const QQ_AVATAR = 'https://q1.qlogo.cn/g?b=qq&nk=2262754355&s=140'
 export default defineSiteConfig({
   mediumZoom: { enable: true },
-  url: "https://www.momei.me",
-  lang: "zh-CN",
-  title: "Momei的Blog",
-  subtitle: "",
+  url: 'https://www.momei.me',
+  lang: 'zh-CN',
+  title: 'Momei的Blog',
+  subtitle: '',
+  favicon: '/favicon.png',
   author: {
-    name: "墨眉",
+    name: '墨眉',
     avatar: QQ_AVATAR,
     status: {
-      emoji: "👦",
-      message: "nothing left",
+      emoji: '👦',
+      message: 'nothing left',
     },
   },
-  description: "前端笔记簿",
+  description: '前端笔记簿',
   social: [
     {
-      name: "GitHub",
-      link: "https://github.com/momei-LJM",
-      icon: "i-ri-github-fill",
-      color: "#181717",
+      name: 'GitHub',
+      link: 'https://github.com/momei-LJM',
+      icon: 'i-ri-github-fill',
+      color: '#181717',
     },
   ],
   sponsor: {
     enable: true,
-    description: "THANKS",
+    description: 'THANKS',
   },
   statistics: {
     enable: true,
   },
   search: {
     enable: true,
-    type: "fuse",
+    type: 'fuse',
   },
   encrypt: {
-    enable:true
-  }
-});
+    enable: true,
+  },
+})
