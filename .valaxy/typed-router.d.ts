@@ -33,6 +33,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/createVNode_render创建notify组件': RouteRecordInfo<'/posts/createVNode_render创建notify组件', '/posts/createVNode_render创建notify组件', Record<never, never>, Record<never, never>>,
     '/posts/js实现瀑布流': RouteRecordInfo<'/posts/js实现瀑布流', '/posts/js实现瀑布流', Record<never, never>, Record<never, never>>,
     '/posts/monorepo子进程打包packages': RouteRecordInfo<'/posts/monorepo子进程打包packages', '/posts/monorepo子进程打包packages', Record<never, never>, Record<never, never>>,
+    '/posts/patch-ep-select': RouteRecordInfo<'/posts/patch-ep-select', '/posts/patch-ep-select', Record<never, never>, Record<never, never>>,
     '/posts/personal-config': RouteRecordInfo<'/posts/personal-config', '/posts/personal-config', Record<never, never>, Record<never, never>>,
     '/posts/pnpm': RouteRecordInfo<'/posts/pnpm', '/posts/pnpm', Record<never, never>, Record<never, never>>,
     '/posts/reactor-summary': RouteRecordInfo<'/posts/reactor-summary', '/posts/reactor-summary', Record<never, never>, Record<never, never>>,
@@ -118,6 +119,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/monorepo子进程打包packages.md': {
       routes: '/posts/monorepo子进程打包packages'
+      views: never
+    }
+    'pages/posts/patch-ep-select.md': {
+      routes: '/posts/patch-ep-select'
       views: never
     }
     'pages/posts/personal-config.md': {
