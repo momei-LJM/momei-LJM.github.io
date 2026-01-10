@@ -17,17 +17,17 @@
   },
   "dependencies": {
     "@vueuse/core": "^13.5.0",
-    "valaxy": "0.26.6",
+    "valaxy": "0.26.12",
     "valaxy-addon-bangumi": "^0.2.2",
     "valaxy-addon-components": "^0.1.0",
-    "valaxy-theme-yun": "0.26.6"
+    "valaxy-theme-yun": "0.26.12"
   },
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "prettier": "^3.6.2",
     "typescript": "^5.8.2",
-    "vite-plugin-pwa": "^1.0.3"
+    "vite-plugin-pwa": "^1.2.0"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue,json,css,scss,md,html}": "prettier --write"

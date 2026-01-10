@@ -1,23 +1,36 @@
 <template>
   <div className="orbit-container">
     <div className="circle"></div>
-    <div v-for="(item) in items" className="item" :key="item.name" :onMouseEnter="stop" :onMouseLeave="start"
-      :style="calcStyle(item)">
+    <div
+      v-for="item in items"
+      className="item"
+      :key="item.name"
+      :onMouseEnter="stop"
+      :onMouseLeave="start"
+      :style="calcStyle(item)"
+    >
       {{ item.name }}
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 
 const DISTANCE_X = 300
 const DISTANCE_H = 300
 // js 辅助定位，计算初始元素在轨迹上的位置（角度）
-const items = ref(Array.from({ length: 5 }, (_, index) => ({ name: `ball-${index}`, rotate: (index * 360) / 5 })))
+const items = ref(
+  Array.from({ length: 5 }, (_, index) => ({
+    name: `ball-${index}`,
+    rotate: (index * 360) / 5,
+  }))
+)
 
 const update = () => {
-  items.value.forEach((item) => { item.rotate = item.rotate + 0.5 })
+  items.value.forEach(item => {
+    item.rotate = item.rotate + 0.5
+  })
   start()
 }
 // 计算圆上坐标、
@@ -33,7 +46,9 @@ const getPosition = (rotate: number) => {
 
 const calcStyle = (item: any) => {
   const { x, y } = getPosition(item.rotate)
-  return { transform: `translate3d(${x}px, ${0.34202 * y}px,${0.939693 * y}px)` }
+  return {
+    transform: `translate3d(${x}px, ${0.34202 * y}px,${0.939693 * y}px)`,
+  }
 }
 
 const rafRef = ref<any>(null)
@@ -46,19 +61,20 @@ const start = () => {
 const stop = () => {
   clearTimeout(rafRef.value!)
 }
-start()
-
+onMounted(() => {
+  start()
+})
 </script>
 <style lang="scss" scoped>
 @media screen and (max-width: 768px) {
   .orbit-container {
-    transform: scale(.3);
+    transform: scale(0.3);
   }
 }
 
 @media screen and (min-width: 768px) {
   .orbit-container {
-    transform: scale(.8);
+    transform: scale(0.8);
   }
 }
 
