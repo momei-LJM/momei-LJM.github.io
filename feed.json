@@ -11,6 +11,30 @@
     },
     "items": [
         {
+            "id": "https://www.momei.me/posts/watch-vs-stub",
+            "content_html": "<h3>Library 的开发模式</h3>\n<p>在 <code>monorepo</code> 下开发 Library 时，为了获得良好的开发体验（即代码变更后能即时生效），通常有以下三种开发模式可供选择：</p>\n<ul>\n<li><strong>Watch Mode</strong></li>\n<li><strong>Stub Mode</strong></li>\n<li><strong>DevExports</strong></li>\n</ul>\n<p><code>Watch Mode</code> 通过构建工具监听文件变更，实时构建并输出到目标目录，供其他包引用（常见工具如 <code>vite</code>、<code>tsup</code>、<code>esbuild</code>、<code>rollup</code> 等）。</p>\n<p><code>Stub Mode</code> 是对源码生成一层代理文件（存根），利用 <code>jiti</code> 等即时编译工具对 <code>ts</code> 文件进行实时转译（如 <code>unbuild</code>）。</p>\n<p><code>DevExports</code> 则利用 <code>package.json</code> 中的 <code>exports</code> 字段，将开发阶段的构建入口直接指向源码文件，而生产阶段则指向构建产物。</p>\n<p>本文将主要对比这三种模式的优缺点，并分析它们各自适配的使用场景。</p>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/watch-vs-stub\" target=\"_blank\">https://www.momei.me/posts/watch-vs-stub</a> 阅读全文。</p>",
+            "url": "https://www.momei.me/posts/watch-vs-stub",
+            "title": "watch mode VS stub mode VS devExports",
+            "date_modified": "2026-01-01T00:00:00.000Z",
+            "date_published": "2026-01-01T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://www.momei.me/posts/patch-ep-select",
+            "content_html": "<h3>🧩 背景</h3>\n<p>在 element-plus 的 <code>ElSelect</code> 组件中，在禁用状态下，展示的值无法被 focus 选中。</p>\n<p>在我的业务场景中，一个大表单的详情是以禁用状态展示，操作人员需要频繁的获取信息，行为上是 <code>focus</code> 输入框或者选择框，<code>ctrl+a</code>+<code>ctrl+c</code> 来复制内容。</p>\n<p>在 <code>2.5.0</code> 版本之前，是支持这种能力的，但是在后续版本中，<code>ElSelect</code> 组件结果重构，改变了这一行为。为了既能保持改业务的强需求，又能享受升级的便利性，最好的方式是对组件进行源码处理。</p>\n<p>提过 pr 后，官方成员认为当前行为是和原生 select 一致的，不会进行修改。<br>\n那就只能自己动手，源码 patch 一下了。</p>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/patch-ep-select\" target=\"_blank\">https://www.momei.me/posts/patch-ep-select</a> 阅读全文。</p>",
+            "url": "https://www.momei.me/posts/patch-ep-select",
+            "title": "patch ElSelect 组件支持 focus选中",
+            "date_modified": "2025-11-01T00:00:00.000Z",
+            "date_published": "2025-11-01T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://www.momei.me/posts/shadowdom-chrome-extention",
             "content_html": "<p>之前在开发一款 <code>Chrome</code> 扩展插件，目标是在 <code>content-script</code> 方式下开发。</p>\n<p>既然是直接在DOM页面插入组件，优先考虑样式不会影响页面，所以考虑 使用 <code>Shadow DOM</code> 来隔离样式。</p>\n<p>在此场景下开发时，遇到了一些问题和思考，记录如下：</p>\n<ol>\n<li><code>tailwind V4</code> 在 <code>Shadow DOM</code> 下的兼容性问题</li>\n<li>vite 下 <code>hmr</code> 的问题</li>\n<li>思考</li>\n</ol>\n<h3>Tailwind V4</h3>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/shadowdom-chrome-extention\" target=\"_blank\">https://www.momei.me/posts/shadowdom-chrome-extention</a> 阅读全文。</p>",
             "url": "https://www.momei.me/posts/shadowdom-chrome-extention",

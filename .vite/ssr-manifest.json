@@ -36,28 +36,34 @@
     "/assets/chunks/dayjs.BdcnXKr1.js"
   ],
   "../../../\u0000/home/runner/work/momei-LJM.github.io/momei-LJM.github.io/node_modules/gsap/dist/ScrollToPlugin.js?commonjs-es-import": [
-    "/assets/animation.Bld2ewst.js"
+    "/assets/animation.C-vtG-EM.js"
   ],
   "../../../\u0000/home/runner/work/momei-LJM.github.io/momei-LJM.github.io/node_modules/gsap/dist/ScrollToPlugin.js?commonjs-module": [
-    "/assets/animation.Bld2ewst.js"
+    "/assets/animation.C-vtG-EM.js"
   ],
   "../../../\u0000/home/runner/work/momei-LJM.github.io/momei-LJM.github.io/node_modules/nprogress/nprogress.js?commonjs-es-import": [
-    "/assets/chunks/nprogress.B6x19dEb.js"
+    "/assets/chunks/nprogress.Bru8d7fl.js"
   ],
   "../../../\u0000/home/runner/work/momei-LJM.github.io/momei-LJM.github.io/node_modules/nprogress/nprogress.js?commonjs-module": [
-    "/assets/chunks/nprogress.B6x19dEb.js"
+    "/assets/chunks/nprogress.Bru8d7fl.js"
   ],
   "../../../\u0000commonjsHelpers.js": [
     "/assets/chunks/dayjs.BdcnXKr1.js"
   ],
   "../../../\u0000plugin-vue:export-helper": [
-    "/assets/framework.CsAdMATk.js"
+    "/assets/framework.BARSUhi_.js"
   ],
   "../../../\u0000vite/modulepreload-polyfill.js": [
-    "/assets/framework.CsAdMATk.js"
+    "/assets/framework.BARSUhi_.js"
   ],
   "../../../\u0000vite/preload-helper.js": [
-    "/assets/framework.CsAdMATk.js"
+    "/assets/framework.BARSUhi_.js"
+  ],
+  "../../../\u0000vue-router/auto-routes": [
+    "/assets/chunks/vue-router.B920TjUD.js"
+  ],
+  "../../../\u0000vue-router/auto/route-block": [
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../../../../../../../@valaxyjs/UserAppVue": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -186,7 +192,7 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../../../../../../../@valaxyjs/blog/collections": [
-    "/assets/collections.BhDkHu4X.js"
+    "/assets/collections.DARPTNP0.js"
   ],
   "../../../../../../../../@valaxyjs/config": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -440,70 +446,64 @@
     "/assets/bg-img.kXdNMxcF.jpg",
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
-  "../../../../../../../../__/vue-router/auto/route-block": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
-  ],
-  "../../../../../../../../__vue-router/auto-routes": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
-  ],
   "../../../../../../../../contents/flow-unvue.png": [
-    "/assets/auto-vue-components.CQyzvbcn.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/auto-vue-components.B5vr_0WN.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../../../../../../contents/mico_explain.png": [
-    "/assets/微前端原理.BTmflsDD.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/微前端原理.B6i-nPaj.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../../../../../../contents/postAssets/2023610.gif": [
-    "/assets/WebAnimationDirective.teSFBElY.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/WebAnimationDirective.v5nHIoOu.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../../../../../../contents/postAssets/dir.png": [
-    "/assets/vue组件库环境搭建.N7LuiydP.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/vue组件库环境搭建.D0ti23bf.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../../../../../../contents/postAssets/rt.png": [
-    "/assets/路由history部署后刷新404._pB6ijSP.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/路由history部署后刷新404.Bphr1oQ5.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../../../../../../contents/tinymce/dark.png": [
-    "/assets/tinyMCE.CSarEJPF.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/tinyMCE.BDKXTuZ8.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../../../../../../contents/tinymce/light.png": [
-    "/assets/tinyMCE.CSarEJPF.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/tinyMCE.BDKXTuZ8.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../../../../../../contents/tinymce/source.png": [
-    "/assets/tinyMCE.CSarEJPF.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/tinyMCE.BDKXTuZ8.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../../../../../../contents/电子签名/sign.png": [
-    "/assets/电子签名.Yr7Ovl-3.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/电子签名.BuYfD6Ix.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../components/ABox.vue": [
-    "/assets/ABox.CB-vtL7l.js",
+    "/assets/ABox.sRX0_Yuc.js",
     "/assets/ABox.qJ52YuBg.css"
   ],
   "../../../components/ABox.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ABox.CB-vtL7l.js",
+    "/assets/ABox.sRX0_Yuc.js",
     "/assets/ABox.qJ52YuBg.css"
   ],
   "../../../components/ABox.vue?vue&type=style&index=0&scoped=e0cfc0f5&lang.scss": [
-    "/assets/ABox.CB-vtL7l.js",
+    "/assets/ABox.sRX0_Yuc.js",
     "/assets/ABox.qJ52YuBg.css"
   ],
   "../../../components/IFrame.vue": [
-    "/assets/IFrame.JgfS_fug.js",
+    "/assets/IFrame.DCZjg2ws.js",
     "/assets/IFrame.DTLzcNSi.css"
   ],
   "../../../components/IFrame.vue?vue&type=script&lang.ts": [
-    "/assets/IFrame.JgfS_fug.js",
+    "/assets/IFrame.DCZjg2ws.js",
     "/assets/IFrame.DTLzcNSi.css"
   ],
   "../../../components/IFrame.vue?vue&type=style&index=0&scoped=92a712a1&lang.scss": [
-    "/assets/IFrame.JgfS_fug.js",
+    "/assets/IFrame.DCZjg2ws.js",
     "/assets/IFrame.DTLzcNSi.css"
   ],
   "../../../components/YunBg.vue?vue&type=script&setup=true&lang.ts": [
@@ -633,34 +633,34 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../../components/demo/BoxD.vue": [
-    "/assets/轨迹动画.5wZKgLqJ.js",
-    "/assets/轨迹动画.CEyCrz2V.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/轨迹动画.CcV7bCjH.js",
+    "/assets/轨迹动画.DiRBjbz5.css",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../components/demo/BoxD.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/轨迹动画.5wZKgLqJ.js",
-    "/assets/轨迹动画.CEyCrz2V.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/轨迹动画.CcV7bCjH.js",
+    "/assets/轨迹动画.DiRBjbz5.css",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../components/demo/BoxD.vue?vue&type=style&index=0&scoped=65a39412&lang.scss": [
-    "/assets/轨迹动画.5wZKgLqJ.js",
-    "/assets/轨迹动画.CEyCrz2V.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/轨迹动画.CcV7bCjH.js",
+    "/assets/轨迹动画.DiRBjbz5.css",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../components/demo/DemoMatrix.vue": [
-    "/assets/轨迹动画.5wZKgLqJ.js",
-    "/assets/轨迹动画.CEyCrz2V.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/轨迹动画.CcV7bCjH.js",
+    "/assets/轨迹动画.DiRBjbz5.css",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../components/demo/DemoMatrix.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/轨迹动画.5wZKgLqJ.js",
-    "/assets/轨迹动画.CEyCrz2V.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/轨迹动画.CcV7bCjH.js",
+    "/assets/轨迹动画.DiRBjbz5.css",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
-  "../../../components/demo/DemoMatrix.vue?vue&type=style&index=0&scoped=e00d9414&lang.scss": [
-    "/assets/轨迹动画.5wZKgLqJ.js",
-    "/assets/轨迹动画.CEyCrz2V.css",
-    "/assets/group-icons.Cj4KazmA.css"
+  "../../../components/demo/DemoMatrix.vue?vue&type=style&index=0&scoped=cad2ab78&lang.scss": [
+    "/assets/轨迹动画.CcV7bCjH.js",
+    "/assets/轨迹动画.DiRBjbz5.css",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../locales/en.yml": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -789,107 +789,115 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../../pages/404.md": [
-    "/assets/404.i4W8ims6.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/404.DTGqk8H1.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/about/index.md": [
-    "/assets/index.Dm5t1PVz.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/index.DZzO1IPi.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/about/site.md": [
-    "/assets/site.D9_QBXbR.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/site.DGAtKxOy.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/archives/index.md": [
-    "/assets/index.CQq-CSge.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/index.D2U3KruU.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/bangumi/index.md": [
-    "/assets/index.qDsQurYk.js",
+    "/assets/index.D9TQ09VW.js",
     "/assets/index.Cch_mg4D.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/categories/index.md": [
-    "/assets/index.BzoHS-Tk.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/index.tWyOe1s9.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/links/index.md": [
-    "/assets/index.CnwSY6qo.js",
+    "/assets/index.Cj9c-3Av.js",
     "/assets/index.DfXt1eUW.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/ViewTransition.md": [
-    "/assets/ViewTransition.C-GP0Tdd.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/ViewTransition.CllZvEdg.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/WebAnimationDirective.md": [
-    "/assets/WebAnimationDirective.teSFBElY.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/WebAnimationDirective.v5nHIoOu.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/auto-vue-components.md": [
-    "/assets/auto-vue-components.CQyzvbcn.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/auto-vue-components.B5vr_0WN.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/createVNode_render创建notify组件.md": [
-    "/assets/createVNode_render创建notify组件.CnmQbEgF.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/createVNode_render创建notify组件.DOyb3MAf.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/js实现瀑布流.md": [
-    "/assets/js实现瀑布流.Bwu9LmOP.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/js实现瀑布流.LpHNr1af.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/monorepo子进程打包packages.md": [
-    "/assets/monorepo子进程打包packages.BIeIV59m.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/monorepo子进程打包packages.iBqr4zgV.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../../pages/posts/patch-ep-select.md": [
+    "/assets/patch-ep-select.Ij_Fs1yB.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/personal-config.md": [
-    "/assets/personal-config.DfYiH4CM.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/personal-config.BKcy0o19.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/pnpm.md": [
-    "/assets/pnpm.G8fNTnBq.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/pnpm.ClQjHqFr.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/reactor-summary.md": [
-    "/assets/reactor-summary.BlFJI64r.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/reactor-summary.BgCPj8YO.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/shadowdom-chrome-extention.md": [
-    "/assets/shadowdom-chrome-extention.Dev_EmBL.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/shadowdom-chrome-extention.D2lE6EIG.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/tinyMCE.md": [
-    "/assets/tinyMCE.CSarEJPF.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/tinyMCE.BDKXTuZ8.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/vue组件库环境搭建.md": [
-    "/assets/vue组件库环境搭建.N7LuiydP.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/vue组件库环境搭建.D0ti23bf.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../../pages/posts/watch-vs-stub.md": [
+    "/assets/watch-vs-stub.DAqXQ04Q.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/微前端原理.md": [
-    "/assets/微前端原理.BTmflsDD.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/微前端原理.B6i-nPaj.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/电子签名.md": [
-    "/assets/电子签名.Yr7Ovl-3.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/电子签名.BuYfD6Ix.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/路由history部署后刷新404.md": [
-    "/assets/路由history部署后刷新404._pB6ijSP.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/路由history部署后刷新404.Bphr1oQ5.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/轨迹动画.md": [
-    "/assets/轨迹动画.5wZKgLqJ.js",
-    "/assets/轨迹动画.CEyCrz2V.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/轨迹动画.CcV7bCjH.js",
+    "/assets/轨迹动画.DiRBjbz5.css",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/posts/钉钉官网动效简易实现.md": [
-    "/assets/钉钉官网动效简易实现.DNtsQA_v.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/钉钉官网动效简易实现.BZtO-YM-.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../pages/tags/index.md": [
-    "/assets/index.CHRMFXSE.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/index.Kc4D-pou.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../../styles/index.scss": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -1522,13 +1530,13 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../@intlify/core-base/dist/core-base.mjs": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../@intlify/message-compiler/dist/message-compiler.mjs": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../@intlify/shared/dist/shared.mjs": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../@primeuix/styled/dist/index.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -2160,7 +2168,170 @@
     "/assets/bg-img.kXdNMxcF.jpg",
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
-  "../../@unhead/schema-org/dist/shared/schema-org.DoKdjnca.mjs": [
+  "../../@unhead/schema-org/dist/chunks/index.mjs": [
+    "/assets/index.fS2oWA8l.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index10.mjs": [
+    "/assets/index10.BoSsOaic.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index11.mjs": [
+    "/assets/index11.DbfJTZ9C.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index12.mjs": [
+    "/assets/index12.CTFgAssp.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index13.mjs": [
+    "/assets/index13.Dnj8NdMg.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index14.mjs": [
+    "/assets/index14.DxUPUs6J.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index15.mjs": [
+    "/assets/index15.CK-mt2fu.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index16.mjs": [
+    "/assets/index16.D7EnsylQ.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index17.mjs": [
+    "/assets/index17.BX6cO3oR.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index18.mjs": [
+    "/assets/index18.5zAKMi4e.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index19.mjs": [
+    "/assets/index19.U2McThOi.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index2.mjs": [
+    "/assets/index2.DegLZW4V.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index20.mjs": [
+    "/assets/index20.BX286xje.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index21.mjs": [
+    "/assets/index21.DmCzf8Tk.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index22.mjs": [
+    "/assets/index22.Ba84dfOG.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index23.mjs": [
+    "/assets/index23.DvzfG5be.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index24.mjs": [
+    "/assets/index24.BFxKoML3.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index25.mjs": [
+    "/assets/index25.oUmtrXUk.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index26.mjs": [
+    "/assets/index26.BL8DjcEO.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index27.mjs": [
+    "/assets/index27.C80l5_Cu.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index28.mjs": [
+    "/assets/index28.AnqjyLoP.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index29.mjs": [
+    "/assets/index29.D5YC9bgY.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index3.mjs": [
+    "/assets/index3.BsctTVcD.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index30.mjs": [
+    "/assets/index30.CNgqY7Q8.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index31.mjs": [
+    "/assets/index31.Crtn6IGw.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index32.mjs": [
+    "/assets/index32.B8SHABoc.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index33.mjs": [
+    "/assets/index33.CkP7QzFX.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index34.mjs": [
+    "/assets/index34.D5PVIV1I.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index35.mjs": [
+    "/assets/index35.ChsOF07w.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index36.mjs": [
+    "/assets/index36.DIHTTHAZ.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index37.mjs": [
+    "/assets/index37.CewHJ6Vu.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index38.mjs": [
+    "/assets/index38.DZbwrfFw.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index39.mjs": [
+    "/assets/index39.Btm1pDBU.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index4.mjs": [
+    "/assets/index4.BqiofTQV.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index40.mjs": [
+    "/assets/index40.Yc4k9vzs.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index5.mjs": [
+    "/assets/index5.D3hNbi2E.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index6.mjs": [
+    "/assets/index6.CZCbZF6o.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index7.mjs": [
+    "/assets/index7.B-DH4O7D.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index8.mjs": [
+    "/assets/index8.Bs8BbwNh.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/chunks/index9.mjs": [
+    "/assets/index9.CSNzSMux.js",
+    "/assets/group-icons.Bm1YPxXM.css"
+  ],
+  "../../@unhead/schema-org/dist/shared/schema-org.40UJYB57.mjs": [
+    "/assets/schema-org.40UJYB57.D7x6mUeD.js"
+  ],
+  "../../@unhead/schema-org/dist/shared/schema-org.Cp6bpwL2.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
     "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
     "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
@@ -2222,6 +2393,9 @@
     "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
     "/assets/bg-img.kXdNMxcF.jpg",
     "/assets/sidebar-bg-img.mp54gEws.webp"
+  ],
+  "../../@unhead/schema-org/dist/shared/schema-org.Dg61qWpa.mjs": [
+    "/assets/schema-org.Dg61qWpa.BIOBsVLd.js"
   ],
   "../../@unhead/schema-org/dist/vue.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -2349,7 +2523,7 @@
     "/assets/bg-img.kXdNMxcF.jpg",
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
-  "../../@unhead/vue/dist/shared/vue.BYLJNEcq.mjs": [
+  "../../@unhead/vue/dist/shared/vue.Bm-NbY4b.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
     "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
     "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
@@ -2601,37 +2775,19 @@
     "/assets/bg-img.kXdNMxcF.jpg",
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
-  "../../@vue/compiler-core/dist/compiler-core.esm-bundler.js": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
-  ],
-  "../../@vue/compiler-dom/dist/compiler-dom.esm-bundler.js": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
-  ],
-  "../../@vue/devtools-api/dist/index.js": [
-    "/assets/chunks/pinia.Dj5PIsEr.js"
-  ],
   "../../@vue/devtools-kit/dist/index.js": [
-    "/assets/chunks/pinia.Dj5PIsEr.js"
+    "/assets/chunks/pinia.DVl1yNKA.js"
+  ],
+  "../../@vue/devtools-kit/node_modules/hookable/dist/index.mjs": [
+    "/assets/chunks/pinia.DVl1yNKA.js"
   ],
   "../../@vue/devtools-shared/dist/index.js": [
-    "/assets/chunks/pinia.Dj5PIsEr.js"
-  ],
-  "../../@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/assets/framework.CsAdMATk.js"
-  ],
-  "../../@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/assets/framework.CsAdMATk.js"
-  ],
-  "../../@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/assets/framework.CsAdMATk.js"
-  ],
-  "../../@vue/shared/dist/shared.esm-bundler.js": [
-    "/assets/framework.CsAdMATk.js"
+    "/assets/chunks/pinia.DVl1yNKA.js"
   ],
   "../../@vueuse/core/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
-  "../../@vueuse/integrations/useFuse.mjs": [
+  "../../@vueuse/integrations/dist/useFuse-CWPfSDMU.js": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
     "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
     "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
@@ -2695,10 +2851,10 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../@vueuse/motion/dist/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../@vueuse/shared/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../animejs/dist/modules/animation/additive.js": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -4024,19 +4180,19 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../bilibili-bangumi-component/dist/esm/bilibili-bangumi.entry.js": [
-    "/assets/bilibili-bangumi.entry.I13q9ceK.js"
+    "/assets/bilibili-bangumi.entry.BDt2tJ9T.js"
   ],
   "../../bilibili-bangumi-component/dist/esm/index-4428ae2d.js": [
-    "/assets/index.BkfQOYtc.js"
+    "/assets/index.6pBKbA97.js"
   ],
   "../../bilibili-bangumi-component/dist/esm/loader.js": [
-    "/assets/index.BkfQOYtc.js"
+    "/assets/index.6pBKbA97.js"
   ],
   "../../bilibili-bangumi-component/loader/index.js": [
-    "/assets/index.BkfQOYtc.js"
+    "/assets/index.6pBKbA97.js"
   ],
   "../../birpc/dist/index.mjs": [
-    "/assets/chunks/pinia.Dj5PIsEr.js"
+    "/assets/chunks/pinia.DVl1yNKA.js"
   ],
   "../../consola/dist/browser.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -4183,7 +4339,7 @@
     "/assets/chunks/dayjs.BdcnXKr1.js"
   ],
   "../../defu/dist/defu.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../floating-vue/dist/floating-vue.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -4312,13 +4468,13 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../framesync/dist/es/create-render-step.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../framesync/dist/es/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../framesync/dist/es/on-next-frame.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../fuse.js/dist/fuse.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -4384,22 +4540,19 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../gsap/CSSPlugin.js": [
-    "/assets/animation.Bld2ewst.js"
+    "/assets/animation.C-vtG-EM.js"
   ],
   "../../gsap/dist/ScrollToPlugin.js": [
-    "/assets/animation.Bld2ewst.js"
+    "/assets/animation.C-vtG-EM.js"
   ],
   "../../gsap/gsap-core.js": [
-    "/assets/animation.Bld2ewst.js"
+    "/assets/animation.C-vtG-EM.js"
   ],
   "../../gsap/index.js": [
-    "/assets/animation.Bld2ewst.js"
+    "/assets/animation.C-vtG-EM.js"
   ],
   "../../hey-listen/dist/hey-listen.es.js": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
-  ],
-  "../../hookable/dist/index.mjs": [
-    "/assets/chunks/pinia.Dj5PIsEr.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../katex/dist/katex.min.css": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -4465,320 +4618,134 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../medium-zoom/dist/medium-zoom.esm.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../nprogress/nprogress.js": [
-    "/assets/chunks/nprogress.B6x19dEb.js"
-  ],
-  "../../ohash/dist/crypto/js/index.mjs": [
-    "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
-    "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
-    "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
-    "/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
-    "/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
-    "/assets/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
-    "/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
-    "/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
-    "/assets/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
-    "/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
-    "/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff",
-    "/assets/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
-    "/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
-    "/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
-    "/assets/KaTeX_Fraktur-Regular.CB_wures.ttf",
-    "/assets/KaTeX_Main-Bold.Cx986IdX.woff2",
-    "/assets/KaTeX_Main-Bold.Jm3AIy58.woff",
-    "/assets/KaTeX_Main-Bold.waoOVXN0.ttf",
-    "/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
-    "/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff",
-    "/assets/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
-    "/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2",
-    "/assets/KaTeX_Main-Italic.BMLOBm91.woff",
-    "/assets/KaTeX_Main-Italic.3WenGoN9.ttf",
-    "/assets/KaTeX_Main-Regular.B22Nviop.woff2",
-    "/assets/KaTeX_Main-Regular.Dr94JaBh.woff",
-    "/assets/KaTeX_Main-Regular.ypZvNtVU.ttf",
-    "/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
-    "/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
-    "/assets/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
-    "/assets/KaTeX_Math-Italic.t53AETM-.woff2",
-    "/assets/KaTeX_Math-Italic.DA0__PXp.woff",
-    "/assets/KaTeX_Math-Italic.flOr_0UB.ttf",
-    "/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
-    "/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
-    "/assets/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
-    "/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
-    "/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff",
-    "/assets/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
-    "/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
-    "/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
-    "/assets/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
-    "/assets/KaTeX_Script-Regular.D3wIWfF6.woff2",
-    "/assets/KaTeX_Script-Regular.D5yQViql.woff",
-    "/assets/KaTeX_Script-Regular.C5JkGWo-.ttf",
-    "/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2",
-    "/assets/KaTeX_Size1-Regular.C195tn64.woff",
-    "/assets/KaTeX_Size1-Regular.Dbsnue_I.ttf",
-    "/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2",
-    "/assets/KaTeX_Size2-Regular.oD1tc_U0.woff",
-    "/assets/KaTeX_Size2-Regular.B7gKUWhC.ttf",
-    "/assets/KaTeX_Size3-Regular.CTq5MqoE.woff",
-    "/assets/KaTeX_Size3-Regular.DgpXs0kz.ttf",
-    "/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
-    "/assets/KaTeX_Size4-Regular.BF-4gkZK.woff",
-    "/assets/KaTeX_Size4-Regular.DWFBv043.ttf",
-    "/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
-    "/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
-    "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
-    "/assets/bg-img.kXdNMxcF.jpg",
-    "/assets/sidebar-bg-img.mp54gEws.webp"
-  ],
-  "../../ohash/dist/index.mjs": [
-    "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
-    "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
-    "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
-    "/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
-    "/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
-    "/assets/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
-    "/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
-    "/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
-    "/assets/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
-    "/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
-    "/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff",
-    "/assets/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
-    "/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
-    "/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
-    "/assets/KaTeX_Fraktur-Regular.CB_wures.ttf",
-    "/assets/KaTeX_Main-Bold.Cx986IdX.woff2",
-    "/assets/KaTeX_Main-Bold.Jm3AIy58.woff",
-    "/assets/KaTeX_Main-Bold.waoOVXN0.ttf",
-    "/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
-    "/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff",
-    "/assets/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
-    "/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2",
-    "/assets/KaTeX_Main-Italic.BMLOBm91.woff",
-    "/assets/KaTeX_Main-Italic.3WenGoN9.ttf",
-    "/assets/KaTeX_Main-Regular.B22Nviop.woff2",
-    "/assets/KaTeX_Main-Regular.Dr94JaBh.woff",
-    "/assets/KaTeX_Main-Regular.ypZvNtVU.ttf",
-    "/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
-    "/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
-    "/assets/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
-    "/assets/KaTeX_Math-Italic.t53AETM-.woff2",
-    "/assets/KaTeX_Math-Italic.DA0__PXp.woff",
-    "/assets/KaTeX_Math-Italic.flOr_0UB.ttf",
-    "/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
-    "/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
-    "/assets/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
-    "/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
-    "/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff",
-    "/assets/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
-    "/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
-    "/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
-    "/assets/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
-    "/assets/KaTeX_Script-Regular.D3wIWfF6.woff2",
-    "/assets/KaTeX_Script-Regular.D5yQViql.woff",
-    "/assets/KaTeX_Script-Regular.C5JkGWo-.ttf",
-    "/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2",
-    "/assets/KaTeX_Size1-Regular.C195tn64.woff",
-    "/assets/KaTeX_Size1-Regular.Dbsnue_I.ttf",
-    "/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2",
-    "/assets/KaTeX_Size2-Regular.oD1tc_U0.woff",
-    "/assets/KaTeX_Size2-Regular.B7gKUWhC.ttf",
-    "/assets/KaTeX_Size3-Regular.CTq5MqoE.woff",
-    "/assets/KaTeX_Size3-Regular.DgpXs0kz.ttf",
-    "/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
-    "/assets/KaTeX_Size4-Regular.BF-4gkZK.woff",
-    "/assets/KaTeX_Size4-Regular.DWFBv043.ttf",
-    "/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
-    "/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
-    "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
-    "/assets/bg-img.kXdNMxcF.jpg",
-    "/assets/sidebar-bg-img.mp54gEws.webp"
-  ],
-  "../../ohash/dist/shared/ohash.D__AXeF1.mjs": [
-    "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
-    "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
-    "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
-    "/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
-    "/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
-    "/assets/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
-    "/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
-    "/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
-    "/assets/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
-    "/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
-    "/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff",
-    "/assets/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
-    "/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
-    "/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
-    "/assets/KaTeX_Fraktur-Regular.CB_wures.ttf",
-    "/assets/KaTeX_Main-Bold.Cx986IdX.woff2",
-    "/assets/KaTeX_Main-Bold.Jm3AIy58.woff",
-    "/assets/KaTeX_Main-Bold.waoOVXN0.ttf",
-    "/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
-    "/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff",
-    "/assets/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
-    "/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2",
-    "/assets/KaTeX_Main-Italic.BMLOBm91.woff",
-    "/assets/KaTeX_Main-Italic.3WenGoN9.ttf",
-    "/assets/KaTeX_Main-Regular.B22Nviop.woff2",
-    "/assets/KaTeX_Main-Regular.Dr94JaBh.woff",
-    "/assets/KaTeX_Main-Regular.ypZvNtVU.ttf",
-    "/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
-    "/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
-    "/assets/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
-    "/assets/KaTeX_Math-Italic.t53AETM-.woff2",
-    "/assets/KaTeX_Math-Italic.DA0__PXp.woff",
-    "/assets/KaTeX_Math-Italic.flOr_0UB.ttf",
-    "/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
-    "/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
-    "/assets/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
-    "/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
-    "/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff",
-    "/assets/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
-    "/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
-    "/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
-    "/assets/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
-    "/assets/KaTeX_Script-Regular.D3wIWfF6.woff2",
-    "/assets/KaTeX_Script-Regular.D5yQViql.woff",
-    "/assets/KaTeX_Script-Regular.C5JkGWo-.ttf",
-    "/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2",
-    "/assets/KaTeX_Size1-Regular.C195tn64.woff",
-    "/assets/KaTeX_Size1-Regular.Dbsnue_I.ttf",
-    "/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2",
-    "/assets/KaTeX_Size2-Regular.oD1tc_U0.woff",
-    "/assets/KaTeX_Size2-Regular.B7gKUWhC.ttf",
-    "/assets/KaTeX_Size3-Regular.CTq5MqoE.woff",
-    "/assets/KaTeX_Size3-Regular.DgpXs0kz.ttf",
-    "/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
-    "/assets/KaTeX_Size4-Regular.BF-4gkZK.woff",
-    "/assets/KaTeX_Size4-Regular.DWFBv043.ttf",
-    "/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
-    "/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
-    "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
-    "/assets/bg-img.kXdNMxcF.jpg",
-    "/assets/sidebar-bg-img.mp54gEws.webp"
+    "/assets/chunks/nprogress.Bru8d7fl.js"
   ],
   "../../perfect-debounce/dist/index.mjs": [
-    "/assets/chunks/pinia.Dj5PIsEr.js"
+    "/assets/chunks/pinia.DVl1yNKA.js"
   ],
   "../../pinia/dist/pinia.mjs": [
-    "/assets/chunks/pinia.Dj5PIsEr.js"
+    "/assets/chunks/pinia.DVl1yNKA.js"
+  ],
+  "../../pinia/node_modules/@vue/devtools-api/dist/index.js": [
+    "/assets/chunks/pinia.DVl1yNKA.js"
   ],
   "../../popmotion/dist/es/animations/generators/decay.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/animations/generators/keyframes.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/animations/generators/spring.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/animations/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/animations/inertia.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/animations/utils/detect-animation-from-options.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/animations/utils/elapsed.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/animations/utils/find-spring.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/easing/cubic-bezier.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/easing/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/easing/steps.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/easing/utils.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/angle.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/apply-offset.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/attract.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/clamp.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/degrees-to-radians.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/distance.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/hsla-to-rgba.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/inc.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/interpolate.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/is-point-3d.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/is-point.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/mix-color.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/mix-complex.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/mix.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/pipe.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/point-from-vector.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/progress.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/radians-to-degrees.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/smooth-frame.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/smooth.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/snap.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/to-decimal.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/velocity-per-frame.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/velocity-per-second.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../popmotion/dist/es/utils/wrap.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../primevue/toasteventbus/index.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -4969,41 +4936,44 @@
     "/assets/bg-img.kXdNMxcF.jpg",
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
+  "../../scule/dist/index.mjs": [
+    "/assets/chunks/vue-router.B920TjUD.js"
+  ],
   "../../style-value-types/dist/es/color/hex.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../style-value-types/dist/es/color/hsla.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../style-value-types/dist/es/color/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../style-value-types/dist/es/color/rgba.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../style-value-types/dist/es/color/utils.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../style-value-types/dist/es/complex/filter.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../style-value-types/dist/es/complex/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../style-value-types/dist/es/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../style-value-types/dist/es/numbers/index.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../style-value-types/dist/es/numbers/units.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../style-value-types/dist/es/utils.mjs": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../tslib/tslib.es6.js": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../../ufo/dist/index.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -5257,69 +5227,6 @@
     "/assets/bg-img.kXdNMxcF.jpg",
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
-  "../../unhead/dist/shared/unhead.BpRRHAhY.mjs": [
-    "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
-    "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
-    "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
-    "/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
-    "/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
-    "/assets/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
-    "/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
-    "/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
-    "/assets/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
-    "/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
-    "/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff",
-    "/assets/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
-    "/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
-    "/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
-    "/assets/KaTeX_Fraktur-Regular.CB_wures.ttf",
-    "/assets/KaTeX_Main-Bold.Cx986IdX.woff2",
-    "/assets/KaTeX_Main-Bold.Jm3AIy58.woff",
-    "/assets/KaTeX_Main-Bold.waoOVXN0.ttf",
-    "/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
-    "/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff",
-    "/assets/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
-    "/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2",
-    "/assets/KaTeX_Main-Italic.BMLOBm91.woff",
-    "/assets/KaTeX_Main-Italic.3WenGoN9.ttf",
-    "/assets/KaTeX_Main-Regular.B22Nviop.woff2",
-    "/assets/KaTeX_Main-Regular.Dr94JaBh.woff",
-    "/assets/KaTeX_Main-Regular.ypZvNtVU.ttf",
-    "/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
-    "/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
-    "/assets/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
-    "/assets/KaTeX_Math-Italic.t53AETM-.woff2",
-    "/assets/KaTeX_Math-Italic.DA0__PXp.woff",
-    "/assets/KaTeX_Math-Italic.flOr_0UB.ttf",
-    "/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
-    "/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
-    "/assets/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
-    "/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
-    "/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff",
-    "/assets/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
-    "/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
-    "/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
-    "/assets/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
-    "/assets/KaTeX_Script-Regular.D3wIWfF6.woff2",
-    "/assets/KaTeX_Script-Regular.D5yQViql.woff",
-    "/assets/KaTeX_Script-Regular.C5JkGWo-.ttf",
-    "/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2",
-    "/assets/KaTeX_Size1-Regular.C195tn64.woff",
-    "/assets/KaTeX_Size1-Regular.Dbsnue_I.ttf",
-    "/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2",
-    "/assets/KaTeX_Size2-Regular.oD1tc_U0.woff",
-    "/assets/KaTeX_Size2-Regular.B7gKUWhC.ttf",
-    "/assets/KaTeX_Size3-Regular.CTq5MqoE.woff",
-    "/assets/KaTeX_Size3-Regular.DgpXs0kz.ttf",
-    "/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
-    "/assets/KaTeX_Size4-Regular.BF-4gkZK.woff",
-    "/assets/KaTeX_Size4-Regular.DWFBv043.ttf",
-    "/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
-    "/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
-    "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
-    "/assets/bg-img.kXdNMxcF.jpg",
-    "/assets/sidebar-bg-img.mp54gEws.webp"
-  ],
   "../../unhead/dist/shared/unhead.CApf5sj3.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
     "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
@@ -5383,7 +5290,133 @@
     "/assets/bg-img.kXdNMxcF.jpg",
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
-  "../../unhead/dist/shared/unhead.DH45uomy.mjs": [
+  "../../unhead/dist/shared/unhead.CGCfDSEL.mjs": [
+    "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
+    "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
+    "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
+    "/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
+    "/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
+    "/assets/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
+    "/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+    "/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
+    "/assets/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
+    "/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
+    "/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff",
+    "/assets/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
+    "/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
+    "/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
+    "/assets/KaTeX_Fraktur-Regular.CB_wures.ttf",
+    "/assets/KaTeX_Main-Bold.Cx986IdX.woff2",
+    "/assets/KaTeX_Main-Bold.Jm3AIy58.woff",
+    "/assets/KaTeX_Main-Bold.waoOVXN0.ttf",
+    "/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
+    "/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff",
+    "/assets/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
+    "/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2",
+    "/assets/KaTeX_Main-Italic.BMLOBm91.woff",
+    "/assets/KaTeX_Main-Italic.3WenGoN9.ttf",
+    "/assets/KaTeX_Main-Regular.B22Nviop.woff2",
+    "/assets/KaTeX_Main-Regular.Dr94JaBh.woff",
+    "/assets/KaTeX_Main-Regular.ypZvNtVU.ttf",
+    "/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+    "/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
+    "/assets/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
+    "/assets/KaTeX_Math-Italic.t53AETM-.woff2",
+    "/assets/KaTeX_Math-Italic.DA0__PXp.woff",
+    "/assets/KaTeX_Math-Italic.flOr_0UB.ttf",
+    "/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
+    "/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
+    "/assets/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
+    "/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
+    "/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff",
+    "/assets/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
+    "/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
+    "/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
+    "/assets/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
+    "/assets/KaTeX_Script-Regular.D3wIWfF6.woff2",
+    "/assets/KaTeX_Script-Regular.D5yQViql.woff",
+    "/assets/KaTeX_Script-Regular.C5JkGWo-.ttf",
+    "/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+    "/assets/KaTeX_Size1-Regular.C195tn64.woff",
+    "/assets/KaTeX_Size1-Regular.Dbsnue_I.ttf",
+    "/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+    "/assets/KaTeX_Size2-Regular.oD1tc_U0.woff",
+    "/assets/KaTeX_Size2-Regular.B7gKUWhC.ttf",
+    "/assets/KaTeX_Size3-Regular.CTq5MqoE.woff",
+    "/assets/KaTeX_Size3-Regular.DgpXs0kz.ttf",
+    "/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
+    "/assets/KaTeX_Size4-Regular.BF-4gkZK.woff",
+    "/assets/KaTeX_Size4-Regular.DWFBv043.ttf",
+    "/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
+    "/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
+    "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
+    "/assets/bg-img.kXdNMxcF.jpg",
+    "/assets/sidebar-bg-img.mp54gEws.webp"
+  ],
+  "../../unhead/dist/shared/unhead.CYpwL2hc.mjs": [
+    "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
+    "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
+    "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
+    "/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
+    "/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
+    "/assets/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
+    "/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+    "/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
+    "/assets/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
+    "/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
+    "/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff",
+    "/assets/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
+    "/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
+    "/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
+    "/assets/KaTeX_Fraktur-Regular.CB_wures.ttf",
+    "/assets/KaTeX_Main-Bold.Cx986IdX.woff2",
+    "/assets/KaTeX_Main-Bold.Jm3AIy58.woff",
+    "/assets/KaTeX_Main-Bold.waoOVXN0.ttf",
+    "/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
+    "/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff",
+    "/assets/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
+    "/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2",
+    "/assets/KaTeX_Main-Italic.BMLOBm91.woff",
+    "/assets/KaTeX_Main-Italic.3WenGoN9.ttf",
+    "/assets/KaTeX_Main-Regular.B22Nviop.woff2",
+    "/assets/KaTeX_Main-Regular.Dr94JaBh.woff",
+    "/assets/KaTeX_Main-Regular.ypZvNtVU.ttf",
+    "/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+    "/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
+    "/assets/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
+    "/assets/KaTeX_Math-Italic.t53AETM-.woff2",
+    "/assets/KaTeX_Math-Italic.DA0__PXp.woff",
+    "/assets/KaTeX_Math-Italic.flOr_0UB.ttf",
+    "/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
+    "/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
+    "/assets/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
+    "/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
+    "/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff",
+    "/assets/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
+    "/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
+    "/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
+    "/assets/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
+    "/assets/KaTeX_Script-Regular.D3wIWfF6.woff2",
+    "/assets/KaTeX_Script-Regular.D5yQViql.woff",
+    "/assets/KaTeX_Script-Regular.C5JkGWo-.ttf",
+    "/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+    "/assets/KaTeX_Size1-Regular.C195tn64.woff",
+    "/assets/KaTeX_Size1-Regular.Dbsnue_I.ttf",
+    "/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+    "/assets/KaTeX_Size2-Regular.oD1tc_U0.woff",
+    "/assets/KaTeX_Size2-Regular.B7gKUWhC.ttf",
+    "/assets/KaTeX_Size3-Regular.CTq5MqoE.woff",
+    "/assets/KaTeX_Size3-Regular.DgpXs0kz.ttf",
+    "/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
+    "/assets/KaTeX_Size4-Regular.BF-4gkZK.woff",
+    "/assets/KaTeX_Size4-Regular.DWFBv043.ttf",
+    "/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
+    "/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
+    "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
+    "/assets/bg-img.kXdNMxcF.jpg",
+    "/assets/sidebar-bg-img.mp54gEws.webp"
+  ],
+  "../../unhead/dist/shared/unhead.CbpEuj3y.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
     "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
     "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
@@ -5509,70 +5542,7 @@
     "/assets/bg-img.kXdNMxcF.jpg",
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
-  "../../unhead/dist/shared/unhead.DZbvapt-.mjs": [
-    "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
-    "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
-    "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
-    "/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
-    "/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
-    "/assets/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
-    "/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
-    "/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
-    "/assets/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
-    "/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
-    "/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff",
-    "/assets/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
-    "/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
-    "/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
-    "/assets/KaTeX_Fraktur-Regular.CB_wures.ttf",
-    "/assets/KaTeX_Main-Bold.Cx986IdX.woff2",
-    "/assets/KaTeX_Main-Bold.Jm3AIy58.woff",
-    "/assets/KaTeX_Main-Bold.waoOVXN0.ttf",
-    "/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
-    "/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff",
-    "/assets/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
-    "/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2",
-    "/assets/KaTeX_Main-Italic.BMLOBm91.woff",
-    "/assets/KaTeX_Main-Italic.3WenGoN9.ttf",
-    "/assets/KaTeX_Main-Regular.B22Nviop.woff2",
-    "/assets/KaTeX_Main-Regular.Dr94JaBh.woff",
-    "/assets/KaTeX_Main-Regular.ypZvNtVU.ttf",
-    "/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
-    "/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
-    "/assets/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
-    "/assets/KaTeX_Math-Italic.t53AETM-.woff2",
-    "/assets/KaTeX_Math-Italic.DA0__PXp.woff",
-    "/assets/KaTeX_Math-Italic.flOr_0UB.ttf",
-    "/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
-    "/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
-    "/assets/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
-    "/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
-    "/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff",
-    "/assets/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
-    "/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
-    "/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
-    "/assets/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
-    "/assets/KaTeX_Script-Regular.D3wIWfF6.woff2",
-    "/assets/KaTeX_Script-Regular.D5yQViql.woff",
-    "/assets/KaTeX_Script-Regular.C5JkGWo-.ttf",
-    "/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2",
-    "/assets/KaTeX_Size1-Regular.C195tn64.woff",
-    "/assets/KaTeX_Size1-Regular.Dbsnue_I.ttf",
-    "/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2",
-    "/assets/KaTeX_Size2-Regular.oD1tc_U0.woff",
-    "/assets/KaTeX_Size2-Regular.B7gKUWhC.ttf",
-    "/assets/KaTeX_Size3-Regular.CTq5MqoE.woff",
-    "/assets/KaTeX_Size3-Regular.DgpXs0kz.ttf",
-    "/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
-    "/assets/KaTeX_Size4-Regular.BF-4gkZK.woff",
-    "/assets/KaTeX_Size4-Regular.DWFBv043.ttf",
-    "/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
-    "/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
-    "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
-    "/assets/bg-img.kXdNMxcF.jpg",
-    "/assets/sidebar-bg-img.mp54gEws.webp"
-  ],
-  "../../unhead/dist/shared/unhead.Djo8ep_Y.mjs": [
+  "../../unhead/dist/shared/unhead.ckV6dpEQ.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
     "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
     "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
@@ -5698,32 +5668,95 @@
     "/assets/bg-img.kXdNMxcF.jpg",
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
-  "../../unplugin-vue-router/dist/data-loaders/basic.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+  "../../unhead/node_modules/hookable/dist/index.mjs": [
+    "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
+    "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
+    "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
+    "/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
+    "/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
+    "/assets/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
+    "/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+    "/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
+    "/assets/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
+    "/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
+    "/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff",
+    "/assets/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
+    "/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
+    "/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
+    "/assets/KaTeX_Fraktur-Regular.CB_wures.ttf",
+    "/assets/KaTeX_Main-Bold.Cx986IdX.woff2",
+    "/assets/KaTeX_Main-Bold.Jm3AIy58.woff",
+    "/assets/KaTeX_Main-Bold.waoOVXN0.ttf",
+    "/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
+    "/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff",
+    "/assets/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
+    "/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2",
+    "/assets/KaTeX_Main-Italic.BMLOBm91.woff",
+    "/assets/KaTeX_Main-Italic.3WenGoN9.ttf",
+    "/assets/KaTeX_Main-Regular.B22Nviop.woff2",
+    "/assets/KaTeX_Main-Regular.Dr94JaBh.woff",
+    "/assets/KaTeX_Main-Regular.ypZvNtVU.ttf",
+    "/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+    "/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
+    "/assets/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
+    "/assets/KaTeX_Math-Italic.t53AETM-.woff2",
+    "/assets/KaTeX_Math-Italic.DA0__PXp.woff",
+    "/assets/KaTeX_Math-Italic.flOr_0UB.ttf",
+    "/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
+    "/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
+    "/assets/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
+    "/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
+    "/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff",
+    "/assets/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
+    "/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
+    "/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
+    "/assets/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
+    "/assets/KaTeX_Script-Regular.D3wIWfF6.woff2",
+    "/assets/KaTeX_Script-Regular.D5yQViql.woff",
+    "/assets/KaTeX_Script-Regular.C5JkGWo-.ttf",
+    "/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+    "/assets/KaTeX_Size1-Regular.C195tn64.woff",
+    "/assets/KaTeX_Size1-Regular.Dbsnue_I.ttf",
+    "/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+    "/assets/KaTeX_Size2-Regular.oD1tc_U0.woff",
+    "/assets/KaTeX_Size2-Regular.B7gKUWhC.ttf",
+    "/assets/KaTeX_Size3-Regular.CTq5MqoE.woff",
+    "/assets/KaTeX_Size3-Regular.DgpXs0kz.ttf",
+    "/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
+    "/assets/KaTeX_Size4-Regular.BF-4gkZK.woff",
+    "/assets/KaTeX_Size4-Regular.DWFBv043.ttf",
+    "/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
+    "/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
+    "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
+    "/assets/bg-img.kXdNMxcF.jpg",
+    "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
-  "../../unplugin-vue-router/dist/data-loaders/createDataLoader-BkaFsukJ.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+  "../../unplugin-vue-router/dist/data-loaders/basic.mjs": [
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
-  "../../unplugin-vue-router/dist/data-loaders/index.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+  "../../unplugin-vue-router/dist/data-loaders/createDataLoader-BK9Gdnky.mjs": [
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
-  "../../unplugin-vue-router/dist/data-loaders/utils-D_yE8zIx.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+  "../../unplugin-vue-router/dist/data-loaders/index.mjs": [
+    "/assets/chunks/vue-router.B920TjUD.js"
+  ],
+  "../../unplugin-vue-router/dist/data-loaders/utils-C5t8q_dT.mjs": [
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../valaxy-addon-bangumi/client/index.ts": [
-    "/assets/index.qDsQurYk.js",
+    "/assets/index.D9TQ09VW.js",
     "/assets/index.Cch_mg4D.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-addon-bangumi/components/ValaxyBangumi.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index.qDsQurYk.js",
+    "/assets/index.D9TQ09VW.js",
     "/assets/index.Cch_mg4D.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-addon-bangumi/components/ValaxyBangumi.vue?vue&type=style&index=0&lang.css": [
-    "/assets/index.qDsQurYk.js",
+    "/assets/index.D9TQ09VW.js",
     "/assets/index.Cch_mg4D.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/App.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -5789,19 +5822,19 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/assets/images/none.jpg": [
-    "/assets/index.ChuuYOfu.js",
+    "/assets/index.DkU8X5iV.js",
     "/assets/none.DLM1AMsD.jpg"
   ],
   "../../valaxy-theme-yun/client/constants/index.ts": [
     "/assets/index.BRXJGymZ.js"
   ],
   "../../valaxy-theme-yun/components/ValaxyMain.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../valaxy-theme-yun/components/ValaxyMain.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../valaxy-theme-yun/components/YunAdBoard.vue": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -5867,28 +5900,28 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunAiExcerpt.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../valaxy-theme-yun/components/YunAlbum.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/albums.J8VQ2VH5.js",
+    "/assets/albums.DjJvRq2m.js",
     "/assets/albums.B673jvUl.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunAlbum.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/albums.J8VQ2VH5.js",
+    "/assets/albums.DjJvRq2m.js",
     "/assets/albums.B673jvUl.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunAlbumList.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/albums.J8VQ2VH5.js",
+    "/assets/albums.DjJvRq2m.js",
     "/assets/albums.B673jvUl.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunAlbumList.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/albums.J8VQ2VH5.js",
+    "/assets/albums.DjJvRq2m.js",
     "/assets/albums.B673jvUl.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunAside.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -6143,14 +6176,14 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunBanner.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunBanner.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunCard.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -6216,16 +6249,16 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunCategories.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/categories.DDw0rOAL.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/categories.CdHucWNc.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunCategory.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/categories.DDw0rOAL.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/categories.CdHucWNc.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunCategoryChildItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/categories.DDw0rOAL.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/categories.CdHucWNc.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunCloud.vue": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -6354,11 +6387,11 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunComment.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunComment.vue_vue_type_style_index_0_lang.BPHPbOP5.js",
+    "/assets/YunComment.vue_vue_type_style_index_0_lang.ChAgFYK7.js",
     "/assets/YunComment.BL40W_Hn.css"
   ],
   "../../valaxy-theme-yun/components/YunComment.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunComment.vue_vue_type_style_index_0_lang.BPHPbOP5.js",
+    "/assets/YunComment.vue_vue_type_style_index_0_lang.ChAgFYK7.js",
     "/assets/YunComment.BL40W_Hn.css"
   ],
   "../../valaxy-theme-yun/components/YunConfig.vue?vue&type=script&setup=true&lang.ts": [
@@ -6992,40 +7025,40 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunGallery.vue": [
-    "/assets/YunGallery.Bx5Kiurl.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/YunGallery.CgWgB_St.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunGallery.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/gallery.OaM25Jdl.js"
+    "/assets/gallery.CYo_3C2x.js"
   ],
   "../../valaxy-theme-yun/components/YunGoDown.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunGoDown.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunLayoutPostTag.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/tags.9ljwrAWk.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/tags.BMj7RzeK.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunLinkItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index.CnwSY6qo.js",
+    "/assets/index.Cj9c-3Av.js",
     "/assets/index.DfXt1eUW.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunLinks.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index.CnwSY6qo.js",
+    "/assets/index.Cj9c-3Av.js",
     "/assets/index.DfXt1eUW.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunLinks.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/index.CnwSY6qo.js",
+    "/assets/index.Cj9c-3Av.js",
     "/assets/index.DfXt1eUW.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunLoading.vue": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -7154,8 +7187,8 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunMdTimeWarning.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../valaxy-theme-yun/components/YunNavMenu.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -7221,14 +7254,14 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunNotice.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunNotice.vue?vue&type=style&index=0&lang.css": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunOutline.vue": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -7861,74 +7894,74 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunPageHeader.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPageHeader.vue_vue_type_script_setup_true_lang.CPFyDwJA.js"
+    "/assets/YunPageHeader.vue_vue_type_script_setup_true_lang.DeVubMNr.js"
   ],
   "../../valaxy-theme-yun/components/YunPagination.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.BQKy2r9C.js",
+    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.B2hCmGvu.js",
     "/assets/YunPostList.B6MDJXTW.css"
   ],
   "../../valaxy-theme-yun/components/YunPagination.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.BQKy2r9C.js",
+    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.B2hCmGvu.js",
     "/assets/YunPostList.B6MDJXTW.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCard.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.BQKy2r9C.js",
+    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.B2hCmGvu.js",
     "/assets/YunPostList.B6MDJXTW.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCard.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.BQKy2r9C.js",
+    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.B2hCmGvu.js",
     "/assets/YunPostList.B6MDJXTW.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCategories.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.C99QRJvS.js",
+    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.BEWyROnM.js",
     "/assets/YunPostMeta.DCrVMfuT.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCategoriesAndTags.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunMainHeaderAfter.vue_vue_type_script_setup_true_lang.CRDhP-qW.js",
+    "/assets/YunMainHeaderAfter.vue_vue_type_script_setup_true_lang.BC9sPH2k.js",
     "/assets/YunMainHeaderAfter.DDxwAI70.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCollapse.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang.CcoQDNA6.js",
+    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang.5DJFg0gS.js",
     "/assets/YunPostCollapse.CLDXGmA8.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCollapse.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang.CcoQDNA6.js",
+    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang.5DJFg0gS.js",
     "/assets/YunPostCollapse.CLDXGmA8.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCollapseItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang.CcoQDNA6.js",
+    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang.5DJFg0gS.js",
     "/assets/YunPostCollapse.CLDXGmA8.css"
   ],
   "../../valaxy-theme-yun/components/YunPostCollapseItem.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang.CcoQDNA6.js",
+    "/assets/YunPostCollapse.vue_vue_type_style_index_0_lang.5DJFg0gS.js",
     "/assets/YunPostCollapse.CLDXGmA8.css"
   ],
   "../../valaxy-theme-yun/components/YunPostDateMeta.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.C99QRJvS.js",
+    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.BEWyROnM.js",
     "/assets/YunPostMeta.DCrVMfuT.css"
   ],
   "../../valaxy-theme-yun/components/YunPostList.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.BQKy2r9C.js",
+    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.B2hCmGvu.js",
     "/assets/YunPostList.B6MDJXTW.css"
   ],
   "../../valaxy-theme-yun/components/YunPostMeta.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.C99QRJvS.js",
+    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.BEWyROnM.js",
     "/assets/YunPostMeta.DCrVMfuT.css"
   ],
   "../../valaxy-theme-yun/components/YunPostMeta.vue?vue&type=style&index=0&lang.css": [
-    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.C99QRJvS.js",
+    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.BEWyROnM.js",
     "/assets/YunPostMeta.DCrVMfuT.css"
   ],
   "../../valaxy-theme-yun/components/YunPostNav.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../valaxy-theme-yun/components/YunPostNav.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../valaxy-theme-yun/components/YunPostTags.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.C99QRJvS.js",
+    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.BEWyROnM.js",
     "/assets/YunPostMeta.DCrVMfuT.css"
   ],
   "../../valaxy-theme-yun/components/YunPostsInfo.vue?vue&type=script&setup=true&lang.ts": [
@@ -8058,24 +8091,24 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunPrologue.vue": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunPrologue.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunSay.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunSay.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/YunSearchBtn.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -8267,15 +8300,15 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunSelect.vue": [
-    "/assets/YunComment.vue_vue_type_style_index_0_lang.BPHPbOP5.js",
+    "/assets/YunComment.vue_vue_type_style_index_0_lang.ChAgFYK7.js",
     "/assets/YunComment.BL40W_Hn.css"
   ],
   "../../valaxy-theme-yun/components/YunSelect.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunComment.vue_vue_type_style_index_0_lang.BPHPbOP5.js",
+    "/assets/YunComment.vue_vue_type_style_index_0_lang.ChAgFYK7.js",
     "/assets/YunComment.BL40W_Hn.css"
   ],
   "../../valaxy-theme-yun/components/YunSelect.vue?vue&type=style&index=0&scoped=63887b80&lang.scss": [
-    "/assets/YunComment.vue_vue_type_style_index_0_lang.BPHPbOP5.js",
+    "/assets/YunComment.vue_vue_type_style_index_0_lang.ChAgFYK7.js",
     "/assets/YunComment.BL40W_Hn.css"
   ],
   "../../valaxy-theme-yun/components/YunSidebarCard.vue?vue&type=script&setup=true&lang.ts": [
@@ -8846,12 +8879,12 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/YunSponsor.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunSponsor.vue_vue_type_style_index_0_lang.DX0yRc4Z.js",
-    "/assets/YunSponsor.BJOC5yvc.css"
+    "/assets/YunSponsor.vue_vue_type_style_index_0_lang.3gFzLzII.js",
+    "/assets/YunSponsor.C_Stm1eH.css"
   ],
   "../../valaxy-theme-yun/components/YunSponsor.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunSponsor.vue_vue_type_style_index_0_lang.DX0yRc4Z.js",
-    "/assets/YunSponsor.BJOC5yvc.css"
+    "/assets/YunSponsor.vue_vue_type_style_index_0_lang.3gFzLzII.js",
+    "/assets/YunSponsor.C_Stm1eH.css"
   ],
   "../../valaxy-theme-yun/components/YunToggleLocale.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -8917,29 +8950,29 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/animation/LineBurstEffects.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/animation/LineBurstEffects.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/animation/YunAnimLineDraw.vue": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/animation/YunAnimLineDraw.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/animation/YunAnimLineDraw.vue?vue&type=style&index=0&scoped=3207662b&lang.scss": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/author/YunAuthorAvatar.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -9068,9 +9101,9 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/author/YunAuthorIntro.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/author/YunAuthorName.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -9136,18 +9169,18 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/collection/YunCollectionItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/collections.ByPlWaM5.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/collections.DDKBKgNN.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/collection/YunCollectionSidebar.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/collection.BZ7EkKx9.js",
+    "/assets/collection.tGPOKzs0.js",
     "/assets/collection.u2WPBS1T.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/collection/YunCollectionSidebar.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/collection.BZ7EkKx9.js",
+    "/assets/collection.tGPOKzs0.js",
     "/assets/collection.u2WPBS1T.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/config/YunToggleDark.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -9402,11 +9435,11 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/layout/YunMainContentAfter.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunMainHeaderAfter.vue_vue_type_script_setup_true_lang.CRDhP-qW.js",
+    "/assets/YunMainHeaderAfter.vue_vue_type_script_setup_true_lang.BC9sPH2k.js",
     "/assets/YunMainHeaderAfter.DDxwAI70.css"
   ],
   "../../valaxy-theme-yun/components/layout/YunMainHeaderAfter.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunMainHeaderAfter.vue_vue_type_script_setup_true_lang.CRDhP-qW.js",
+    "/assets/YunMainHeaderAfter.vue_vue_type_script_setup_true_lang.BC9sPH2k.js",
     "/assets/YunMainHeaderAfter.DDxwAI70.css"
   ],
   "../../valaxy-theme-yun/components/menu/YunNavMenuItem.vue?vue&type=script&setup=true&lang.ts": [
@@ -9851,64 +9884,64 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/project/YunProjectCard.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/projects.DHm3Jq9V.js",
+    "/assets/projects.Cdml7bYP.js",
     "/assets/projects.CjMVTJnt.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/project/YunProjectCollection.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/projects.DHm3Jq9V.js",
+    "/assets/projects.Cdml7bYP.js",
     "/assets/projects.CjMVTJnt.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/project/YunProjectLinkItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/projects.DHm3Jq9V.js",
+    "/assets/projects.Cdml7bYP.js",
     "/assets/projects.CjMVTJnt.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/project/YunProjectLinkItem.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/projects.DHm3Jq9V.js",
+    "/assets/projects.Cdml7bYP.js",
     "/assets/projects.CjMVTJnt.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/project/YunProjectToggleButton.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/projects.DHm3Jq9V.js",
+    "/assets/projects.Cdml7bYP.js",
     "/assets/projects.CjMVTJnt.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/project/YunProjects.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/projects.DHm3Jq9V.js",
+    "/assets/projects.Cdml7bYP.js",
     "/assets/projects.CjMVTJnt.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/prologue/YunPrologueSquare.vue": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/prologue/YunPrologueSquare.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/prologue/YunPrologueSquare.vue?vue&type=style&index=0&scoped=3d89b464&lang.scss": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/site/YunSiteDescription.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/site/YunSiteLinkItem.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/site/YunSiteSubtitle.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/site/YunSiteTitle.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -10478,36 +10511,36 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/components/third/YunAlgoliaSearch.vue": [
-    "/assets/YunAlgoliaSearch.C99mD-US.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/YunAlgoliaSearch.BhGcxMGF.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/third/YunAlgoliaSearch.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunAlgoliaSearch.C99mD-US.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/YunAlgoliaSearch.BhGcxMGF.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/third/YunArtalk.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunComment.vue_vue_type_style_index_0_lang.BPHPbOP5.js",
+    "/assets/YunComment.vue_vue_type_style_index_0_lang.ChAgFYK7.js",
     "/assets/YunComment.BL40W_Hn.css"
   ],
   "../../valaxy-theme-yun/components/third/YunTwikoo.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunComment.vue_vue_type_style_index_0_lang.BPHPbOP5.js",
+    "/assets/YunComment.vue_vue_type_style_index_0_lang.ChAgFYK7.js",
     "/assets/YunComment.BL40W_Hn.css"
   ],
   "../../valaxy-theme-yun/components/third/YunWaline.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunComment.vue_vue_type_style_index_0_lang.BPHPbOP5.js",
+    "/assets/YunComment.vue_vue_type_style_index_0_lang.ChAgFYK7.js",
     "/assets/YunComment.BL40W_Hn.css"
   ],
   "../../valaxy-theme-yun/components/third/YunWalineMeta.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.C99QRJvS.js",
+    "/assets/YunPostMeta.vue_vue_type_style_index_0_lang.BEWyROnM.js",
     "/assets/YunPostMeta.DCrVMfuT.css"
   ],
   "../../valaxy-theme-yun/components/ui/YunBannerCharContainer.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/components/ui/YunExcerptBottomGradient.vue": [
-    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.BQKy2r9C.js",
+    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.B2hCmGvu.js",
     "/assets/YunPostList.B6MDJXTW.css"
   ],
   "../../valaxy-theme-yun/components/ui/YunGradientDivider.vue": [
@@ -10637,7 +10670,7 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/composables/animation.ts": [
-    "/assets/animation.CyqdOLFv.js"
+    "/assets/animation.DurimXSE.js"
   ],
   "../../valaxy-theme-yun/composables/config.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -10766,75 +10799,75 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/composables/post.ts": [
-    "/assets/post.Cr6yLc2K.js"
+    "/assets/post.C8yZz0_p.js"
   ],
   "../../valaxy-theme-yun/composables/tags.ts": [
-    "/assets/tags.9ljwrAWk.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/tags.BMj7RzeK.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/composables/useYunBanner.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/404.vue": [
-    "/assets/404.UshtUHoz.js",
+    "/assets/404.CnArGBIe.js",
     "/assets/404.bv7ttf42.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404.UshtUHoz.js",
+    "/assets/404.CnArGBIe.js",
     "/assets/404.bv7ttf42.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/404.vue?vue&type=style&index=0&scoped=effbee92&lang.scss": [
-    "/assets/404.UshtUHoz.js",
+    "/assets/404.CnArGBIe.js",
     "/assets/404.bv7ttf42.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/albums.vue": [
-    "/assets/albums.J8VQ2VH5.js",
+    "/assets/albums.DjJvRq2m.js",
     "/assets/albums.B673jvUl.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/albums.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/albums.J8VQ2VH5.js",
+    "/assets/albums.DjJvRq2m.js",
     "/assets/albums.B673jvUl.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/archives.vue": [
-    "/assets/archives.BKfSxuRg.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/archives.ByjN1nOk.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/archives.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/archives.BKfSxuRg.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/archives.ByjN1nOk.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/categories.vue": [
-    "/assets/categories.DDw0rOAL.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/categories.CdHucWNc.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/categories.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/categories.DDw0rOAL.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/categories.CdHucWNc.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/collection.vue": [
-    "/assets/collection.BZ7EkKx9.js",
+    "/assets/collection.tGPOKzs0.js",
     "/assets/collection.u2WPBS1T.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/collection.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/collection.BZ7EkKx9.js",
+    "/assets/collection.tGPOKzs0.js",
     "/assets/collection.u2WPBS1T.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/collections.vue": [
-    "/assets/collections.ByPlWaM5.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/collections.DDKBKgNN.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/collections.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/collections.ByPlWaM5.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/collections.DDKBKgNN.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/default.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -10900,54 +10933,54 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/layouts/gallery.vue": [
-    "/assets/gallery.OaM25Jdl.js"
+    "/assets/gallery.CYo_3C2x.js"
   ],
   "../../valaxy-theme-yun/layouts/gallery.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/gallery.OaM25Jdl.js"
+    "/assets/gallery.CYo_3C2x.js"
   ],
   "../../valaxy-theme-yun/layouts/home.vue": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/home.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/home.BdON27z3.js",
+    "/assets/home.CZwcLUML.js",
     "/assets/home.Dv2LDhuI.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/post.vue": [
-    "/assets/post.Dn61erZ-.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/post.C-CIRmhX.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/post.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/post.Dn61erZ-.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/post.C-CIRmhX.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/posts.vue": [
-    "/assets/posts.D-iwXXO_.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/posts.B4mWUSgQ.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/posts.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/posts.D-iwXXO_.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/posts.B4mWUSgQ.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/projects.vue": [
-    "/assets/projects.DHm3Jq9V.js",
+    "/assets/projects.Cdml7bYP.js",
     "/assets/projects.CjMVTJnt.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/projects.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/projects.DHm3Jq9V.js",
+    "/assets/projects.Cdml7bYP.js",
     "/assets/projects.CjMVTJnt.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/tags.vue": [
-    "/assets/tags.9ljwrAWk.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/tags.BMj7RzeK.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/layouts/tags.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/tags.9ljwrAWk.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/tags.BMj7RzeK.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/locales/en.yml": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -11076,24 +11109,24 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/pages/index.vue": [
-    "/assets/index.ELMK6IIn.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/index.1ZcJZIc9.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/pages/page/[page].vue": [
-    "/assets/_page_.CyAubVLF.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/_page_.CyMuJ846.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/pages/page/[page].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_page_.CyAubVLF.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/_page_.CyMuJ846.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/pages/posts/index.vue": [
-    "/assets/index.CEa8aaZn.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/index.B5u7bYQ4.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/pages/posts/index.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/index.CEa8aaZn.js",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/index.B5u7bYQ4.js",
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "../../valaxy-theme-yun/setup/main.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -11600,111 +11633,111 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../valaxy-theme-yun/utils/animation.ts": [
-    "/assets/animation.Bld2ewst.js"
+    "/assets/animation.C-vtG-EM.js"
   ],
   "../../valaxy-theme-yun/utils/index.ts": [
-    "/assets/index.ChuuYOfu.js",
+    "/assets/index.DkU8X5iV.js",
     "/assets/none.DLM1AMsD.jpg"
   ],
   "../../vanilla-lazyload/dist/esm/autoInitialize.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/callback.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/cancelOnExit.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/class.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/constants.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/counters.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/data.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/defaults.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/dom.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/elementStatus.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/environment.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/event.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/forEachSource.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/intersectionHandlers.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/intersectionObserver.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/lazyload.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/load.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/native.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/online.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/originalAttributes.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/reset.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/restore.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/set.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/tempImage.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vanilla-lazyload/dist/esm/unobserve.js": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "../../vite-ssg/dist/index.mjs": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -11896,94 +11929,241 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "../../vue-i18n/dist/vue-i18n.runtime.esm-bundler.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/dist/vue-i18n.runtime.mjs": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/api/api.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/api/app.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/api/component.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/api/context.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/api/index.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/api/util.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/plugin.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/proxy.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
   ],
   "../../vue-i18n/node_modules/@vue/devtools-api/lib/esm/time.js": [
-    "/assets/chunks/vue-i18n.DfDRIezl.js"
+    "/assets/chunks/vue-i18n.BaM4Qq2D.js"
+  ],
+  "../../vue-router/dist/devtools-EWN81iOl.mjs": [
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/dist/vue-router.mjs": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/api/api.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/api/app.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/api/component.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/api/context.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/api/index.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/api/util.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/plugin.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/proxy.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
   "../../vue-router/node_modules/@vue/devtools-api/lib/esm/time.js": [
-    "/assets/chunks/vue-router.Dd98COiS.js"
+    "/assets/chunks/vue-router.B920TjUD.js"
   ],
-  "../../vue/dist/vue.esm-bundler.js": [
-    "/assets/chunks/@vueuse/motion.LTfPClIo.js"
+  "../node_modules/@vue/compiler-core/dist/compiler-core.esm-bundler.js": [
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
+  ],
+  "../node_modules/@vue/compiler-dom/dist/compiler-dom.esm-bundler.js": [
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
+  ],
+  "../node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
+    "/assets/framework.BARSUhi_.js"
+  ],
+  "../node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
+    "/assets/framework.BARSUhi_.js"
+  ],
+  "../node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
+    "/assets/framework.BARSUhi_.js"
+  ],
+  "../node_modules/@vue/shared/dist/shared.esm-bundler.js": [
+    "/assets/framework.BARSUhi_.js"
+  ],
+  "../node_modules/@vueuse/core/dist/index.js": [
+    "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
+    "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
+    "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
+    "/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
+    "/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
+    "/assets/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
+    "/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+    "/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
+    "/assets/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
+    "/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
+    "/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff",
+    "/assets/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
+    "/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
+    "/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
+    "/assets/KaTeX_Fraktur-Regular.CB_wures.ttf",
+    "/assets/KaTeX_Main-Bold.Cx986IdX.woff2",
+    "/assets/KaTeX_Main-Bold.Jm3AIy58.woff",
+    "/assets/KaTeX_Main-Bold.waoOVXN0.ttf",
+    "/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
+    "/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff",
+    "/assets/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
+    "/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2",
+    "/assets/KaTeX_Main-Italic.BMLOBm91.woff",
+    "/assets/KaTeX_Main-Italic.3WenGoN9.ttf",
+    "/assets/KaTeX_Main-Regular.B22Nviop.woff2",
+    "/assets/KaTeX_Main-Regular.Dr94JaBh.woff",
+    "/assets/KaTeX_Main-Regular.ypZvNtVU.ttf",
+    "/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+    "/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
+    "/assets/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
+    "/assets/KaTeX_Math-Italic.t53AETM-.woff2",
+    "/assets/KaTeX_Math-Italic.DA0__PXp.woff",
+    "/assets/KaTeX_Math-Italic.flOr_0UB.ttf",
+    "/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
+    "/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
+    "/assets/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
+    "/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
+    "/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff",
+    "/assets/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
+    "/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
+    "/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
+    "/assets/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
+    "/assets/KaTeX_Script-Regular.D3wIWfF6.woff2",
+    "/assets/KaTeX_Script-Regular.D5yQViql.woff",
+    "/assets/KaTeX_Script-Regular.C5JkGWo-.ttf",
+    "/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+    "/assets/KaTeX_Size1-Regular.C195tn64.woff",
+    "/assets/KaTeX_Size1-Regular.Dbsnue_I.ttf",
+    "/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+    "/assets/KaTeX_Size2-Regular.oD1tc_U0.woff",
+    "/assets/KaTeX_Size2-Regular.B7gKUWhC.ttf",
+    "/assets/KaTeX_Size3-Regular.CTq5MqoE.woff",
+    "/assets/KaTeX_Size3-Regular.DgpXs0kz.ttf",
+    "/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
+    "/assets/KaTeX_Size4-Regular.BF-4gkZK.woff",
+    "/assets/KaTeX_Size4-Regular.DWFBv043.ttf",
+    "/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
+    "/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
+    "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
+    "/assets/bg-img.kXdNMxcF.jpg",
+    "/assets/sidebar-bg-img.mp54gEws.webp"
+  ],
+  "../node_modules/@vueuse/shared/dist/index.js": [
+    "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
+    "/assets/KaTeX_AMS-Regular.DMm9YOAa.woff",
+    "/assets/KaTeX_AMS-Regular.DRggAlZN.ttf",
+    "/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2",
+    "/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff",
+    "/assets/KaTeX_Caligraphic-Bold.ATXxdsX0.ttf",
+    "/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2",
+    "/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff",
+    "/assets/KaTeX_Caligraphic-Regular.wX97UBjC.ttf",
+    "/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2",
+    "/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff",
+    "/assets/KaTeX_Fraktur-Bold.BdnERNNW.ttf",
+    "/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2",
+    "/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff",
+    "/assets/KaTeX_Fraktur-Regular.CB_wures.ttf",
+    "/assets/KaTeX_Main-Bold.Cx986IdX.woff2",
+    "/assets/KaTeX_Main-Bold.Jm3AIy58.woff",
+    "/assets/KaTeX_Main-Bold.waoOVXN0.ttf",
+    "/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2",
+    "/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff",
+    "/assets/KaTeX_Main-BoldItalic.DzxPMmG6.ttf",
+    "/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2",
+    "/assets/KaTeX_Main-Italic.BMLOBm91.woff",
+    "/assets/KaTeX_Main-Italic.3WenGoN9.ttf",
+    "/assets/KaTeX_Main-Regular.B22Nviop.woff2",
+    "/assets/KaTeX_Main-Regular.Dr94JaBh.woff",
+    "/assets/KaTeX_Main-Regular.ypZvNtVU.ttf",
+    "/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2",
+    "/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff",
+    "/assets/KaTeX_Math-BoldItalic.B3XSjfu4.ttf",
+    "/assets/KaTeX_Math-Italic.t53AETM-.woff2",
+    "/assets/KaTeX_Math-Italic.DA0__PXp.woff",
+    "/assets/KaTeX_Math-Italic.flOr_0UB.ttf",
+    "/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2",
+    "/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff",
+    "/assets/KaTeX_SansSerif-Bold.CFMepnvq.ttf",
+    "/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2",
+    "/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff",
+    "/assets/KaTeX_SansSerif-Italic.YYjJ1zSn.ttf",
+    "/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2",
+    "/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff",
+    "/assets/KaTeX_SansSerif-Regular.BNo7hRIc.ttf",
+    "/assets/KaTeX_Script-Regular.D3wIWfF6.woff2",
+    "/assets/KaTeX_Script-Regular.D5yQViql.woff",
+    "/assets/KaTeX_Script-Regular.C5JkGWo-.ttf",
+    "/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2",
+    "/assets/KaTeX_Size1-Regular.C195tn64.woff",
+    "/assets/KaTeX_Size1-Regular.Dbsnue_I.ttf",
+    "/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2",
+    "/assets/KaTeX_Size2-Regular.oD1tc_U0.woff",
+    "/assets/KaTeX_Size2-Regular.B7gKUWhC.ttf",
+    "/assets/KaTeX_Size3-Regular.CTq5MqoE.woff",
+    "/assets/KaTeX_Size3-Regular.DgpXs0kz.ttf",
+    "/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2",
+    "/assets/KaTeX_Size4-Regular.BF-4gkZK.woff",
+    "/assets/KaTeX_Size4-Regular.DWFBv043.ttf",
+    "/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2",
+    "/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff",
+    "/assets/KaTeX_Typewriter-Regular.D3Ib7_Hf.ttf",
+    "/assets/bg-img.kXdNMxcF.jpg",
+    "/assets/sidebar-bg-img.mp54gEws.webp"
+  ],
+  "../node_modules/vue/dist/vue.esm-bundler.js": [
+    "/assets/chunks/@vueuse/motion.Bn16So_X.js"
   ],
   "../package.json": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -12556,19 +12736,19 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "components/ValaxyCopyright.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunMainHeaderAfter.vue_vue_type_script_setup_true_lang.CRDhP-qW.js",
+    "/assets/YunMainHeaderAfter.vue_vue_type_script_setup_true_lang.BC9sPH2k.js",
     "/assets/YunMainHeaderAfter.DDxwAI70.css"
   ],
   "components/ValaxyCopyright.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/YunMainHeaderAfter.vue_vue_type_script_setup_true_lang.CRDhP-qW.js",
+    "/assets/YunMainHeaderAfter.vue_vue_type_script_setup_true_lang.BC9sPH2k.js",
     "/assets/YunMainHeaderAfter.DDxwAI70.css"
   ],
   "components/ValaxyDynamicComponent.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.BQKy2r9C.js",
+    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.B2hCmGvu.js",
     "/assets/YunPostList.B6MDJXTW.css"
   ],
   "components/ValaxyGalleryDecrypt.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/gallery.OaM25Jdl.js"
+    "/assets/gallery.CYo_3C2x.js"
   ],
   "components/ValaxyHamburger.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -12634,12 +12814,12 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "components/ValaxyMd.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "components/ValaxyMd.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "components/builtin/ValaxyTranslate.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -12894,7 +13074,7 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "composables/back.ts": [
-    "/assets/back.CQbBaPP7.js"
+    "/assets/back.DJ6z3ny7.js"
   ],
   "composables/categories.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -12960,11 +13140,11 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "composables/codeGroups.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "composables/collections.ts": [
-    "/assets/collections.BhDkHu4X.js"
+    "/assets/collections.DARPTNP0.js"
   ],
   "composables/common.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -13093,23 +13273,23 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "composables/decrypt.ts": [
-    "/assets/gallery.OaM25Jdl.js"
+    "/assets/gallery.CYo_3C2x.js"
   ],
   "composables/features/collapse-code.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "composables/features/copy-code.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "composables/features/medium-zoom.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "composables/features/vanilla-lazyload.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "composables/global.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -13175,7 +13355,7 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "composables/helper/useInvisibleElement.ts": [
-    "/assets/animation.CyqdOLFv.js"
+    "/assets/animation.DurimXSE.js"
   ],
   "composables/helper/useScreenSize.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -13556,12 +13736,12 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "composables/post/usePagination.ts": [
-    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.BQKy2r9C.js",
+    "/assets/YunPostList.vue_vue_type_script_setup_true_lang.B2hCmGvu.js",
     "/assets/YunPostList.B6MDJXTW.css"
   ],
   "composables/post/usePrevNext.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "composables/search/useFuseSearch.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -13753,8 +13933,8 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "composables/widgets/aplayer.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "composables/widgets/backToTop.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -13820,8 +14000,8 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "composables/widgets/codepen.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "config.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -13950,19 +14130,19 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "layouts/404.vue": [
-    "/assets/404.CXNqN6TO.js",
+    "/assets/404.n9KIhSNX.js",
     "/assets/404.BVla_BTh.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404.CXNqN6TO.js",
+    "/assets/404.n9KIhSNX.js",
     "/assets/404.BVla_BTh.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "layouts/404.vue?vue&type=style&index=0&scoped=3ebd77f1&lang.scss": [
-    "/assets/404.CXNqN6TO.js",
+    "/assets/404.n9KIhSNX.js",
     "/assets/404.BVla_BTh.css",
-    "/assets/group-icons.Cj4KazmA.css"
+    "/assets/group-icons.Bm1YPxXM.css"
   ],
   "layouts/default.vue": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -14028,10 +14208,10 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "layouts/empty.vue": [
-    "/assets/empty.haJXRhOE.js"
+    "/assets/empty.CQ-xAniO.js"
   ],
   "layouts/post.vue": [
-    "/assets/post.r--5LClu.js"
+    "/assets/post.cT_MUfB3.js"
   ],
   "locales/en.yml": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -14349,10 +14529,10 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "modules/nprogress.ts": [
-    "/assets/chunks/nprogress.B6x19dEb.js"
+    "/assets/chunks/nprogress.Bru8d7fl.js"
   ],
   "modules/pinia.ts": [
-    "/assets/chunks/pinia.Dj5PIsEr.js"
+    "/assets/chunks/pinia.DVl1yNKA.js"
   ],
   "modules/unhead.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -14481,10 +14661,10 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "pages/[...path].vue": [
-    "/assets/_...path_.DkhiMtbR.js"
+    "/assets/_...path_.ui_mOU2z.js"
   ],
   "pages/[...path].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...path_.DkhiMtbR.js"
+    "/assets/_...path_.ui_mOU2z.js"
   ],
   "setup/main.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -15180,8 +15360,8 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "utils/router.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ],
   "utils/time.ts": [
     "/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2",
@@ -15247,7 +15427,7 @@
     "/assets/sidebar-bg-img.mp54gEws.webp"
   ],
   "utils/wrap.ts": [
-    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DR4GZGqB.js",
-    "/assets/ValaxyMain.BHXg_53O.css"
+    "/assets/ValaxyMain.vue_vue_type_style_index_0_lang.DTT9rg14.js",
+    "/assets/ValaxyMain.BD5QNMh5.css"
   ]
 }

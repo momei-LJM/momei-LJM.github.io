@@ -4,7 +4,7 @@
         <title>Momei的Blog</title>
         <link>https://www.momei.me/</link>
         <description>前端笔记簿</description>
-        <lastBuildDate>Tue, 30 Sep 2025 03:01:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2026 16:44:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -12,8 +12,41 @@
             <url>https://q1.qlogo.cn/g?b=qq&amp;nk=2262754355&amp;s=140</url>
             <link>https://www.momei.me/</link>
         </image>
-        <copyright>CC BY-NC-SA 4.0 2025 © 墨眉</copyright>
+        <copyright>CC BY-NC-SA 4.0 2026 © 墨眉</copyright>
         <atom:link href="https://www.momei.me/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[watch mode VS stub mode VS devExports]]></title>
+            <link>https://www.momei.me/posts/watch-vs-stub</link>
+            <guid isPermaLink="false">https://www.momei.me/posts/watch-vs-stub</guid>
+            <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>Library 的开发模式</h3>
+<p>在 <code>monorepo</code> 下开发 Library 时，为了获得良好的开发体验（即代码变更后能即时生效），通常有以下三种开发模式可供选择：</p>
+<ul>
+<li><strong>Watch Mode</strong></li>
+<li><strong>Stub Mode</strong></li>
+<li><strong>DevExports</strong></li>
+</ul>
+<p><code>Watch Mode</code> 通过构建工具监听文件变更，实时构建并输出到目标目录，供其他包引用（常见工具如 <code>vite</code>、<code>tsup</code>、<code>esbuild</code>、<code>rollup</code> 等）。</p>
+<p><code>Stub Mode</code> 是对源码生成一层代理文件（存根），利用 <code>jiti</code> 等即时编译工具对 <code>ts</code> 文件进行实时转译（如 <code>unbuild</code>）。</p>
+<p><code>DevExports</code> 则利用 <code>package.json</code> 中的 <code>exports</code> 字段，将开发阶段的构建入口直接指向源码文件，而生产阶段则指向构建产物。</p>
+<p>本文将主要对比这三种模式的优缺点，并分析它们各自适配的使用场景。</p>
+<br/><p>访问 <a href="https://www.momei.me/posts/watch-vs-stub" target="_blank">https://www.momei.me/posts/watch-vs-stub</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
+        <item>
+            <title><![CDATA[patch ElSelect 组件支持 focus选中]]></title>
+            <link>https://www.momei.me/posts/patch-ep-select</link>
+            <guid isPermaLink="false">https://www.momei.me/posts/patch-ep-select</guid>
+            <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>🧩 背景</h3>
+<p>在 element-plus 的 <code>ElSelect</code> 组件中，在禁用状态下，展示的值无法被 focus 选中。</p>
+<p>在我的业务场景中，一个大表单的详情是以禁用状态展示，操作人员需要频繁的获取信息，行为上是 <code>focus</code> 输入框或者选择框，<code>ctrl+a</code>+<code>ctrl+c</code> 来复制内容。</p>
+<p>在 <code>2.5.0</code> 版本之前，是支持这种能力的，但是在后续版本中，<code>ElSelect</code> 组件结果重构，改变了这一行为。为了既能保持改业务的强需求，又能享受升级的便利性，最好的方式是对组件进行源码处理。</p>
+<p>提过 pr 后，官方成员认为当前行为是和原生 select 一致的，不会进行修改。<br>
+那就只能自己动手，源码 patch 一下了。</p>
+<br/><p>访问 <a href="https://www.momei.me/posts/patch-ep-select" target="_blank">https://www.momei.me/posts/patch-ep-select</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
         <item>
             <title><![CDATA[Shadow DOM & Tailwind 在 Chrome 扩展中的应用]]></title>
             <link>https://www.momei.me/posts/shadowdom-chrome-extention</link>
