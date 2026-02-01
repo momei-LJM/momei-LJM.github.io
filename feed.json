@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://www.momei.me/posts/refactor-build-ep",
+            "content_html": "<h3>背景</h3>\n<p>对公司组件库进行迭代优化，构建升级是其中重要的一环。原来的构建工具是基于 <code>rollup</code> 以及相关插件实现构建。但在前端工具链快速发展的今天，仍有优化空间。</p>\n<p>现有问题</p>\n<ul>\n<li><strong>构建速度较慢</strong>: 在 <code>macOS</code> 上构建需要一分钟左右，在 CI 环境下需要更长时间</li>\n<li><strong>构建配置复杂</strong>: 由于 <code>rollup</code> 高度的插件化，对比如：模块解析、<code>cjs</code> 转换、<code>esbuild</code> 提速等都需要单独安装插件，不够简化。</li>\n<li><strong>面向未来</strong>: <code>vite</code> 生态发展迅速，且 <code>rolldown</code> 作为即将到来的高性能底层打包引擎，未来可期，我们也希望统一成 <code>rolldown</code> 的生态工具。</li>\n</ul>\n<p>为此，我选择了 <code>tsdown</code> 作为新的构建工具，进行重构。</p>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/refactor-build-ep\" target=\"_blank\">https://www.momei.me/posts/refactor-build-ep</a> 阅读全文。</p>",
+            "url": "https://www.momei.me/posts/refactor-build-ep",
+            "title": "tsdown 重构组件库打包",
+            "date_modified": "2026-02-01T00:00:00.000Z",
+            "date_published": "2026-02-01T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://www.momei.me/posts/watch-vs-stub",
             "content_html": "<h3>Library 的开发模式</h3>\n<p>在 <code>monorepo</code> 下开发 Library 时，为了获得良好的开发体验（即代码变更后能即时生效），通常有以下三种开发模式可供选择：</p>\n<ul>\n<li><strong>Watch Mode</strong></li>\n<li><strong>Stub Mode</strong></li>\n<li><strong>DevExports</strong></li>\n</ul>\n<p><code>Watch Mode</code> 通过构建工具监听文件变更，实时构建并输出到目标目录，供其他包引用（常见工具如 <code>vite</code>、<code>tsup</code>、<code>esbuild</code>、<code>rollup</code> 等）。</p>\n<p><code>Stub Mode</code> 是对源码生成一层代理文件（存根），利用 <code>jiti</code> 等即时编译工具对 <code>ts</code> 文件进行实时转译（如 <code>unbuild</code>）。</p>\n<p><code>DevExports</code> 则利用 <code>package.json</code> 中的 <code>exports</code> 字段，将开发阶段的构建入口直接指向源码文件，而生产阶段则指向构建产物。</p>\n<p>本文将主要对比这三种模式的优缺点，并分析它们各自适配的使用场景。</p>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/watch-vs-stub\" target=\"_blank\">https://www.momei.me/posts/watch-vs-stub</a> 阅读全文。</p>",
             "url": "https://www.momei.me/posts/watch-vs-stub",
