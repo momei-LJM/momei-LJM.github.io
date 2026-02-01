@@ -191,6 +191,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       never
     >
+    '/posts/refactor-build-ep': RouteRecordInfo<
+      '/posts/refactor-build-ep',
+      '/posts/refactor-build-ep',
+      Record<never, never>,
+      Record<never, never>,
+      never
+    >
     '/posts/shadowdom-chrome-extention': RouteRecordInfo<
       '/posts/shadowdom-chrome-extention',
       '/posts/shadowdom-chrome-extention',
@@ -347,6 +354,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/reactor-summary.md': {
       routes: '/posts/reactor-summary'
+      views: never
+    }
+    'pages/posts/refactor-build-ep.md': {
+      routes: '/posts/refactor-build-ep'
       views: never
     }
     'pages/posts/shadowdom-chrome-extention.md': {

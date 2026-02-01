@@ -1,11 +1,11 @@
-import { defineValaxyConfig } from 'valaxy';
-import type { UserThemeConfig } from 'valaxy-theme-yun';
-import { addonComponents } from 'valaxy-addon-components';
-import { addonBangumi } from 'valaxy-addon-bangumi';
-import { VitePWA } from 'vite-plugin-pwa';
+import { defineValaxyConfig } from 'valaxy'
+import type { UserThemeConfig } from 'valaxy-theme-yun'
+import { addonComponents } from 'valaxy-addon-components'
+import { addonBangumi } from 'valaxy-addon-bangumi'
+// import { VitePWA } from 'vite-plugin-pwa'
 
 // add icons what you will need
-const safelist = ['i-ri-home-line', 'i-ri-github-fill'];
+const safelist = ['i-ri-home-line', 'i-ri-github-fill']
 
 /**
  * User Config
@@ -22,7 +22,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
   ],
   vite: {
-    plugins: [VitePWA()],
+    // plugins: [VitePWA()],
   },
   themeConfig: {
     type: 'nimbo',
@@ -82,4 +82,4 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
     },
   },
-});
+})
