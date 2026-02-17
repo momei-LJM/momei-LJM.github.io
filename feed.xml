@@ -4,7 +4,7 @@
         <title>Momei的Blog</title>
         <link>https://www.momei.me/</link>
         <description>前端笔记簿</description>
-        <lastBuildDate>Sun, 01 Feb 2026 08:58:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Feb 2026 06:50:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -163,6 +163,23 @@
 <li>常用命令</li>
 </ul>
 <br/><p>访问 <a href="https://www.momei.me/posts/pnpm" target="_blank">https://www.momei.me/posts/pnpm</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (墨眉)</author>
+        </item>
+        <item>
+            <title><![CDATA[JsBrigde和路由实现]]></title>
+            <link>https://www.momei.me/posts/hm</link>
+            <guid isPermaLink="false">https://www.momei.me/posts/hm</guid>
+            <pubDate>Tue, 05 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h3>WebView</h3>
+<!-- 这是一张图片，ocr 内容为： -->
+<p><img src="https://www.momei.me/contents/hm1.png" alt=""></p>
+<h4>如何通信</h4>
+<p>通信实现两个基本能力：</p>
+<ul>
+<li>应用侧调用js侧方法</li>
+<li>js侧调用应用侧方法</li>
+</ul>
+<br/><p>访问 <a href="https://www.momei.me/posts/hm" target="_blank">https://www.momei.me/posts/hm</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (墨眉)</author>
         </item>
         <item>

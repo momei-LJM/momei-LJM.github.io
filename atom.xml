@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.momei.me/</id>
     <title>Momei的Blog</title>
-    <updated>2026-02-01T08:58:03.196Z</updated>
+    <updated>2026-02-17T06:50:16.082Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>墨眉</name>
@@ -210,6 +210,28 @@
             <uri>https://valaxy.site</uri>
         </author>
         <published>2025-03-23T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JsBrigde和路由实现]]></title>
+        <id>https://www.momei.me/posts/hm</id>
+        <link href="https://www.momei.me/posts/hm"/>
+        <updated>2024-11-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>WebView</h3>
+<!-- 这是一张图片，ocr 内容为： -->
+<p><img src="https://www.momei.me/contents/hm1.png" alt=""></p>
+<h4>如何通信</h4>
+<p>通信实现两个基本能力：</p>
+<ul>
+<li>应用侧调用js侧方法</li>
+<li>js侧调用应用侧方法</li>
+</ul>
+<br/><p>访问 <a href="https://www.momei.me/posts/hm" target="_blank">https://www.momei.me/posts/hm</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>墨眉</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-11-05T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[css 3d轨迹动画]]></title>

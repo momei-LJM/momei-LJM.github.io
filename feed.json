@@ -119,6 +119,18 @@
             }
         },
         {
+            "id": "https://www.momei.me/posts/hm",
+            "content_html": "<h3>WebView</h3>\n<!-- 这是一张图片，ocr 内容为： -->\n<p><img src=\"https://www.momei.me/contents/hm1.png\" alt=\"\"></p>\n<h4>如何通信</h4>\n<p>通信实现两个基本能力：</p>\n<ul>\n<li>应用侧调用js侧方法</li>\n<li>js侧调用应用侧方法</li>\n</ul>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/hm\" target=\"_blank\">https://www.momei.me/posts/hm</a> 阅读全文。</p>",
+            "url": "https://www.momei.me/posts/hm",
+            "title": "JsBrigde和路由实现",
+            "date_modified": "2024-11-05T00:00:00.000Z",
+            "date_published": "2024-11-05T00:00:00.000Z",
+            "author": {
+                "name": "墨眉",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://www.momei.me/posts/轨迹动画",
             "content_html": "<h2><a href=\"https://drafts.csswg.org/css-transforms-2/#perspective\">css 3d</a></h2>\n  <box-d/>\n<h2>api</h2>\n<h3><a href=\"https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform-style\">transform-style</a></h3>\n<p>声明 3D 空间，一般作用在容器盒子上</p>\n<p><code>rotate[XYZ]</code>时，正值为顺时针，负值为逆时针；左手定则。</p>\n<p><img src=\"https://drafts.csswg.org/css-transforms-2/images/coordinates.svg\" alt=\"\"></p>\n<br/><p>访问 <a href=\"https://www.momei.me/posts/轨迹动画\" target=\"_blank\">https://www.momei.me/posts/轨迹动画</a> 阅读全文。</p>",
             "url": "https://www.momei.me/posts/轨迹动画",
