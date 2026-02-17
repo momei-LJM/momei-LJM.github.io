@@ -149,6 +149,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       never
     >
+    '/posts/hm': RouteRecordInfo<
+      '/posts/hm',
+      '/posts/hm',
+      Record<never, never>,
+      Record<never, never>,
+      never
+    >
     '/posts/js实现瀑布流': RouteRecordInfo<
       '/posts/js实现瀑布流',
       '/posts/js%E5%AE%9E%E7%8E%B0%E7%80%91%E5%B8%83%E6%B5%81',
@@ -330,6 +337,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/createVNode_render创建notify组件.md': {
       routes: '/posts/createVNode_render创建notify组件'
+      views: never
+    }
+    'pages/posts/hm.md': {
+      routes: '/posts/hm'
       views: never
     }
     'pages/posts/js实现瀑布流.md': {
